@@ -27,7 +27,7 @@ def generate_primary_snapshot_analysis():
     save_to_csv(config['primary_snapshot_report_location'], analysis)
 
 def generate_target_url_list_analysis():
-    df = pd.read_json(config['target_url_list_url'])
+    df = pd.read_csv(config['target_url_list_url'])
     target_url_list_analyzer = TargetUrlListAnalyzer(df)
     analysis = target_url_list_analyzer.analyze()
     save_to_csv(config['target_url_list_report_location'], analysis)
