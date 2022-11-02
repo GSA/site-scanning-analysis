@@ -6,7 +6,7 @@ from analyzer.snapshot_analyzer import SnapshotAnalyzer
 
 class SnapshotAnalyzerTest(unittest.TestCase):
     def setUp(self):
-        self.snapshot_analyzer = SnapshotAnalyzer(pd.read_csv(os.path.join(os.path.dirname(__file__), './test_csv.csv')))
+        self.snapshot_analyzer = SnapshotAnalyzer(pd.read_csv(os.path.join(os.path.dirname(__file__), './test_snapshot.csv')))
 
     def test_num_true(self):
         result = self.snapshot_analyzer.num_true('final_url_live')
