@@ -7,7 +7,7 @@ class SnapshotAnalyzer:
 
     def analyze(self):
         return {
-            'How many urls did we scan?': self.urls_scanned(),
+            'How many urls did we scan?': self.num_records(),
             'How many agency owners are represented?': self.num_unique('target_url_agency_owner'),
             'How many bureau owners are represented?': self.num_unique('target_url_bureau_owner'),
             'How many domains did we scan?': self.num_unique('target_url_domain'),
@@ -95,6 +95,9 @@ class SnapshotAnalyzer:
             'How many urls have over 20 third party services?': self.num_between('third_party_service_count', 20, 1000),
         }
 
+    def num_records(self):
+        return len(self.df.index)
+
     def num_true(self, field):
         return len(self.df.loc[self.df[field] == True])
 
@@ -133,9 +136,6 @@ class SnapshotAnalyzer:
 
     def target_url_branch(self, branch):
         return len(self.df.loc[self.df['target_url_branch'] == branch])
-
-    def urls_scanned(self):
-        return len(self.df.index)
 
     def failed_connection_refused(self):
         return len(self.df.loc[self.df['primary_scan_status'] == 'connection_refused'])

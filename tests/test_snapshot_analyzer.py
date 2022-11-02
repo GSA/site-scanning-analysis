@@ -8,6 +8,10 @@ class SnapshotAnalyzerTest(unittest.TestCase):
     def setUp(self):
         self.snapshot_analyzer = SnapshotAnalyzer(pd.read_csv(os.path.join(os.path.dirname(__file__), './test_snapshot.csv')))
 
+    def test_num_records(self):
+        result = self.snapshot_analyzer.num_records()
+        self.assertEqual(result, 1)
+
     def test_num_true(self):
         result = self.snapshot_analyzer.num_true('final_url_live')
         self.assertEqual(result, 1)
@@ -58,10 +62,6 @@ class SnapshotAnalyzerTest(unittest.TestCase):
 
     def test_target_url_branch(self):
         result = self.snapshot_analyzer.target_url_branch('Executive')
-        self.assertEqual(result, 1)
-
-    def test_urls_scanned(self):
-        result = self.snapshot_analyzer.urls_scanned()
         self.assertEqual(result, 1)
 
     def test_failed_connection_refused(self):

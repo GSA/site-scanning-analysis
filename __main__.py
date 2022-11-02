@@ -4,6 +4,7 @@ import pandas as pd
 import ssl
 import sys
 from analyzer.snapshot_analyzer import SnapshotAnalyzer
+from analyzer.target_url_list_analyzer import TargetUrlListAnalyzer
 
 
 def save_to_csv(file, data):
@@ -25,6 +26,12 @@ def generate_primary_snapshot_analysis():
     analysis = snapshot_analyzer.analyze()
     save_to_csv(config['primary_snapshot_report_location'], analysis)
 
+def generate_target_url_list_analysis():
+    df = pd.read_json(config['target_url_list_url'])
+    target_url_list_analyzer = TargetUrlListAnalyzer(df)
+    analysis = target_url_list_analyzer.analyze()
+    save_to_csv(config['target_url_list_report_location'], analysis)
+
 if __name__ == '__main__':
     ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -33,4 +40,6 @@ if __name__ == '__main__':
     if command == 'snapshot-all':
         generate_all_snapshot_analysis()
     if command == 'snapshot-primary':
-        generate_all_snapshot_analysis()
+        generate_primary_snapshot_analysis()
+    if command == 'target-url-list':
+        generate_target_url_list_analysis()
