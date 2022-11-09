@@ -88,7 +88,7 @@ class SnapshotAnalyzer:
             'How many urls\' sitemap.xml have a pdf count?': self.num_not_na('sitemap_xml_pdf_count'),
             'How many urls have an AAAA record (a.k.a. are likely IPv6 compliant)?': self.num_true('dns_ipv6'),
             'How many urls do not have an AAAA record (a.k.a. are likely not IPv6 compliant)?': self.num_false('dns_ipv6'),
-            'How many urls have third party services?': self.num_na('third_party_service_domains'),
+            'How many urls have third party services?': self.num_not_na('third_party_service_domains'),
             'How many urls have 1-5 third party services?': self.num_between('third_party_service_count', 1, 5),
             'How many urls have 6-10 third party services?': self.num_between('third_party_service_count', 6, 10),
             'How many urls have 11-20 third party services?': self.num_between('third_party_service_count', 11, 20),
