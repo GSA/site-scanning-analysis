@@ -8,7 +8,6 @@ class TargetUrlListAnalyzer:
     def analyze(self):
         return {
             'How many target urls are in the list?': self.num_records(),
-            'How many unique target urls are in the list?': self.num_unique('target_url'),
             'How many unique base domains are in the list?': self.num_unique('base_domain'),
             'How many unique agencies are in the list?': self.num_unique('agency'),
             'How many unique agency codes are in the list?': self.num_unique('agency_code'),
@@ -18,6 +17,7 @@ class TargetUrlListAnalyzer:
             'How many urls are sourced from pulse?': self.num_true('source_list_pulse'),
             'How many urls are sourced from DAP?': self.num_true('source_list_dap'),
             'How many urls are sourced from the manually maintained list?': self.num_true('source_manually_added'),
+            'How many blank cells are there in the target URL list?': self.num_blank(),
         }
 
     def num_records(self):
@@ -34,3 +34,6 @@ class TargetUrlListAnalyzer:
 
     def num_not_na(self, field):
         return len(self.df.loc[self.df[field].notna()])
+
+    def num_blank(self):
+        return self.df.isna().sum().sum()
