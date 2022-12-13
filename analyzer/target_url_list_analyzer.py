@@ -36,4 +36,5 @@ class TargetUrlListAnalyzer:
         return len(self.df.loc[self.df[field].notna()])
 
     def num_blank(self):
-        return self.df.isna().sum().sum()
+        temp_df = self.df.drop(columns=['agency_code', 'bureau_code'])
+        return temp_df.isna().sum().sum()
