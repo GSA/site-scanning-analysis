@@ -27,3 +27,6 @@ class SnapshotAnalyzerTest(unittest.TestCase):
     def test_num_true_has_no_results(self):
         result = self.snapshot_analyzer.num_true('source_list_dap')
         self.assertEqual(result, 0)
+
+if __name__ == '__main__':
+    unittest.main()

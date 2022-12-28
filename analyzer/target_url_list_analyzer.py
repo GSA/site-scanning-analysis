@@ -16,7 +16,7 @@ class TargetUrlListAnalyzer:
             'How many urls are sourced from the list of federal domains?': self.num_true('source_list_federal_domains'),
             'How many urls are sourced from pulse?': self.num_true('source_list_pulse'),
             'How many urls are sourced from DAP?': self.num_true('source_list_dap'),
-            'How many urls are sourced from the manually maintained list?': self.num_true('source_manually_added'),
+            'How many urls are sourced from the other websites list?': self.num_true('source_list_other'),
             'How many blank cells are there in the target URL list (excluding the agency code, bureau, and bureau code columns)?': self.num_blank(),
         }
 
