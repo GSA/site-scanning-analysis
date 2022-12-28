@@ -22,9 +22,9 @@ jobs:
         with:
           python-version: "3.9"
       - run: pip install -r ./requirements.txt
-      - run: python . snapshot-primary
-      - run: python . snapshot-all
-      - run: python . target-url-list
+      - run: python ./main.py snapshot-primary
+      - run: python ./main.py snapshot-all
+      - run: python ./main.py target-url-list
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update analysis files
