@@ -1,4 +1,5 @@
 # site-scanning-analysis
+
 Analysis reports for the Site Scanning program
 
 ## Important Links
@@ -9,3 +10,4 @@ Analysis reports for the Site Scanning program
 * [Snapshots at each stage of the target URL list generation process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme)
 * [Debugging Guide](https://github.com/GSA/site-scanning-documentation/blob/main/pages/debugging-guide.md)
 * [Repository for storing one-off snapshots of scan data](https://github.com/GSA/site-scanning-snapshots)
+* [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv)
