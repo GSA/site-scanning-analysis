@@ -29,7 +29,6 @@ def generate_unique_website_list():
     df = df.reindex(s)
 
     # Drop rows with duplicate final_url_website values and save
-    # TODO do not remove records with empty final_url_website cells
     blank_final_url_website_df = df[df['final_url_website'].isna()]
     df = df[~df['final_url_website'].isna()]
     removed_df = df.loc[df.duplicated('final_url_website')]
