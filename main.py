@@ -5,7 +5,7 @@ import ssl
 import sys
 from analyzer.snapshot_analyzer import SnapshotAnalyzer
 from analyzer.target_url_list_analyzer import TargetUrlListAnalyzer
-
+from unique_website_list.unique_website_list import generate_unique_website_list
 
 def save_to_csv(file, data):
     with open(file, 'w') as csv_file:
@@ -43,3 +43,5 @@ if __name__ == '__main__':
         generate_primary_snapshot_analysis()
     if command == 'target-url-list':
         generate_target_url_list_analysis()
+    if command == 'unique-website-list':
+        generate_unique_website_list()
