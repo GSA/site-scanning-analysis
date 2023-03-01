@@ -1,11 +1,11 @@
 The files in this folder are generated on demand to:
 
 
-1) Take the [primary snapshot](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv), makes a copy of it [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/initial_dataset.csv), and goes through it, keep only one row whenever there are multiple rows with the same Final URL (final_url).  Specifically, the first row with that final URL is kept, and the rest are dropped.  
+1) Take the [primary snapshot](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv), makes a copy of it [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/initial_dataset.csv), and goes through it, keep only one row whenever there are multiple rows with the same `Final URL` (final_url).  Specifically, the first row with that `Final URL` is kept, and the rest are dropped.  
   * The resulting list can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/weekly-snapshot-unique-final-urls.csv).  
   * The rows which are cut out in this step can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/removed-final-urls.csv).  
 
-2) Then, the trimmed list, which now only has one row per final URL, is taken and then trimmed again, this time removing duplicate rows that have the same Final URL - Base Website (final_url_website).  In this case though, the row that has the shorter Final URL (final_url) is kept, and any rows that have the same Final URL - Base Website but longer Final URLs are dropped.  
+2) Then, the trimmed list, which now only has one row per final URL, is taken and then trimmed again, this time removing duplicate rows that have the same `Final URL - Base Website` (final_url_website).  In this case though, the row that has the shorter `Final URL` is kept, and any rows that have the same `Final URL - Base Website` but longer Final URLs are dropped.  
   * The resulting list can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/weekly-snapshot-unique-final-websites.csv).  
   * The rows which are cut out in this step can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/removed-final-url-websites.csv).  
 
