@@ -3,6 +3,8 @@ name: Generate unique website list
 
 # yamllint disable-line rule:truthy
 on:
+  schedule:
+    - cron: "0 0 * * 1"
   workflow_dispatch:
 
 jobs:
