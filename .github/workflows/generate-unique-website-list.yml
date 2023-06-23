@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.9"
       - run: pip install -r ./requirements.txt
-      - run: python ./main.py unique-website-list
+      - run: python ./main.py generate-unique-website-list
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update unique website list resutls
