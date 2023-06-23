@@ -1,17 +1,6 @@
-import os
+from config import config
 import pandas as pd
 
-
-dirname = os.path.dirname(__file__)
-
-config = {
-    'primary_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv',
-    'initial_dataset_location': os.path.join(dirname, './results/initial_dataset.csv'),
-    'unique_final_urls_location': os.path.join(dirname, './results/weekly-snapshot-unique-final-urls.csv'),
-    'unique_final_websites_location': os.path.join(dirname, './results/weekly-snapshot-unique-final-websites.csv'),
-    'removed_final_urls_location': os.path.join(dirname, './results/removed-final-urls.csv'),
-    'removed_final_url_websites_location': os.path.join(dirname, './results/removed-final-url-websites.csv'),
-}
 
 def generate_unique_website_list():
     # Load snapshot CSV and save
