@@ -1,13 +1,15 @@
 ---
-name: Generate target url list analysis
+name: Generate all analysis
 
 # yamllint disable-line rule:truthy
 on:
+  schedule:
+    - cron: "0 0 * * 2"
   workflow_dispatch:
 
 jobs:
   bundle:
-    name: Generate Target URL List Analysis
+    name: Generate All Analysis Files
     runs-on: ubuntu-latest
     permissions:
       actions: write
@@ -15,12 +17,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-      - name: Setup Python
+      - name: Setup python
         uses: actions/setup-python@v3
         with:
           python-version: "3.9"
-      - run: pip install -r ./requirements.txt
-      - run: python ./main.py analyze-target-url-list
+      - name: Install dependencies
+        run: pip install -r ./requirements.txt
+      - run: python ./main.py generate-idea-report
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update target-url-list.csv
+          commit_message: Update idea report

@@ -6,7 +6,7 @@ import sys
 from analyzer.snapshot_analyzer import SnapshotAnalyzer
 from analyzer.target_url_list_analyzer import TargetUrlListAnalyzer
 from unique_website_list.unique_website_list import generate_unique_website_list
-
+from idea.idea_report_generator import IdeaReportGenerator
 
 def save_to_csv(file, data):
     with open(file, 'w') as csv_file:
@@ -45,6 +45,12 @@ def generate_target_url_list_analysis():
     analysis = target_url_list_analyzer.analyze()
     save_to_csv(config['target_url_list_report_location'], analysis)
 
+def generate_idea_report():
+    df = pd.read_csv(config['unique_final_websites_location'])
+    idea_report_generator = IdeaReportGenerator(df)
+    report = idea_report_generator.report()
+    report.to_csv(config['idea_report_location'], index=False)
+
 if __name__ == '__main__':
     ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -62,3 +68,5 @@ if __name__ == '__main__':
         generate_target_url_list_analysis()
     if command == 'generate-unique-website-list':
         generate_unique_website_list()
+    if command == 'generate-idea-report':
+        generate_idea_report()
