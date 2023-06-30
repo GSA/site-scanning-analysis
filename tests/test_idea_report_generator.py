@@ -10,7 +10,7 @@ class IdeaReportGeneratorTest(unittest.TestCase):
         self.result = idea_report_generator.report()
 
     def test_idea_report(self):
-        self.assertEqual(len(self.result), 2)
+        self.assertEqual(len(self.result), 3)
         self.assertEqual((self.result['Number of Websites with DAP'] == 1).sum(), 2)
         self.assertEqual((self.result['Number of Websites with USWDS Font'] == 1).sum(), 2)
 
