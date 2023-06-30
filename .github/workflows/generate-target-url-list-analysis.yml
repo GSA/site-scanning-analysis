@@ -23,4 +23,4 @@ jobs:
       - run: python ./main.py analyze-target-url-list
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update target-URL-list.csv
+          commit_message: Update target-url-list.csv
