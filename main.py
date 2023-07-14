@@ -51,6 +51,12 @@ def generate_idea_report():
     report = idea_report_generator.report()
     report.to_csv(config['idea_report_location'], index=False)
 
+def generate_idea_bureau_report():
+    df = pd.read_csv(config['unique_final_websites_location'])
+    idea_report_generator = IdeaReportGenerator(df)
+    report = idea_report_generator.report_bureaus()
+    report.to_csv(config['idea_bureau_report_location'], index=False)
+
 if __name__ == '__main__':
     ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -70,3 +76,5 @@ if __name__ == '__main__':
         generate_unique_website_list()
     if command == 'generate-idea-report':
         generate_idea_report()
+    if command == 'generate-idea-bureau-report':
+        generate_idea_bureau_report()

@@ -1,5 +1,5 @@
 ---
-name: Generate all analysis
+name: Generate IDEA Reports
 
 # yamllint disable-line rule:truthy
 on:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   bundle:
-    name: Generate All Analysis Files
+    name: Generate IDEA Reports
     runs-on: ubuntu-latest
     permissions:
       actions: write
@@ -24,6 +24,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r ./requirements.txt
       - run: python ./main.py generate-idea-report
+      - run: python ./main.py generate-idea-bureau-report
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update idea report
+          commit_message: Update IDEA reports

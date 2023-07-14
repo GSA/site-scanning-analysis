@@ -35,3 +35,24 @@ class IdeaReportGenerator:
         result_df = result_df.rename(columns=column_mapping)
 
         return result_df
+
+    def report_bureaus(self):
+        result_df = self.df.groupby(['target_url_agency_owner', 'target_url_bureau_owner']).agg(
+            total_records=('target_url_bureau_owner', 'size'),
+            dap_count=('dap_detected_final_url', lambda x: x[x == True].count()),
+            dap_percentage=('dap_detected_final_url', lambda x: round((x[x == True].count() / x.count() * 100), 2)),
+            uswds_count=('uswds_publicsans_font', lambda x: x[x == 40].count()),
+            uswds_percentage=('uswds_publicsans_font', lambda x: round((x[x == 40].count() / x.count() * 100), 2))
+        ).reset_index()
+
+        column_mapping = {'target_url_agency_owner': 'Agency',
+                        'target_url_bureau_owner': 'Bureau',
+                        'total_records': 'Number of Websites',
+                        'dap_count': 'Number of Websites with DAP',
+                        'dap_percentage': 'Percent with DAP',
+                        'uswds_count': 'Number of Websites with USWDS Font',
+                        'uswds_percentage': 'Percent of Websites with USWDS Font'}
+
+        result_df = result_df.rename(columns=column_mapping)
+
+        return result_df
