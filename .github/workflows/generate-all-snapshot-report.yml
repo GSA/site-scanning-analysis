@@ -1,5 +1,5 @@
 ---
-name: Generate target url list analysis
+name: Generate all snapshot report
 
 # yamllint disable-line rule:truthy
 on:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   bundle:
-    name: Generate Target URL List Analysis
+    name: Generate All Snapshot Report
     runs-on: ubuntu-latest
     permissions:
       actions: write
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.9"
       - run: pip install -r ./requirements.txt
-      - run: python ./main.py analyze-target-url-list
+      - run: python ./main.py analyze-snapshot-all
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update target-url-list.csv
+          commit_message: Update snapshot_all.csv

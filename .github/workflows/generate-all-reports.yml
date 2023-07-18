@@ -1,5 +1,5 @@
 ---
-name: Generate all analysis
+name: Generate all reports
 
 # yamllint disable-line rule:truthy
 on:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   bundle:
-    name: Generate All Analysis Files
+    name: Generate All Reports
     runs-on: ubuntu-latest
     permissions:
       actions: write
@@ -23,11 +23,11 @@ jobs:
           python-version: "3.9"
       - name: Install dependencies
         run: pip install -r ./requirements.txt
-      - run: python ./main.py analyze-snapshot-primary
-      - run: python ./main.py analyze-snapshot-all
-      - run: python ./main.py analyze-unique-urls
-      - run: python ./main.py analyze-unique-websites
-      - run: python ./main.py analyze-target-url-list
+      - run: python ./main.py generate-all-snapshot-report
+      - run: python ./main.py generate-primary-snapshot-report
+      - run: python ./main.py generate-unique-url-report
+      - run: python ./main.py generate-unique-websites-report
+      - run: python ./main.py generate-target-url-report
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update analysis files

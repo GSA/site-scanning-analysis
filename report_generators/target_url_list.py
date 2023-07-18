@@ -1,11 +1,11 @@
 import pandas as pd
 
 
-class TargetUrlListAnalyzer:
+class TargetUrlList:
     def __init__(self, df):
         self.df = df
 
-    def analyze(self):
+    def generate_report(self):
         return {
             'How many target urls are in the list?': self.num_records(),
             'How many unique base domains are in the list?': self.num_unique('base_domain'),

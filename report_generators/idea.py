@@ -1,11 +1,11 @@
 import pandas as pd
 
 
-class IdeaReportGenerator:
+class Idea:
     def __init__(self, df):
         self.df = df
 
-    def report(self):
+    def generate_report(self):
         result_df = self.df.groupby('target_url_agency_owner').agg(
             total_records=('target_url_agency_owner', 'size'),
             dap_count=('dap_detected_final_url', lambda x: x[x == True].count()),
@@ -36,7 +36,7 @@ class IdeaReportGenerator:
 
         return result_df
 
-    def report_bureaus(self):
+    def generate_bureaus_report(self):
         result_df = self.df.groupby(['target_url_agency_owner', 'target_url_bureau_owner']).agg(
             total_records=('target_url_bureau_owner', 'size'),
             dap_count=('dap_detected_final_url', lambda x: x[x == True].count()),

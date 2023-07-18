@@ -1,11 +1,11 @@
 import pandas as pd
 
 
-class SnapshotAnalyzer:
+class Snapshot:
     def __init__(self, df):
         self.df = df
 
-    def analyze(self):
+    def generate_report(self):
         return {
             'How many urls did we scan?': self.num_records(),
             'How many agency owners are represented?': self.num_unique('target_url_agency_owner'),

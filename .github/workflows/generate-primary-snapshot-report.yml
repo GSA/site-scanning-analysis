@@ -1,5 +1,5 @@
 ---
-name: Generate primary snapshot analysis
+name: Generate primary snapshot report
 
 # yamllint disable-line rule:truthy
 on:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   bundle:
-    name: Generate Primary Snapshot Analysis
+    name: Generate Primary Snapshot Report
     runs-on: ubuntu-latest
     permissions:
       actions: write
