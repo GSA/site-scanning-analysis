@@ -25,4 +25,4 @@ jobs:
       - run: python ./main.py generate-unique-website-list
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update unique website list resutls
+          commit_message: Update unique website list
