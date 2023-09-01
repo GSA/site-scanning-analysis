@@ -11,7 +11,7 @@ class Idea:
             dap_count=('dap_detected_final_url', lambda x: x[x == True].count()),
             dap_percentage=('dap_detected_final_url', lambda x: round((x[x == True].count() / x.count() * 100), 2)),
             uswds_count=('uswds_semantic_version', lambda x: x.notna().sum()),
-            uswds_percentage=('uswds_semantic_version', lambda x: ((x.notna().sum() / x.count()) * 100).round(2) if x.count() > 0 else 0)
+            uswds_percentage=('uswds_semantic_version', lambda x: round((x.notna().sum() / len(x) * 100), 2)),
         ).reset_index()
 
 
@@ -42,7 +42,7 @@ class Idea:
             dap_count=('dap_detected_final_url', lambda x: x[x == True].count()),
             dap_percentage=('dap_detected_final_url', lambda x: round((x[x == True].count() / x.count() * 100), 2)),
             uswds_count=('uswds_semantic_version', lambda x: x.notna().sum()),
-            uswds_percentage=('uswds_semantic_version', lambda x: ((x.notna().sum() / x.count()) * 100).round(2) if x.count() > 0 else 0)
+            uswds_percentage=('uswds_semantic_version', lambda x: round((x.notna().sum() / len(x) * 100), 2)),
         ).reset_index()
 
         column_mapping = {'target_url_agency_owner': 'Agency',

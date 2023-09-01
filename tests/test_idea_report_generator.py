@@ -13,6 +13,7 @@ class IdeaReportGeneratorTest(unittest.TestCase):
         self.assertEqual(len(self.result), 3)
         self.assertEqual((self.result['Number of Websites with DAP'] == 1).sum(), 2)
         self.assertEqual((self.result['Number of Websites with USWDS Semantic Version'] == 1).sum(), 2)
+        self.assertEqual((self.result['Percent of Websites with USWDS Semantic Version'] == 50.0).sum(), 3)
 
 if __name__ == '__main__':
     unittest.main()
