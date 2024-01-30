@@ -8,8 +8,8 @@ class Idea:
     def generate_report(self):
         result_df = self.df.groupby('target_url_agency_owner').agg(
             total_records=('target_url_agency_owner', 'size'),
-            dap_count=('dap_detected_final_url', lambda x: x[x == True].count()),
-            dap_percentage=('dap_detected_final_url', lambda x: round((x[x == True].count() / x.count() * 100), 2)),
+            dap_count=('dap', lambda x: x[x == True].count()),
+            dap_percentage=('dap', lambda x: round((x[x == True].count() / x.count() * 100), 2)),
             uswds_count=('uswds_semantic_version', lambda x: x.notna().sum()),
             uswds_percentage=('uswds_semantic_version', lambda x: round((x.notna().sum() / len(x) * 100), 2)),
         ).reset_index()
@@ -39,8 +39,8 @@ class Idea:
     def generate_bureaus_report(self):
         result_df = self.df.groupby(['target_url_agency_owner', 'target_url_bureau_owner']).agg(
             total_records=('target_url_bureau_owner', 'size'),
-            dap_count=('dap_detected_final_url', lambda x: x[x == True].count()),
-            dap_percentage=('dap_detected_final_url', lambda x: round((x[x == True].count() / x.count() * 100), 2)),
+            dap_count=('dap', lambda x: x[x == True].count()),
+            dap_percentage=('dap', lambda x: round((x[x == True].count() / x.count() * 100), 2)),
             uswds_count=('uswds_semantic_version', lambda x: x.notna().sum()),
             uswds_percentage=('uswds_semantic_version', lambda x: round((x.notna().sum() / len(x) * 100), 2)),
         ).reset_index()
