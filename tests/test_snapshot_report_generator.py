@@ -49,7 +49,7 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
         self.assertEqual(result, 1)
 
     def test_num_not_na(self):
-        result = self.snapshot.num_not_na('robots_txt_final_url_mimetype')
+        result = self.snapshot.num_not_na('robots_txt_final_url_media_type')
         self.assertEqual(result, 1)
 
     def test_num_unique(self):
@@ -82,7 +82,7 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
 
     def test_failed_timeout(self):
         result = self.snapshot.failed_timeout()
-        self.assertEqual(result, 1)
+        self.assertEqual(result, 0)
 
     def test_failed_unkown(self):
         result = self.snapshot.failed_unkown()
@@ -118,19 +118,19 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
 
     def test_robots_txt_is_txt(self):
         result = self.snapshot.robots_txt_is_txt()
-        self.assertEqual(result, 0)
+        self.assertEqual(result, 1)
 
     def test_robots_txt_is_not_txt(self):
         result = self.snapshot.robots_txt_is_not_txt()
-        self.assertEqual(result, 1)
+        self.assertEqual(result, 0)
 
     def test_sitemap_xml_is_xml(self):
         result = self.snapshot.sitemap_xml_is_xml()
-        self.assertEqual(result, 0)
+        self.assertEqual(result, 1)
 
     def test_sitemap_xml_is_not_xml(self):
         result = self.snapshot.sitemap_xml_is_not_xml()
-        self.assertEqual(result, 1)
+        self.assertEqual(result, 0)
 
 if __name__ == '__main__':
     unittest.main()
