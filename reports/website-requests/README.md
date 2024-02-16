@@ -22,8 +22,14 @@
 
 ## Required `www.`
 
-* Websites on this list will only load if the www is included, resulting in a failed visitor experience if the `www.` is left off.
+* Websites [on this list](https://github.com/GSA/site-scanning-analysis/blob/main/reports/website-requests/www-required.csv) will only load if the www is included, resulting in a failed visitor experience if the `www.` is left off.
 
 ## Unsupported `www`
 
-* Websites on this list will not load if `www.` is included, resulting in a failed visitor experience if `www.` is included.  
+* Websites [on this list](https://github.com/GSA/site-scanning-analysis/blob/main/reports/website-requests/www-unsupported.csv) will not load if `www.` is included, resulting in a failed visitor experience if `www.` is included.  
+
+
+
+----------------------
+
+Details on the methodologies for these scans can be found [here](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_steps.md), and the complete Site Scanning dataset, with further analysis of each website can be found [here](https://digital.gov/guides/site-scanning/data/).  
