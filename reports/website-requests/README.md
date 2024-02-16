@@ -28,7 +28,9 @@
 
 * Websites [on this list](https://github.com/GSA/site-scanning-analysis/blob/main/reports/website-requests/www-unsupported.csv) will not load if `www.` is included, resulting in a failed visitor experience if `www.` is included.  
 
+## No Page Title
 
+* Websites [on this list](https://github.com/GSA/site-scanning-analysis/blob/main/reports/website-requests/title.csv) do not have a page title metadata tag.  
 
 ----------------------
 
