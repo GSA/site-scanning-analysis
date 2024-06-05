@@ -2,7 +2,7 @@
 
 ## Invalid SSL 
 
-* Websites [on this list](https://github.com/GSA/site-scanning-analysis/blob/main/reports/website-requests/invalid-ssl.csv) cannot be scanned because of an invalid SSL certificate.
+* Websites [on this list](https://github.com/GSA/site-scanning-analysis/blob/main/reports/website-requests/ssl.csv) cannot be scanned because of an invalid SSL certificate.
 
 ## IPv6 
 
