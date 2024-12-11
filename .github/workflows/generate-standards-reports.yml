@@ -1,15 +1,13 @@
 ---
-name: Generate all reports
+name: Generate Standards Reports
 
 # yamllint disable-line rule:truthy
 on:
-  schedule:
-    - cron: "0 13 * * *"
   workflow_dispatch:
 
 jobs:
   bundle:
-    name: Generate All Reports
+    name: Generate Standards Reports
     runs-on: ubuntu-latest
     permissions:
       actions: write
@@ -23,13 +21,8 @@ jobs:
           python-version: "3.9"
       - name: Install dependencies
         run: pip install -r ./requirements.txt
-      - run: python ./main.py generate-all-snapshot-report
-      - run: python ./main.py generate-primary-snapshot-report
-      - run: python ./main.py generate-unique-url-report
-      - run: python ./main.py generate-unique-websites-report
-      - run: python ./main.py generate-target-url-report
       - run: python ./main.py generate-standards-report
       - run: python ./main.py generate-standards-bureau-report
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update report files
+          commit_message: Update Standards reports

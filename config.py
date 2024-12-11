@@ -22,5 +22,8 @@ config = {
     'removed_final_url_websites_location': os.path.join(dirname, './unique_website_list/results/removed-final-url-websites.csv'),
     # idea report
     'idea_report_location': os.path.join(dirname, './reports/idea.csv'),
-    'idea_bureau_report_location': os.path.join(dirname, './reports/idea-bureau.csv')
+    'idea_bureau_report_location': os.path.join(dirname, './reports/idea-bureau.csv'),
+    # standards report
+    'standards_report_location': os.path.join(dirname, './reports/standards.csv'),
+    'standards_bureau_report_location': os.path.join(dirname, './reports/standards-bureau.csv')
 }
