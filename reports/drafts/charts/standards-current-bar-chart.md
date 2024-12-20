@@ -1,4 +1,3 @@
-
 xychart-beta
     title "Standards Implementation"
     x-axis [Titles,Descriptions,Banners]
