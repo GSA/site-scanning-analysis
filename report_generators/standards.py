@@ -10,7 +10,7 @@ class Standards:
             total_records=('target_url_agency_owner', 'size'),
             title_count=('title', lambda x: (x.notna() & (x != '')).sum()),
             description_count=('description', lambda x: (x.notna() & (x != '')).sum()),
-            uswds_true_count=('uswds_banner_heres_how', 'sum'),
+            uswds_true_count=('uswds_banner_heres_how', lambda x: int(x.sum())),
         ).reset_index()
 
         result_df['title_not_empty_pct'] = round(result_df['title_count'] / result_df['total_records'] * 100, 2)
@@ -21,6 +21,7 @@ class Standards:
                     'total_records': [sum(result_df['total_records'])],
                     'title_count': [sum(result_df['title_count'])],
                     'description_count': [sum(result_df['description_count'])],
+                    'uswds_true_count': [sum(result_df['uswds_true_count'])],
                     'title_not_empty_pct': [round((sum(result_df['title_count'] / sum(result_df['total_records']))) * 100, 2)],
                     'description_not_empty_pct': [round((sum(result_df['description_count'] / sum(result_df['total_records']))) * 100, 2)],
                     'uswds_true_pct': [round((sum(result_df['uswds_true_count'] / sum(result_df['total_records']))) * 100, 2)],
