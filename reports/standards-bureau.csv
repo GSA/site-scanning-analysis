@@ -1,6 +1,7 @@
 Agency,Bureau,Number of Websites,Number of Websites With Page Title,Number of Websites With Page Description,Number of Websites with Government Banner,Percent of Websites With Page Title,Percent of Websites With Page Description,Percent of Websites with Government Banner
 AMTRAK,Office of Inspector General,1,1,0,0,100.0,0.0,0.0
 Administrative Conference of the United States,Administrative Conference of the United States,1,1,0,0,100.0,0.0,0.0
+Administrative Office of the U.S. Courts,Federal Judicial Center,1,1,0,0,100.0,0.0,0.0
 Administrative Office of the U.S. Courts,U.S. Courts,27,27,3,1,100.0,11.11,3.7
 Administrative Office of the U.S. Courts,United States Tax Court,1,1,1,0,100.0,100.0,0.0
 American Battle Monuments Commission,American Battle Monuments Commission,4,4,4,1,100.0,100.0,25.0
@@ -24,25 +25,24 @@ DC Court Services and Offender Supervision Agency,Pretrial Services Agency for t
 Delta Regional Authority,Delta Regional Authority,1,1,0,0,100.0,0.0,0.0
 Denali Commission,Denali Commission,3,3,0,0,100.0,0.0,0.0
 Department of Commerce,Bureau of Economic Analysis,7,7,0,0,100.0,0.0,0.0
-Department of Commerce,Bureau of Industry and Security,3,2,1,1,66.67,33.33,33.33
+Department of Commerce,Bureau of Industry and Security,4,3,2,1,75.0,50.0,25.0
 Department of Commerce,Census Bureau,46,43,9,12,93.48,19.57,26.09
-Department of Commerce,Department of Commerce,26,25,10,5,96.15,38.46,19.23
-Department of Commerce,Economic Development Administration,2,2,0,1,100.0,0.0,50.0
+Department of Commerce,Department of Commerce,25,24,10,4,96.0,40.0,16.0
+Department of Commerce,Economic Development Administration,3,3,1,2,100.0,33.33,66.67
 Department of Commerce,International Trade Administration,16,15,6,2,93.75,37.5,12.5
 Department of Commerce,Minority Business Development Agency,1,1,1,0,100.0,100.0,0.0
 Department of Commerce,NOAA Coastal Services Center,1,1,1,0,100.0,100.0,0.0
-Department of Commerce,NOAA/NCDC,1,1,1,1,100.0,100.0,100.0
 Department of Commerce,NOAA/National Hurricane Center,1,1,0,0,100.0,0.0,0.0
 Department of Commerce,NOAA/Space Weather Prediction Center,1,1,0,0,100.0,0.0,0.0
 Department of Commerce,NWS/OPS33,3,3,2,0,100.0,66.67,0.0
-Department of Commerce,National Institute of Standards and Technology,100,90,28,15,90.0,28.0,15.0
-Department of Commerce,National Oceanic and Atmospheric Administration,398,382,98,35,95.98,24.62,8.79
+Department of Commerce,National Institute of Standards and Technology,101,91,28,15,90.1,27.72,14.85
+Department of Commerce,National Oceanic and Atmospheric Administration,405,388,98,37,95.8,24.2,9.14
 Department of Commerce,National Oceanic and Atmospheric Administration Office of the Federal Coordinator for Meteorology,1,1,0,0,100.0,0.0,0.0
 Department of Commerce,National Science and Technology Council,1,1,0,0,100.0,0.0,0.0
 Department of Commerce,National Technical Information Service,5,5,1,1,100.0,20.0,20.0
-Department of Commerce,National Telecommunications and Information Administration,7,6,1,5,85.71,14.29,71.43
+Department of Commerce,National Telecommunications and Information Administration,8,7,1,4,87.5,12.5,50.0
 Department of Commerce,National Weather Service,2,2,2,0,100.0,100.0,0.0
-Department of Commerce,Office of the Chief Information Officer,20,20,1,3,100.0,5.0,15.0
+Department of Commerce,Office of the Chief Information Officer,22,22,1,5,100.0,4.55,22.73
 Department of Commerce,Space Environment Center W/NP9,1,1,0,0,100.0,0.0,0.0
 Department of Commerce,TCD / BIS / Dept of Commerce,1,1,0,0,100.0,0.0,0.0
 Department of Commerce,U. S. National Ice Center,1,1,1,0,100.0,100.0,0.0
@@ -56,13 +56,13 @@ Department of Defense,Civil Air Patrol HQ,72,69,6,0,95.83,8.33,0.0
 Department of Defense,Coast Guard,5,5,0,0,100.0,0.0,0.0
 Department of Defense,Defense Counterintelligence and Security Agency,1,1,0,0,100.0,0.0,0.0
 Department of Defense,Defense Cyber Crime Center,1,1,0,0,100.0,0.0,0.0
-Department of Defense,Defense Media Activity,28,28,0,1,100.0,0.0,3.57
+Department of Defense,Defense Media Activity,36,36,0,1,100.0,0.0,2.78
 Department of Defense,Department of Defense,1,1,0,0,100.0,0.0,0.0
 Department of Defense,Federal Voting Assistance Program,1,1,0,0,100.0,0.0,0.0
 Department of Defense,Irregular Warfare Technical Support Directorate,6,6,0,3,100.0,0.0,50.0
 Department of Defense,MCTFT,1,1,0,0,100.0,0.0,0.0
 Department of Defense,National Guard,19,19,0,0,100.0,0.0,0.0
-Department of Defense,National Security Agency,6,5,1,1,83.33,16.67,16.67
+Department of Defense,National Security Agency,7,6,1,1,85.71,14.29,14.29
 Department of Defense,National Security Education Program (NSEP) at DLNSEO,1,1,0,0,100.0,0.0,0.0
 Department of Defense,Navy,25,25,1,0,100.0,4.0,0.0
 Department of Defense,Office of Local Defense Community Cooperation,1,1,0,1,100.0,0.0,100.0
@@ -71,7 +71,7 @@ Department of Defense,TAK Product Center,1,1,1,0,100.0,100.0,0.0
 Department of Defense,U.S. Army Corps of Engineers,1,1,0,0,100.0,0.0,0.0
 Department of Defense,US Army Corps of Engineers,1,1,0,0,100.0,0.0,0.0
 Department of Education,Department of Education,1,1,1,0,100.0,100.0,0.0
-Department of Education,Office of Chief Information Officer,118,113,31,19,95.76,26.27,16.1
+Department of Education,Office of Chief Information Officer,127,120,32,21,94.49,25.2,16.54
 Department of Energy,Ames Laboratory,4,4,1,0,100.0,25.0,0.0
 Department of Energy,Argonne National Laboratory,149,131,24,1,87.92,16.11,0.67
 Department of Energy,Battelle Pacific Northwest National Laboratory,13,10,2,0,76.92,15.38,0.0
@@ -79,12 +79,12 @@ Department of Energy,Bonneville Power Administration,9,8,0,0,88.89,0.0,0.0
 Department of Energy,Brookhaven National Laboratory,55,52,3,0,94.55,5.45,0.0
 Department of Energy,Department of Energy,1,1,0,0,100.0,0.0,0.0
 Department of Energy,Energy Information Administration,2,2,1,0,100.0,50.0,0.0
-Department of Energy,Fermi National Accelerator Laboratory,63,58,3,0,92.06,4.76,0.0
+Department of Energy,Fermi National Accelerator Laboratory,77,69,4,0,89.61,5.19,0.0
 Department of Energy,Hanford Mission Integration Solutions,7,5,2,0,71.43,28.57,0.0
-Department of Energy,Idaho National Laboratory,19,18,5,0,94.74,26.32,0.0
-Department of Energy,Lawrence Berkeley National Laboratory,333,315,62,0,94.59,18.62,0.0
-Department of Energy,Lawrence Livermore National Laboratory,125,116,12,0,92.8,9.6,0.0
-Department of Energy,Los Alamos National Laboratory,50,46,10,0,92.0,20.0,0.0
+Department of Energy,Idaho National Laboratory,23,22,5,0,95.65,21.74,0.0
+Department of Energy,Lawrence Berkeley National Laboratory,353,331,64,0,93.77,18.13,0.0
+Department of Energy,Lawrence Livermore National Laboratory,150,140,12,0,93.33,8.0,0.0
+Department of Energy,Los Alamos National Laboratory,73,65,18,0,89.04,24.66,0.0
 Department of Energy,National Energy Research Scientific Computing Center,9,9,2,0,100.0,22.22,0.0
 Department of Energy,"National Nuclear Security Administration, National Security Technologies, LLC",1,1,0,0,100.0,0.0,0.0
 Department of Energy,National Renewable Energy Laboratory,34,33,12,1,97.06,35.29,2.94
@@ -98,9 +98,9 @@ Department of Energy,Princeton Plasma Physics Lab,29,23,2,0,79.31,6.9,0.0
 Department of Energy,Sandia National Laboratories,47,47,28,0,100.0,59.57,0.0
 Department of Energy,Savannah River Nuclear Solutions (SRNS),6,6,0,0,100.0,0.0,0.0
 Department of Energy,The National Isotope Development Center ,1,1,0,0,100.0,0.0,0.0
-Department of Energy,"US Department of Energy, Office of the CIO",133,126,16,3,94.74,12.03,2.26
+Department of Energy,"US Department of Energy, Office of the CIO",145,138,17,5,95.17,11.72,3.45
 Department of Energy,Western Area Power Administration,4,4,0,0,100.0,0.0,0.0
-Department of Health and Human Services,Administration for Children and Families,25,25,8,8,100.0,32.0,32.0
+Department of Health and Human Services,Administration for Children and Families,26,26,8,8,100.0,30.77,30.77
 Department of Health and Human Services,Administration for Community Living,31,30,15,14,96.77,48.39,45.16
 Department of Health and Human Services,Administration for Strategic Preparedness and Response,1,1,1,0,100.0,100.0,0.0
 Department of Health and Human Services,Agency for Healthcare Research and Quality,42,40,10,1,95.24,23.81,2.38
@@ -109,71 +109,72 @@ Department of Health and Human Services,"Assistant Secretary for Planning and Ev
 Department of Health and Human Services,Assistant Secretary for Preparedness and Response Office of the Secretary,2,2,2,0,100.0,100.0,0.0
 Department of Health and Human Services,"Assistant Secretary for Preparedness and Response, Office of the Secretary",1,1,1,0,100.0,100.0,0.0
 Department of Health and Human Services,Centers for Disease Control and Prevention,109,100,53,10,91.74,48.62,9.17
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,95,77,29,8,81.05,30.53,8.42
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,98,80,29,9,81.63,29.59,9.18
 Department of Health and Human Services,Department of Health and Human Services,2,2,0,1,100.0,0.0,50.0
 Department of Health and Human Services,"Enterprise Information Technology, NIH",19,17,2,0,89.47,10.53,0.0
 Department of Health and Human Services,HHS,2,2,2,2,100.0,100.0,100.0
-Department of Health and Human Services,Health Resources and Services Administration,33,33,15,1,100.0,45.45,3.03
-Department of Health and Human Services,Indian Health Service / Office of IT,10,10,0,0,100.0,0.0,0.0
+Department of Health and Human Services,Health Resources and Services Administration,40,40,17,1,100.0,42.5,2.5
+Department of Health and Human Services,Indian Health Service / Office of IT,11,11,1,0,100.0,9.09,0.0
 Department of Health and Human Services,"National Cancer Institute, NIH",143,141,67,0,98.6,46.85,0.0
 Department of Health and Human Services,National Center for Advancing Translational Sciences,1,1,1,0,100.0,100.0,0.0
 Department of Health and Human Services,National Institute of Neurological Disorders and Stroke,1,1,1,0,100.0,100.0,0.0
 Department of Health and Human Services,"National Institute on Alcohol Abuse and Alcoholism, NIH",1,1,1,1,100.0,100.0,100.0
 Department of Health and Human Services,"National Institute on Drug Abuse, NIH",3,3,3,1,100.0,100.0,33.33
-Department of Health and Human Services,National Institutes of Health,627,603,110,156,96.17,17.54,24.88
-Department of Health and Human Services,"National Library of Medicine, NIH",18,18,10,8,100.0,55.56,44.44
-Department of Health and Human Services,"Office of Disease Prevention and Health Promotion, Office of the Secretary",3,3,2,1,100.0,66.67,33.33
+Department of Health and Human Services,National Institutes of Health,629,605,110,156,96.18,17.49,24.8
+Department of Health and Human Services,"National Library of Medicine, NIH",19,19,11,9,100.0,57.89,47.37
+Department of Health and Human Services,"Office of Disease Prevention and Health Promotion, Office of the Secretary",2,2,1,1,100.0,50.0,50.0
 Department of Health and Human Services,"Office of Grants, Division of Workforce Development",1,1,0,0,100.0,0.0,0.0
 Department of Health and Human Services,"Office of Public Health and Science, Office on Women's Health",3,2,1,1,66.67,33.33,33.33
-Department of Health and Human Services,"Office of the Assistant Secretary for Health, Office of the Secretary",6,6,5,0,100.0,83.33,0.0
+Department of Health and Human Services,"Office of the Assistant Secretary for Health, Office of the Secretary",7,7,5,0,100.0,71.43,0.0
 Department of Health and Human Services,"Office of the National Coordinator, Office of the Secretary",35,35,3,1,100.0,8.57,2.86
-Department of Health and Human Services,Office of the Secretary,136,132,41,26,97.06,30.15,19.12
-Department of Health and Human Services,"Program Support Center, Office of the Secretary",9,6,0,0,66.67,0.0,0.0
+Department of Health and Human Services,Office of the Secretary,144,140,45,26,97.22,31.25,18.06
+Department of Health and Human Services,"Program Support Center, Office of the Secretary",8,5,0,0,62.5,0.0,0.0
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,18,18,3,4,100.0,16.67,22.22
-Department of Health and Human Services,U. S. Food and Drug Administration,37,28,6,2,75.68,16.22,5.41
+Department of Health and Human Services,U. S. Food and Drug Administration,40,31,7,2,77.5,17.5,5.0
 Department of Homeland Security,Cybersecurity and Infrastructure Security Agency,4,4,3,4,100.0,75.0,100.0
 Department of Homeland Security,"Department of Homeland Security, Office of the Chief Information Officer",5,5,0,1,100.0,0.0,20.0
-Department of Homeland Security,Federal Emergency Management Agency,50,47,8,4,94.0,16.0,8.0
+Department of Homeland Security,Federal Emergency Management Agency,53,49,8,6,92.45,15.09,11.32
 Department of Homeland Security,Federal Law Enforcement Training Center,5,5,2,2,100.0,40.0,40.0
-Department of Homeland Security,Headquarters,80,74,14,13,92.5,17.5,16.25
+Department of Homeland Security,Headquarters,88,81,15,14,92.05,17.05,15.91
 Department of Homeland Security,Office for Domestic Preparedness,1,1,1,1,100.0,100.0,100.0
 Department of Homeland Security,Office of Public Affairs,1,1,0,1,100.0,0.0,100.0
 Department of Homeland Security,Science and Technology,2,2,0,1,100.0,0.0,50.0
 Department of Homeland Security,Transportation Security Administration,1,1,0,0,100.0,0.0,0.0
 Department of Homeland Security,U. S. Coast Guard C5I Service Center,5,5,4,0,100.0,80.0,0.0
-Department of Homeland Security,U.S. Customs and Border Protection,19,19,2,1,100.0,10.53,5.26
-Department of Homeland Security,U.S. Immigration and Customs Enforcement,4,3,1,1,75.0,25.0,25.0
+Department of Homeland Security,U.S. Customs and Border Protection,20,20,2,1,100.0,10.0,5.0
+Department of Homeland Security,U.S. Immigration and Customs Enforcement,5,4,1,1,80.0,20.0,20.0
 Department of Homeland Security,US-CERT,2,2,0,1,100.0,0.0,50.0
 Department of Homeland Security,USCIS,10,10,6,6,100.0,60.0,60.0
 Department of Homeland Security,United States Secret Service,2,2,0,1,100.0,0.0,50.0
 Department of Housing and Urban Development,Department of Housing and Urban Development,2,2,0,0,100.0,0.0,0.0
 Department of Housing and Urban Development,Government National Mortgage Association,7,7,0,0,100.0,0.0,0.0
 Department of Housing and Urban Development,Office of Inspector General,1,1,1,0,100.0,100.0,0.0
-Department of Housing and Urban Development,"U.S. Department of Housing and Urban Development, Office of Policy Development and Research",5,5,1,2,100.0,20.0,40.0
-Department of Housing and Urban Development,Web Master  Pulic Affair,31,27,1,0,87.1,3.23,0.0
-Department of Justice,Asset Forfeiture Management Staff,2,2,1,0,100.0,50.0,0.0
+Department of Housing and Urban Development,"U.S. Department of Housing and Urban Development, Office of Policy Development and Research",6,6,1,2,100.0,16.67,33.33
+Department of Housing and Urban Development,Web Master  Pulic Affair,36,32,1,0,88.89,2.78,0.0
+Department of Justice,Asset Forfeiture Management Staff,3,3,1,0,100.0,33.33,0.0
 Department of Justice,"Bureau of Alcohol, Tobacco, Firearms and Explosives",8,8,1,1,100.0,12.5,12.5
-Department of Justice,Civil Rights Division,3,3,2,2,100.0,66.67,66.67
-Department of Justice,Department of Justice,32,32,5,7,100.0,15.62,21.88
+Department of Justice,Civil Rights Division,4,4,3,3,100.0,75.0,75.0
+Department of Justice,Department of Justice,42,42,5,8,100.0,11.9,19.05
 Department of Justice,"Department of Justice, National Institute of Corrections",4,4,0,4,100.0,0.0,100.0
-Department of Justice,"Department of Justice, Office of e-Government",7,7,0,2,100.0,0.0,28.57
-Department of Justice,Drug Enforcement Administration,5,5,1,4,100.0,20.0,80.0
+Department of Justice,"Department of Justice, Office of e-Government",10,10,0,4,100.0,0.0,40.0
+Department of Justice,Drug Enforcement Administration,7,7,1,5,100.0,14.29,71.43
 Department of Justice,Federal Bureau of Investigation,11,9,1,1,81.82,9.09,9.09
 Department of Justice,Federal Bureau of Prisons,4,4,1,0,100.0,25.0,0.0
 Department of Justice,Institute for Intergovernmental Research,2,2,2,2,100.0,100.0,100.0
 Department of Justice,Internet Crime Complaint Center,7,7,0,7,100.0,0.0,100.0
-Department of Justice,Office of Justice Programs,124,123,12,13,99.19,9.68,10.48
+Department of Justice,Office of Justice Programs,126,125,12,13,99.21,9.52,10.32
 Department of Justice,Office of Justice Programs ,2,2,1,2,100.0,50.0,100.0
 Department of Justice,Office of the Chief Information Officer,14,14,6,4,100.0,42.86,28.57
 Department of Justice,RCFL,1,1,1,0,100.0,100.0,0.0
+Department of Justice,U.S Immigration and Customs Enforcement,1,1,1,0,100.0,100.0,0.0
 Department of Justice,"U.S. Department of Justice, BI, Domestic Security Alliance Council (DSAC)",2,1,1,0,50.0,50.0,0.0
-Department of Justice,"U.S. Department of Justice, National Security Division",2,2,0,1,100.0,0.0,50.0
+Department of Justice,"U.S. Department of Justice, National Security Division",3,3,0,1,100.0,0.0,33.33
 Department of Justice,U.S. Marshals Service,4,4,2,3,100.0,50.0,75.0
 Department of Justice,Unicor,1,1,0,0,100.0,0.0,0.0
 Department of Labor,Bureau of Labor Statistics,23,22,2,0,95.65,8.7,0.0
-Department of Labor,Employment and Training Administration (ETA) - Office of Job Corps,23,23,22,0,100.0,95.65,0.0
+Department of Labor,Employment and Training Administration (ETA) - Office of Job Corps,30,30,29,0,100.0,96.67,0.0
 Department of Labor,Office of the Assistant Secretary for Administration & Management,1,1,1,0,100.0,100.0,0.0
-Department of Labor,Office of the Chief Information Officer,55,50,6,14,90.91,10.91,25.45
+Department of Labor,Office of the Chief Information Officer,60,54,8,15,90.0,13.33,25.0
 Department of State,Bureau of East Asian and Pacific Affairs (EAP),2,2,0,0,100.0,0.0,0.0
 Department of State,Bureau of Global Public Affairs (GPA),246,232,166,98,94.31,67.48,39.84
 Department of State,Bureau of Information Resources Management (IRM),3,3,2,0,100.0,66.67,0.0
@@ -181,11 +182,10 @@ Department of State,Bureau of Western Hemisphere Affairs (WHA),3,3,0,1,100.0,0.0
 Department of State,Office of the Inspector General,1,1,0,1,100.0,0.0,100.0
 Department of Transportation,Bureau of Transportation Statistics,6,6,1,2,100.0,16.67,33.33
 Department of Transportation,DOT/FAA/MMAC.AMi400,2,2,0,0,100.0,0.0,0.0
-Department of Transportation,Department of Transportation,122,117,22,15,95.9,18.03,12.3
-Department of Transportation,FAA MMAC,1,1,0,0,100.0,0.0,0.0
+Department of Transportation,Department of Transportation,140,134,26,18,95.71,18.57,12.86
 Department of Transportation,FAASTeam,1,1,0,0,100.0,0.0,0.0
-Department of Transportation,Federal Aviation Administration,41,35,7,3,85.37,17.07,7.32
-Department of Transportation,National Highway Traffic Safety Administration,6,6,1,0,100.0,16.67,0.0
+Department of Transportation,Federal Aviation Administration,54,45,9,3,83.33,16.67,5.56
+Department of Transportation,National Highway Traffic Safety Administration,7,7,2,0,100.0,28.57,0.0
 Department of Transportation,U.S. Department of Transportation,2,2,1,2,100.0,50.0,100.0
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",128,115,72,16,89.84,56.25,12.5
 Department of Veterans Affairs,VA Office of Inspector General,1,1,0,0,100.0,0.0,0.0
@@ -201,23 +201,24 @@ Department of the Interior,National Interagency Fire Center,6,6,1,1,100.0,16.67,
 Department of the Interior,National Park Service,24,22,8,3,91.67,33.33,12.5
 Department of the Interior,National Wildfire Coordinating Group,1,1,0,0,100.0,0.0,0.0
 Department of the Interior,Office of Surface Mining Reclamation & Enforcement,8,8,0,4,100.0,0.0,50.0
-Department of the Interior,Office of the Chief Information Officer,19,19,3,3,100.0,15.79,15.79
+Department of the Interior,Office of the Chief Information Officer,24,23,4,5,95.83,16.67,20.83
 Department of the Interior,Piedras Blancas Light Station,1,0,0,0,0.0,0.0,0.0
 Department of the Interior,U.S. DEPARTMENT OF INTERIOR / OIG,4,1,0,1,25.0,0.0,25.0
-Department of the Interior,U.S. Fish and Wildlife Service,15,15,3,0,100.0,20.0,0.0
-Department of the Interior,U.S. Geological Survey,127,118,37,29,92.91,29.13,22.83
+Department of the Interior,U.S. Fish and Wildlife Service,17,17,4,0,100.0,23.53,0.0
+Department of the Interior,U.S. Geological Survey,130,121,37,29,93.08,28.46,22.31
 Department of the Interior,US Geological Survey,1,1,1,0,100.0,100.0,0.0
+Department of the Interior,USGS-NWRC,1,1,0,0,100.0,0.0,0.0
 Department of the Interior,USGS/Denver Federal Center,4,4,0,0,100.0,0.0,0.0
 Department of the Interior,Yosemite National Park,1,1,1,0,100.0,100.0,0.0
 Department of the Treasury,Alcohol and Tobacco Tax and Trade Bureau,13,13,2,2,100.0,15.38,15.38
-Department of the Treasury,Bureau of the Fiscal Service,48,42,4,6,87.5,8.33,12.5
+Department of the Treasury,Bureau of the Fiscal Service,49,43,4,6,87.76,8.16,12.24
 Department of the Treasury,CDFI,3,3,0,1,100.0,0.0,33.33
 Department of the Treasury,Citizens Coinage Advisory Committee (Mint),1,1,0,0,100.0,0.0,0.0
 Department of the Treasury,Comptroller of the Currency,23,23,17,0,100.0,73.91,0.0
 Department of the Treasury,Department of the Treasury - DO,23,23,4,2,100.0,17.39,8.7
-Department of the Treasury,Department of the Treasury - FINCEN,3,3,1,3,100.0,33.33,100.0
-Department of the Treasury,Department of the Treasury - IRS,9,9,4,2,100.0,44.44,22.22
-Department of the Treasury,Department of the Treasury - OCIO,45,42,4,5,93.33,8.89,11.11
+Department of the Treasury,Department of the Treasury - FINCEN,4,4,1,3,100.0,25.0,75.0
+Department of the Treasury,Department of the Treasury - IRS,12,12,4,2,100.0,33.33,16.67
+Department of the Treasury,Department of the Treasury - OCIO,46,43,4,6,93.48,8.7,13.04
 Department of the Treasury,Department of the Treasury - U.S. Mint,4,4,1,2,100.0,25.0,50.0
 Department of the Treasury,Departmental Offices ,1,1,1,0,100.0,100.0,0.0
 Department of the Treasury,Office of Financial Research (OFR),1,1,1,0,100.0,100.0,0.0
@@ -225,75 +226,79 @@ Department of the Treasury,Special IG for Pandemic Recovery,1,1,0,1,100.0,0.0,10
 Department of the Treasury,TCS (IRS),1,1,0,1,100.0,0.0,100.0
 Department of the Treasury,Treasury Inspector General for Tax Administration,1,1,0,1,100.0,0.0,100.0
 Director of National Intelligence,ODNI - IARPA,1,1,1,0,100.0,100.0,0.0
-Director of National Intelligence,Office of Director of National Intelligence - CIO (ICES),28,1,0,0,3.57,0.0,0.0
+Director of National Intelligence,Office of Director of National Intelligence - CIO (ICES),31,1,0,0,3.23,0.0,0.0
 Director of National Intelligence,Office of Director of National Intelligence - Public Affairs Office,2,2,2,0,100.0,100.0,0.0
-Director of National Intelligence,Office of Directorate of National Intelligence,1,1,0,0,100.0,0.0,0.0
+Director of National Intelligence,Office of Directorate of National Intelligence,2,2,1,0,100.0,50.0,0.0
 Director of National Intelligence,Office of the Director of National Intelligence,1,1,1,0,100.0,100.0,0.0
-Director of National Intelligence,"Office of the Program Manager, Information Sharing Environment, Office of the DNI",2,2,1,0,100.0,50.0,0.0
+Director of National Intelligence,"Office of the Program Manager, Information Sharing Environment, Office of the DNI",1,1,0,0,100.0,0.0,0.0
 Election Assistance Commission,Election Assistance Commission,4,4,0,2,100.0,0.0,50.0
 Environmental Protection Agency,EPA OIG,1,1,0,1,100.0,0.0,100.0
-Environmental Protection Agency,Environmental Protection Agency,134,129,22,26,96.27,16.42,19.4
+Environmental Protection Agency,Environmental Protection Agency,177,170,25,32,96.05,14.12,18.08
 Environmental Protection Agency,Federal Remediation Roundtable,1,1,0,1,100.0,0.0,100.0
 Environmental Protection Agency,Office of Federal Sustainability,1,1,1,0,100.0,100.0,0.0
-Equal Employment Opportunity Commission,Equal Employment Opportunity Commission,3,3,0,1,100.0,0.0,33.33
+Equal Employment Opportunity Commission,Equal Employment Opportunity Commission,6,6,0,1,100.0,0.0,16.67
 Executive Office of the President,Executive Office of the President,2,1,1,1,50.0,50.0,50.0
 Executive Office of the President,National Nanotechnology Coordination Office,1,1,0,0,100.0,0.0,0.0
 Executive Office of the President,National Quantum Coordination Office (NQCO),1,1,1,0,100.0,100.0,0.0
 Executive Office of the President,Office of Administration,2,2,1,0,100.0,50.0,0.0
-Executive Office of the President,Office of Management and Budget,9,8,0,0,88.89,0.0,0.0
+Executive Office of the President,Office of Management and Budget,10,9,0,0,90.0,0.0,0.0
 Executive Office of the President,United States Digital Service,3,3,2,2,100.0,66.67,66.67
 Executive Office of the President,United States Trade Representative,1,1,0,0,100.0,0.0,0.0
 Executive Office of the President,White House,3,3,1,0,100.0,33.33,0.0
-Executive Office of the President,White House Council on Environmental Quality (CEQ),1,1,1,1,100.0,100.0,100.0
+Executive Office of the President,White House Council on Environmental Quality (CEQ),2,2,2,2,100.0,100.0,100.0
 Export-Import Bank of the United States,Export-Import Bank of the United States,6,6,1,1,100.0,16.67,16.67
 Farm Credit Administration,Farm Credit System Insurance Corporation,1,1,1,0,100.0,100.0,0.0
 Farm Credit Administration,Office of Information Technology,3,1,2,1,33.33,66.67,33.33
-Federal Communications Commission,Federal Communications Commission,21,18,4,2,85.71,19.05,9.52
+Federal Communications Commission,Federal Communications Commission,23,19,4,2,82.61,17.39,8.7
 Federal Communications Commission,Office of the Managing Director,2,2,2,2,100.0,100.0,100.0
-Federal Deposit Insurance Corporation,Federal Deposit Insurance Corporation,30,29,0,1,96.67,0.0,3.33
+Federal Deposit Insurance Corporation,Federal Deposit Insurance Corporation,27,26,0,1,96.3,0.0,3.7
 Federal Election Commission,Federal Election Commission,9,9,5,0,100.0,55.56,0.0
-Federal Energy Regulatory Commission,Federal Energy Regulatory Commission,14,13,1,0,92.86,7.14,0.0
-Federal Housing Finance Agency,Federal Housing Finance Agency,6,6,1,0,100.0,16.67,0.0
+Federal Energy Regulatory Commission,Federal Energy Regulatory Commission,18,16,1,0,88.89,5.56,0.0
+Federal Housing Finance Agency,Federal Housing Finance Agency,7,7,1,1,100.0,14.29,14.29
 Federal Housing Finance Agency,Federal Housing Finance Agency Office of Inspector General ,2,2,0,0,100.0,0.0,0.0
-Federal Labor Relations Authority,Federal Labor Relations Authority,1,1,0,0,100.0,0.0,0.0
+Federal Labor Relations Authority,Federal Labor Relations Authority,2,2,0,0,100.0,0.0,0.0
 Federal Maritime Commission,Federal Maritime Commission,2,2,0,1,100.0,0.0,50.0
 Federal Mediation and Conciliation Service,Federal Mediation and Conciliation Service,1,1,0,0,100.0,0.0,0.0
 Federal Mediation and Conciliation Service,Office of Conflict Management and Prevention,2,2,0,1,100.0,0.0,50.0
+Federal Mine Safety and Health Review Commission,Federal Mine Safety & Health Review Commission,1,1,0,0,100.0,0.0,0.0
 Federal Reserve Board of Governors,Board of Governors of the Federal Reserve,1,1,1,0,100.0,100.0,0.0
-Federal Reserve Board of Governors,Federal Financial Institutions Examination Council ,2,2,2,0,100.0,100.0,0.0
+Federal Reserve Board of Governors,Federal Financial Institutions Examination Council ,5,5,3,0,100.0,60.0,0.0
 Federal Reserve Board of Governors,Federal Reserve Bank,6,6,1,0,100.0,16.67,0.0
-Federal Reserve Board of Governors,Federal Reserve Board of Governors,11,10,1,0,90.91,9.09,0.0
-Federal Reserve Board of Governors,The Financial and Banking Information Infrastructure Committee,1,1,1,0,100.0,100.0,0.0
-Federal Retirement Thrift Investment Board,Office of Technology Services,3,3,1,3,100.0,33.33,100.0
+Federal Reserve Board of Governors,Federal Reserve Board of Governors,13,12,1,0,92.31,7.69,0.0
+Federal Retirement Thrift Investment Board,Office of Technology Services,4,4,1,4,100.0,25.0,100.0
 Federal Trade Commission,Division of Consumer & Business Education (DCBE),4,4,4,3,100.0,100.0,75.0
-Federal Trade Commission,Division of Consumer Response & Operations (DCRO),7,6,3,0,85.71,42.86,0.0
+Federal Trade Commission,Division of Consumer Response & Operations (DCRO),8,7,3,0,87.5,37.5,0.0
 Federal Trade Commission,Office of Internal Affairs (OIA),1,1,0,0,100.0,0.0,0.0
-Federal Trade Commission,Office of Public Affairs (OPA),9,9,3,6,100.0,33.33,66.67
+Federal Trade Commission,Office of Public Affairs (OPA),10,10,3,7,100.0,30.0,70.0
 General Services Administration,400 Years of African American History Commission,1,1,0,0,100.0,0.0,0.0
 General Services Administration,Civilian Board of Contract Appeals,1,1,0,0,100.0,0.0,0.0
 General Services Administration,GSA Office of Inspector General,3,3,1,0,100.0,33.33,0.0
 General Services Administration,"GSA, CIO.GOV",8,8,2,6,100.0,25.0,75.0
 General Services Administration,"GSA, FAS, Advantage",1,1,1,0,100.0,100.0,0.0
 General Services Administration,"GSA, FAS, ClearPath",1,1,0,1,100.0,0.0,100.0
+General Services Administration,"GSA, FAS, FPDS",1,1,0,0,100.0,0.0,0.0
 General Services Administration,"GSA, FAS, SASy",1,1,0,1,100.0,0.0,100.0
 General Services Administration,"GSA, FAS, System for Award Management",6,6,1,2,100.0,16.67,33.33
 General Services Administration,"GSA, IC, Acquisition",3,3,0,0,100.0,0.0,0.0
-General Services Administration,"GSA, IC, OGP Web Portfolio",7,7,5,7,100.0,71.43,100.0
+General Services Administration,"GSA, IC, FAI",1,1,0,1,100.0,0.0,100.0
+General Services Administration,"GSA, IC, OGP Web Portfolio",6,6,5,6,100.0,83.33,100.0
 General Services Administration,"GSA, IC, OGP WebPortfolio",1,1,0,0,100.0,0.0,0.0
 General Services Administration,"GSA, IC, ROCIS",9,9,0,0,100.0,0.0,0.0
 General Services Administration,"GSA, IDI, EAS-SF",3,3,0,3,100.0,0.0,100.0
-General Services Administration,"GSA, IDI, ECAS II",112,109,32,46,97.32,28.57,41.07
+General Services Administration,"GSA, IDI, ECAS II",114,111,33,47,97.37,28.95,41.23
 General Services Administration,"GSA, IDI, Enterprise Application Services",1,1,0,1,100.0,0.0,100.0
 General Services Administration,"GSA, IQ, eRulemaking",3,3,0,0,100.0,0.0,0.0
 General Services Administration,"GSA, IQ-CAP",1,1,0,1,100.0,0.0,100.0
 General Services Administration,"GSA, IQ-ESRS-FSRS",1,1,0,0,100.0,0.0,0.0
 General Services Administration,"GSA, IQ-FPDS-FPDS Portal",2,2,2,0,100.0,100.0,0.0
-General Services Administration,"GSA, IQ-FSD-FSD Portal",1,1,0,1,100.0,0.0,100.0
+General Services Administration,"GSA, IQ-FSD-FSD Portal",2,2,0,2,100.0,0.0,100.0
+General Services Administration,"GSA, IQ-SASy-GSAAuctions",1,1,0,1,100.0,0.0,100.0
 General Services Administration,"GSA, OGP, Web Portfolio",1,1,0,1,100.0,0.0,100.0
+General Services Administration,"GSA, Office of Government-wide Policy",1,1,0,1,100.0,0.0,100.0
 General Services Administration,"GSA, Q-FPKI",1,1,0,0,100.0,0.0,0.0
-General Services Administration,"GSA,FAS,Technology Transformation Service",92,92,54,61,100.0,58.7,66.3
+General Services Administration,"GSA,FAS,Technology Transformation Service",93,93,55,62,100.0,59.14,66.67
 General Services Administration,General Services Administration,4,4,3,4,100.0,75.0,100.0
-General Services Administration,General Services Administration ,1,1,1,1,100.0,100.0,100.0
+General Services Administration,General Services Administration ,2,2,1,2,100.0,50.0,100.0
 General Services Administration,Office of Government-wide Policy,1,1,1,1,100.0,100.0,100.0
 General Services Administration,TTS Public Benefits Studio,1,1,1,1,100.0,100.0,100.0
 Government Accountability Office,FASAB,1,1,1,0,100.0,100.0,0.0
@@ -302,22 +307,23 @@ Government Publishing Office,Government Publishing Office,10,10,0,1,100.0,0.0,10
 Government Publishing Office,Office of Federal Register (NF),1,1,0,0,100.0,0.0,0.0
 Gulf Coast Ecosystem Restoration Council,National Oceanic and Atmospheric Administration (NOAA),1,1,0,0,100.0,0.0,0.0
 Harry S. Truman Scholarship Foundation,Harry S. Truman Scholarship Foundation,1,1,1,0,100.0,100.0,0.0
-Institute of Museum and Library Services,Institute of Museum and Library Services,4,4,2,1,100.0,50.0,25.0
-Inter-American Foundation,Inter-American Foundation,1,1,0,1,100.0,0.0,100.0
+Institute of Museum and Library Services,Institute of Museum and Library Services,7,7,3,2,100.0,42.86,28.57
+Inter-American Foundation,Inter-American Foundation,2,2,1,2,100.0,50.0,100.0
 James Madison Memorial Fellowship Foundation,James Madison Memorial Fellowship Foundation,1,1,0,0,100.0,0.0,0.0
-Japan-U.S. Friendship Commission,Japan-US Friendship Commission,1,1,0,0,100.0,0.0,0.0
+Japan-U.S. Friendship Commission,Japan-US Friendship Commission,3,3,0,0,100.0,0.0,0.0
 Legal Services Corporation,Legal Services Corporation,2,2,0,0,100.0,0.0,0.0
 Library of Congress,Copyright Royalty Board,1,1,1,0,100.0,100.0,0.0
 Library of Congress,Library of Congress,20,20,12,1,100.0,60.0,5.0
 Marine Mammal Commission,Marine Mammal Commission,1,1,1,0,100.0,100.0,0.0
 Medicaid and CHIP Payment and Access Commission,Medicaid and CHIP Payment and Access Commission,1,1,0,0,100.0,0.0,0.0
-Merit Systems Protection Board,US Merit Systems Protection Board,1,1,1,1,100.0,100.0,100.0
-Millennium Challenge Corporation,Millennium Challenge Corporation,8,6,1,1,75.0,12.5,12.5
+Medicare Payment Advisory Commission,Medicare Payment Advisory Commission,1,1,0,0,100.0,0.0,0.0
+Merit Systems Protection Board,US Merit Systems Protection Board,3,3,1,1,100.0,33.33,33.33
+Millennium Challenge Corporation,Millennium Challenge Corporation,9,6,1,1,66.67,11.11,11.11
 Morris K. Udall and Stewart L. Udall Foundation,Morris K. Udall and Stewart L. Udall Foundation,8,7,2,0,87.5,25.0,0.0
 National Aeronautics and Space Administration,Jet Propulsion Lab Communications and Education Directorate,1,1,1,0,100.0,100.0,0.0
 National Aeronautics and Space Administration,NASA Earth Science Division,1,1,1,0,100.0,100.0,0.0
 National Aeronautics and Space Administration,NASA Langley Research Center,1,1,0,0,100.0,0.0,0.0
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,922,872,403,3,94.58,43.71,0.33
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,975,925,423,5,94.87,43.38,0.51
 National Aeronautics and Space Administration,NASA Science Data Systems Branch,7,7,1,0,100.0,14.29,0.0
 National Archives and Records Administration,Gerald R. Ford Library and Museum,1,1,0,0,100.0,0.0,0.0
 National Archives and Records Administration,Jimmy Carter Library & Museum,1,1,0,0,100.0,0.0,0.0
@@ -333,7 +339,7 @@ National Gallery of Art,National Gallery of Art,11,11,3,0,100.0,27.27,0.0
 National Indian Gaming Commission,National Indian Gaming Commision,3,3,1,0,100.0,33.33,0.0
 National Mediation Board,National Mediation Board,2,2,1,0,100.0,50.0,0.0
 National Science Foundation,National Science Foundation,25,25,7,4,100.0,28.0,16.0
-National Science Foundation,"National Science Foundation, Office of Polar Programs",5,5,2,0,100.0,40.0,0.0
+National Science Foundation,"National Science Foundation, Office of Polar Programs",6,6,3,0,100.0,50.0,0.0
 National Science Foundation,Small Agency Council,1,1,0,0,100.0,0.0,0.0
 National Science Foundation,U.S. Arctic Research Commission,1,1,0,1,100.0,0.0,100.0
 National Transportation Safety Board,National Transportation Safety Board,4,4,1,0,100.0,25.0,0.0
@@ -343,12 +349,12 @@ Nuclear Regulatory Commission,Nuclear Regulatory Commission,5,5,1,0,100.0,20.0,0
 Occupational Safety and Health Review Commission,Occupational Safety & Health Review Commission,2,2,0,0,100.0,0.0,0.0
 Office of Congressional Workplace Rights,Congressional Office of Compliance,1,1,0,0,100.0,0.0,0.0
 Office of Congressional Workplace Rights,Office of Congressional Workplace Rights,1,1,0,0,100.0,0.0,0.0
-Office of Government Ethics,Office of Government Ethics,4,3,0,1,75.0,0.0,25.0
+Office of Government Ethics,Office of Government Ethics,5,4,0,1,80.0,0.0,20.0
 Office of Personnel Management,Chief Human Capital Officers,1,1,0,1,100.0,0.0,100.0
 Office of Personnel Management,Federal Executive Board,7,7,1,1,100.0,14.29,14.29
 Office of Personnel Management,OCIO,1,1,0,1,100.0,0.0,100.0
 Office of Personnel Management,OPM Center for Leadership Development,3,3,1,3,100.0,33.33,100.0
-Office of Personnel Management,OPM Human Resource Solutions,148,148,9,9,100.0,6.08,6.08
+Office of Personnel Management,OPM Human Resource Solutions,148,148,9,8,100.0,6.08,5.41
 Office of Personnel Management,Office Of Personnel Management,32,31,7,9,96.88,21.88,28.12
 Office of Personnel Management,Presidential Management Fellows,3,3,1,0,100.0,33.33,0.0
 Open World Leadership Center,The Open World Leadership Center,1,1,0,0,100.0,0.0,0.0
@@ -359,7 +365,7 @@ Securities and Exchange Commission,Network Operations Branch,11,11,1,2,100.0,9.0
 Selective Service System,Selective Service System,3,3,0,1,100.0,0.0,33.33
 Small Business Administration,SBA-Office of Innovation & Technology,2,2,0,1,100.0,0.0,50.0
 Small Business Administration,Small Business Administration,27,27,7,5,100.0,25.93,18.52
-Smithsonian Institution,Smithsonian Institution,3,2,1,0,66.67,33.33,0.0
+Smithsonian Institution,Smithsonian Institution,4,2,1,0,50.0,25.0,0.0
 Smithsonian Institution,Smithsonian Institution Office of the CIO (OCIO),1,1,1,0,100.0,100.0,0.0
 Social Security Administration,SSA/OSOHE/Division of Network Engineering,7,7,4,3,100.0,57.14,42.86
 Social Security Advisory Board,Social Security Advisory Board,1,1,0,0,100.0,0.0,0.0
@@ -368,17 +374,19 @@ State Justice Institute,State Justice Institute,1,1,0,0,100.0,0.0,0.0
 Stennis Center for Public Service,John C. Stennis Center for Public Service,1,1,1,0,100.0,100.0,0.0
 Surface Transportation Board,Surface Transportation Board,1,1,1,0,100.0,100.0,0.0
 Tennessee Valley Authority,TVA IT,10,8,0,0,80.0,0.0,0.0
+The Legislative Branch,Commission on Security and Cooperation in Europe,1,1,0,0,100.0,0.0,0.0
 The Legislative Branch,Congressional Executive Commission on China,1,1,0,0,100.0,0.0,0.0
+The Legislative Branch,Democratic Whip's Office,1,1,0,0,100.0,0.0,0.0
 The Legislative Branch,Office of the Majority Leader,1,1,0,0,100.0,0.0,0.0
 The Legislative Branch,Office of the Majority Whip,1,1,0,0,100.0,0.0,0.0
 The Legislative Branch,Office of the Speaker,1,1,0,0,100.0,0.0,0.0
-The Legislative Branch,US House of Representatives,235,235,40,0,100.0,17.02,0.0
+The Legislative Branch,US House of Representatives,247,247,45,0,100.0,18.22,0.0
 The Supreme Court,Supreme Court of the United States,2,2,0,0,100.0,0.0,0.0
 The United States World War One Centennial Commission,The United States World War One Centennial Commission,1,1,1,0,100.0,100.0,0.0
 U.S. Agency for International Development,Bureau for Global Health,2,2,1,0,100.0,50.0,0.0
 U.S. Agency for International Development,Foreign Assistance Office (F/PPS),1,1,1,0,100.0,100.0,0.0
 U.S. Agency for International Development,M/CIO,22,21,7,3,95.45,31.82,13.64
-U.S. Agency for International Development,Office of the Director of U.S. Foreign Assistance,2,0,0,0,0.0,0.0,0.0
+U.S. Agency for International Development,Office of the Director of U.S. Foreign Assistance,3,0,0,0,0.0,0.0,0.0
 U.S. Agency for International Development,U.S. Agency for International Development,2,2,2,1,100.0,100.0,50.0
 U.S. Agency for International Development,USAID/GH.CECA,1,1,1,0,100.0,100.0,0.0
 U.S. Chemical Safety Board,U.S. Chemical Safety and Hazard Investigation Board,1,1,1,0,100.0,100.0,0.0
@@ -389,17 +397,18 @@ U.S. Department of Agriculture,Agricultural Research Service ,1,1,0,0,100.0,0.0,
 U.S. Department of Agriculture,Aviation Management Directorate,2,2,2,0,100.0,100.0,0.0
 U.S. Department of Agriculture,National Advanced Fire and Resource Institute,1,1,0,0,100.0,0.0,0.0
 U.S. Department of Agriculture,National Agricultural Library,1,1,0,0,100.0,0.0,0.0
-U.S. Department of Agriculture,National Finance Center,1,1,0,0,100.0,0.0,0.0
+U.S. Department of Agriculture,National Finance Center,2,1,0,0,50.0,0.0,0.0
 U.S. Department of Agriculture,National Wildfire Coordinating Group,15,14,3,4,93.33,20.0,26.67
 U.S. Department of Agriculture,Office of Energy Policy and New Uses,1,1,0,0,100.0,0.0,0.0
 U.S. Department of Agriculture,Recreation One Stop,3,3,3,0,100.0,100.0,0.0
 U.S. Department of Agriculture,Rural Development,1,1,1,1,100.0,100.0,100.0
-U.S. Department of Agriculture,U.S. Department of Agriculture,213,186,40,55,87.32,18.78,25.82
+U.S. Department of Agriculture,U.S. Department of Agriculture,209,182,40,54,87.08,19.14,25.84
 U.S. Department of Agriculture,US Forest Service,2,2,1,2,100.0,50.0,100.0
 U.S. Department of Agriculture,USDA - Center for Nutrition Policy and Promotion,1,1,0,1,100.0,0.0,100.0
 U.S. Department of Agriculture,USDA Forest Service - Southwestern Region,1,1,0,0,100.0,0.0,0.0
+U.S. Department of Agriculture,"USDA, ARS, NAL",1,1,0,0,100.0,0.0,0.0
 U.S. Department of Agriculture,"USDA, Office of Communications",1,1,0,1,100.0,0.0,100.0
-U.S. Department of Agriculture,USDA/ARS/NAL,1,1,0,1,100.0,0.0,100.0
+U.S. Department of Agriculture,USDA/ARS/NAL,2,2,1,1,100.0,50.0,50.0
 U.S. Interagency Council on Homelessness,United States Interagency Council on Homelessness,1,1,1,1,100.0,100.0,100.0
 U.S. Office of Special Counsel,U.S. Office of Special Counsel,2,2,0,0,100.0,0.0,0.0
 U.S. Semiquincentennial Commission,United States Semiquincentennial Commission,1,1,1,0,100.0,100.0,0.0
@@ -412,7 +421,7 @@ United States Agency for Global Media,IBB/VOA/BBG,5,5,2,0,100.0,40.0,0.0
 United States Agency for Global Media,International Broadcasting Advisory Board,1,1,0,0,100.0,0.0,0.0
 United States Agency for Global Media,VOA,2,2,2,0,100.0,100.0,0.0
 United States Global Change Research Program,U.S. Global Change Research Program,8,7,2,0,87.5,25.0,0.0
-United States International Development Finance Corporation,US International Development Finance Corporation,2,2,1,0,100.0,50.0,0.0
+United States International Development Finance Corporation,US International Development Finance Corporation,1,1,1,0,100.0,100.0,0.0
 United States International Trade Commission,OCIO,5,5,2,0,100.0,40.0,0.0
 United States Postal Service,U.S. Postal Service,17,15,3,0,88.24,17.65,0.0
 United States Postal Service,USPS Office of Inspector General,1,1,0,0,100.0,0.0,0.0
