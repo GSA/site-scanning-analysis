@@ -18,11 +18,11 @@ def generate_unique_website_list():
     df = df.reindex(s)
 
     # Drop rows with duplicate final_url_website values and save
-    blank_final_url_website_df = df[df['top_level_domain'].isna()]
-    df = df[~df['top_level_domain'].isna()]
-    removed_df = df.loc[df.duplicated('top_level_domain')]
+    blank_final_url_website_df = df[df['domain'].isna()]
+    df = df[~df['domain'].isna()]
+    removed_df = df.loc[df.duplicated('domain')]
     removed_df.to_csv(config['removed_final_url_websites_location'], index=False)
-    df = df.drop_duplicates('top_level_domain', keep='first')
-    df = df.sort_values(by='top_level_domain')
+    df = df.drop_duplicates('domain', keep='first')
+    df = df.sort_values(by='domain')
     final_df = pd.concat([df, blank_final_url_website_df])
     final_df.to_csv(config['unique_final_websites_location'], index=False)
