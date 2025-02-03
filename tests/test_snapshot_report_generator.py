@@ -13,11 +13,11 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
         self.assertEqual(result, 1)
 
     def test_num_true(self):
-        result = self.snapshot.num_true('final_url_live')
+        result = self.snapshot.num_true('live')
         self.assertEqual(result, 1)
 
     def test_num_false(self):
-        result = self.snapshot.num_false('final_url_live')
+        result = self.snapshot.num_false('live')
         self.assertEqual(result, 0)
 
     def test_num_completed(self):
@@ -29,19 +29,19 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
         self.assertEqual(result, 0)
 
     def test_num_status_200(self):
-        result = self.snapshot.num_status_200('final_url_status_code')
+        result = self.snapshot.num_status_200('status_code')
         self.assertEqual(result, 1)
 
     def test_num_status_300(self):
-        result = self.snapshot.num_status_300('final_url_status_code')
+        result = self.snapshot.num_status_300('status_code')
         self.assertEqual(result, 0)
 
     def test_num_status_400(self):
-        result = self.snapshot.num_status_400('robots_txt_final_url_status_code')
+        result = self.snapshot.num_status_400('robots_txt_status_code')
         self.assertEqual(result, 1)
 
     def test_num_status_500(self):
-        result = self.snapshot.num_status_500('final_url_status_code')
+        result = self.snapshot.num_status_500('status_code')
         self.assertEqual(result, 0)
 
     def test_num_na(self):
@@ -49,11 +49,11 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
         self.assertEqual(result, 1)
 
     def test_num_not_na(self):
-        result = self.snapshot.num_not_na('robots_txt_final_url_media_type')
+        result = self.snapshot.num_not_na('robots_txt_media_type')
         self.assertEqual(result, 1)
 
     def test_num_unique(self):
-        result = self.snapshot.num_unique('target_url')
+        result = self.snapshot.num_unique('initial_domain')
         self.assertEqual(result, 1)
 
     def test_num_between(self):
@@ -61,7 +61,7 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
         self.assertEqual(result, 1)
 
     def test_target_url_branch(self):
-        result = self.snapshot.target_url_branch('Executive')
+        result = self.snapshot.branch('Executive')
         self.assertEqual(result, 1)
 
     def test_failed_connection_refused(self):

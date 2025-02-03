@@ -13,7 +13,7 @@ class TargetUrlListReportGeneratorTest(unittest.TestCase):
         self.assertEqual(result, 1)
 
     def test_num_na(self):
-        result = self.target_url_list.num_na('target_url')
+        result = self.target_url_list.num_na('initial_domain')
         self.assertEqual(result, 0)
 
     def test_num_unique(self):
