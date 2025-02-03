@@ -6,8 +6,8 @@ class Idea:
         self.df = df
 
     def generate_report(self):
-        result_df = self.df.groupby('target_url_agency_owner').agg(
-            total_records=('target_url_agency_owner', 'size'),
+        result_df = self.df.groupby('agency').agg(
+            total_records=('agency', 'size'),
             dap_count=('dap', lambda x: x[x == True].count()),
             dap_percentage=('dap', lambda x: round((x[x == True].count() / x.count() * 100), 2)),
             uswds_count=('uswds_semantic_version', lambda x: x.notna().sum()),
@@ -15,7 +15,7 @@ class Idea:
         ).reset_index()
 
 
-        totals_row = pd.DataFrame({'target_url_agency_owner': ['Total'],
+        totals_row = pd.DataFrame({'agency': ['Total'],
                     'total_records': [sum(result_df['total_records'])],
                     'dap_count': [sum(result_df['dap_count'])],
                     'dap_percentage': [round((sum(result_df['dap_count'] / sum(result_df['total_records']))) * 100, 2)],
@@ -25,7 +25,7 @@ class Idea:
 
         result_df = pd.concat([result_df, totals_row], ignore_index=True)
 
-        column_mapping = {'target_url_agency_owner': 'Agency',
+        column_mapping = {'agency': 'Agency',
                         'total_records': 'Number of Websites',
                         'dap_count': 'Number of Websites with DAP',
                         'dap_percentage': 'Percent with DAP',
@@ -37,16 +37,16 @@ class Idea:
         return result_df
 
     def generate_bureaus_report(self):
-        result_df = self.df.groupby(['target_url_agency_owner', 'target_url_bureau_owner']).agg(
-            total_records=('target_url_bureau_owner', 'size'),
+        result_df = self.df.groupby(['agency', 'bureau']).agg(
+            total_records=('bureau', 'size'),
             dap_count=('dap', lambda x: x[x == True].count()),
             dap_percentage=('dap', lambda x: round((x[x == True].count() / x.count() * 100), 2)),
             uswds_count=('uswds_semantic_version', lambda x: x.notna().sum()),
             uswds_percentage=('uswds_semantic_version', lambda x: round((x.notna().sum() / len(x) * 100), 2)),
         ).reset_index()
 
-        column_mapping = {'target_url_agency_owner': 'Agency',
-                        'target_url_bureau_owner': 'Bureau',
+        column_mapping = {'agency': 'Agency',
+                        'bureau': 'Bureau',
                         'total_records': 'Number of Websites',
                         'dap_count': 'Number of Websites with DAP',
                         'dap_percentage': 'Percent with DAP',

@@ -8,14 +8,14 @@ class Snapshot:
     def generate_report(self):
         return {
             'How many urls did we scan?': self.num_records(),
-            'How many agency owners are represented?': self.num_unique('target_url_agency_owner'),
-            'How many bureau owners are represented?': self.num_unique('target_url_bureau_owner'),
-            'How many domains did we scan?': self.num_unique('target_url_domain'),
-            'How many final urls are represented?': self.num_unique('final_url'),
-            'How many final domains are represented?': self.num_unique('final_url_domain'),
-            'How many urls are from the executive branch?': self.target_url_branch('Executive'),
-            'How many urls are from the legislative branch?': self.target_url_branch('Legislative'),
-            'How many urls are from the judicial branch?': self.target_url_branch('Judicial'),
+            'How many agency owners are represented?': self.num_unique('agency'),
+            'How many bureau owners are represented?': self.num_unique('bureau'),
+            'How many domains did we scan?': self.num_unique('initial_base_domain'),
+            'How many final urls are represented?': self.num_unique('url'),
+            'How many final domains are represented?': self.num_unique('base_domain'),
+            'How many urls are from the executive branch?': self.branch('Executive'),
+            'How many urls are from the legislative branch?': self.branch('Legislative'),
+            'How many urls are from the judicial branch?': self.branch('Judicial'),
             'How many home scans completed?': self.num_completed('primary_scan_status'),
             'How many home scans failed?': self.num_not_completed('primary_scan_status'),
             'How many home scans failed because of a refused connection?': self.failed_connection_refused(),
@@ -29,14 +29,14 @@ class Snapshot:
             'How many final urls are json files?': self.final_url_mimetype_json(),
             'How many final urls are xml files?': self.final_url_mimetype_xml(),
             'How many final urls are another filetype?': self.final_url_mimetype_other(),
-            'How many final urls are on the same domain as the target urls?': self.num_true('final_url_same_domain'),
-            'How many final urls are on the same website as the target urls?': self.num_true('final_url_same_website'),
-            'How many urls return a 2xx server code?': self.num_status_200('final_url_status_code'),
-            'How many urls return a 3xx server code?': self.num_status_300('final_url_status_code'),
-            'How many urls return a 4xx server code?': self.num_status_400('final_url_status_code'),
-            'How many urls return a 5xx server code?': self.num_status_500('final_url_status_code'),
-            'How many urls pass the 404 test?': self.num_true('target_url_404_test'),
-            'How many urls fail the 404 test?': self.num_false('target_url_404_test'),
+            # 'How many final urls are on the same domain as the target urls?': self.num_true('final_url_same_domain'),
+            # 'How many final urls are on the same website as the target urls?': self.num_true('final_url_same_website'),
+            'How many urls return a 2xx server code?': self.num_status_200('status_code'),
+            'How many urls return a 3xx server code?': self.num_status_300('status_code'),
+            'How many urls return a 4xx server code?': self.num_status_400('status_code'),
+            'How many urls return a 5xx server code?': self.num_status_500('status_code'),
+            'How many urls pass the 404 test?': self.num_true('404_test'),
+            'How many urls fail the 404 test?': self.num_false('404_test'),
             'How many not found scans completed?': self.num_completed('not_found_scan_status'),
             'How many not found scans failed?': self.num_not_completed('not_found_scan_status'),
             'How many robots.txt scans completed?': self.num_completed('robots_txt_scan_status'),
@@ -61,27 +61,27 @@ class Snapshot:
             'How many urls have a main_element_present?': self.num_true('main_element_present'),
             'How many urls don\'t have main_element_present_final_url?': self.num_false('main_element_present'),
             'How many urls have a robots.txt detected?': self.num_true('robots_txt_detected'),
-            'How many urls return a 2xx server code for their robots.txt?': self.num_status_200('robots_txt_final_url_status_code'),
-            'How many urls return a 3xx server code for their robots.txt?': self.num_status_300('robots_txt_final_url_status_code'),
-            'How many urls return a 4xx server code for their robots.txt?': self.num_status_400('robots_txt_final_url_status_code'),
-            'How many urls return a 5xx server code for their robots.txt?': self.num_status_500('robots_txt_final_url_status_code'),
-            'How many urls have a LIVE robots.txt?': self.num_true('robots_txt_final_url_live'),
-            'How many urls do not have a LIVE robots.txt?': self.num_false('robots_txt_final_url_live'),
+            'How many urls return a 2xx server code for their robots.txt?': self.num_status_200('robots_txt_status_code'),
+            'How many urls return a 3xx server code for their robots.txt?': self.num_status_300('robots_txt_status_code'),
+            'How many urls return a 4xx server code for their robots.txt?': self.num_status_400('robots_txt_status_code'),
+            'How many urls return a 5xx server code for their robots.txt?': self.num_status_500('robots_txt_status_code'),
+            # 'How many urls have a LIVE robots.txt?': self.num_true('robots_txt_final_url_live'),
+            # 'How many urls do not have a LIVE robots.txt?': self.num_false('robots_txt_final_url_live'),
             'How many urls\' robots.txt are text files?': self.robots_txt_is_txt(),
             'How many urls\' robots.txt are another file type?': self.robots_txt_is_not_txt(),
-            'How many urls\' robots.txt redirect?': self.num_true('robots_txt_target_url_redirects'),
-            'How many urls\' robots.txt file size were detected?': self.num_not_na('robots_txt_final_url_filesize'),
+            # 'How many urls\' robots.txt redirect?': self.num_true('robots_txt_target_url_redirects'),
+            'How many urls\' robots.txt file size were detected?': self.num_not_na('robots_txt_filesize'),
             'How many urls\' robots.txt have a crawl_delay?': self.num_not_na('robots_txt_crawl_delay'),
             'How many urls\' robots.txt link to sitemaps?': self.num_not_na('robots_txt_sitemap_locations'),
             'How many urls have a sitemap.xml detected?': self.num_true('sitemap_xml_detected'),
-            'How many urls return a 2xx server code for their sitemap.xml?': self.num_status_200('sitemap_xml_final_url_status_code'),
-            'How many urls return a 3xx server code for their sitemap.xml?': self.num_status_300('sitemap_xml_final_url_status_code'),
-            'How many urls return a 4xx server code for their sitemap.xml?': self.num_status_400('sitemap_xml_final_url_status_code'),
-            'How many urls return a 5xx server code for their sitemap.xml?': self.num_status_500('sitemap_xml_final_url_status_code'),
-            'How many urls have a LIVE sitemap.xml?': self.num_true('sitemap_xml_final_url_live'),
-            'How many urls do not have a LIVE sitemap.xml?': self.num_false('sitemap_xml_final_url_live'),
-            'How many urls\' sitemap.xml redirect?': self.num_true('sitemap_xml_target_url_redirects'),
-            'How many urls\' sitemap.xml file size were detected?': self.num_not_na('sitemap_xml_final_url_filesize'),
+            'How many urls return a 2xx server code for their sitemap.xml?': self.num_status_200('sitemap_xml_status_code'),
+            'How many urls return a 3xx server code for their sitemap.xml?': self.num_status_300('sitemap_xml_status_code'),
+            'How many urls return a 4xx server code for their sitemap.xml?': self.num_status_400('sitemap_xml_status_code'),
+            'How many urls return a 5xx server code for their sitemap.xml?': self.num_status_500('sitemap_xml_status_code'),
+            # 'How many urls have a LIVE sitemap.xml?': self.num_true('sitemap_xml_final_url_live'),
+            # 'How many urls do not have a LIVE sitemap.xml?': self.num_false('sitemap_xml_final_url_live'),
+            # 'How many urls\' sitemap.xml redirect?': self.num_true('sitemap_xml_target_url_redirects'),
+            'How many urls\' sitemap.xml file size were detected?': self.num_not_na('sitemap_xml_filesize'),
             'How many urls\' sitemap.xml are xml files?': self.sitemap_xml_is_xml(),
             'How many urls\' sitemap.xml are another file type?': self.sitemap_xml_is_xml(),
             'How many urls\' sitemap.xml have an item count?': self.num_not_na('sitemap_xml_count'),
@@ -134,8 +134,8 @@ class Snapshot:
     def num_between(self, field, low, high):
         return len(self.df.loc[self.df[field].between(low, high)])
 
-    def target_url_branch(self, branch):
-        return len(self.df.loc[self.df['target_url_branch'] == branch])
+    def branch(self, branch):
+        return len(self.df.loc[self.df['branch'] == branch])
 
     def failed_connection_refused(self):
         return len(self.df.loc[self.df['primary_scan_status'] == 'connection_refused'])
@@ -156,19 +156,19 @@ class Snapshot:
         return len(self.df.loc[self.df['primary_scan_status'] == 'unknown_error'])
 
     def final_url_mimetype_html(self):
-        return len(self.df.loc[self.df['final_url_media_type'] == 'text/html'])
+        return len(self.df.loc[self.df['media_type'] == 'text/html'])
 
     def final_url_mimetype_plain_text(self):
-        return len(self.df.loc[self.df['final_url_media_type'].isin(['text/plain', 'plaintext'])])
+        return len(self.df.loc[self.df['media_type'].isin(['text/plain', 'plaintext'])])
 
     def final_url_mimetype_json(self):
-        return len(self.df.loc[self.df['final_url_media_type'] == 'application/json'])
+        return len(self.df.loc[self.df['media_type'] == 'application/json'])
 
     def final_url_mimetype_xml(self):
-        return len(self.df.loc[self.df['final_url_media_type'].isin(['application/xhtml', 'text/xml'])])
+        return len(self.df.loc[self.df['media_type'].isin(['application/xhtml', 'text/xml'])])
 
     def final_url_mimetype_other(self):
-        return len(self.df.loc[~self.df['final_url_media_type'].isin(
+        return len(self.df.loc[~self.df['media_type'].isin(
             ['text/html', 'text/plain', 'application/json', 'application/xhtml', 'text/xml']
         )])
 
@@ -185,13 +185,13 @@ class Snapshot:
         ])
 
     def robots_txt_is_txt(self):
-        return len(self.df.loc[self.df['robots_txt_final_url_media_type'].isin(['text/plain', 'plaintext'])])
+        return len(self.df.loc[self.df['robots_txt_media_type'].isin(['text/plain', 'plaintext'])])
 
     def robots_txt_is_not_txt(self):
-        return len(self.df.loc[~self.df['robots_txt_final_url_media_type'].isin(['text/plain', 'plaintext'])])
+        return len(self.df.loc[~self.df['robots_txt_media_type'].isin(['text/plain', 'plaintext'])])
 
     def sitemap_xml_is_xml(self):
-        return len(self.df.loc[self.df['sitemap_xml_final_url_media_type'].isin(['application/xhtml', 'application/xml', 'text/xml'])])
+        return len(self.df.loc[self.df['sitemap_xml_media_type'].isin(['application/xhtml', 'application/xml', 'text/xml'])])
 
     def sitemap_xml_is_not_xml(self):
-        return len(self.df.loc[~self.df['sitemap_xml_final_url_media_type'].isin(['application/xhtml', 'application/xml', 'text/xml'])])
+        return len(self.df.loc[~self.df['sitemap_xml_media_type'].isin(['application/xhtml', 'application/xml', 'text/xml'])])
