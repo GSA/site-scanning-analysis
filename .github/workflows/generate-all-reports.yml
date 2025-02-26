@@ -30,6 +30,7 @@ jobs:
       - run: python ./main.py generate-target-url-report
       - run: python ./main.py generate-standards-report
       - run: python ./main.py generate-standards-bureau-report
+      - run: python ./main.py generate-baseline-report
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update report files
