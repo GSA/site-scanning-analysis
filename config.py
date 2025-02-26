@@ -7,6 +7,7 @@ config = {
     # snapshots
     'primary_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv',
     'all_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv',
+    'unique_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-unique.csv',
     'target_url_list_url': 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv',
     # report file locations
     'primary_snapshot_report_location': os.path.join(dirname, './reports/snapshot-primary.csv'),
@@ -25,5 +26,7 @@ config = {
     'idea_bureau_report_location': os.path.join(dirname, './reports/idea-bureau.csv'),
     # standards report
     'standards_report_location': os.path.join(dirname, './reports/standards.csv'),
-    'standards_bureau_report_location': os.path.join(dirname, './reports/standards-bureau.csv')
+    'standards_bureau_report_location': os.path.join(dirname, './reports/standards-bureau.csv'),
+    # baseline report
+    'baseline_report_location': os.path.join(dirname, './reports/market.csv')
 }
