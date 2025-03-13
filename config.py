@@ -28,5 +28,7 @@ config = {
     'standards_report_location': os.path.join(dirname, './reports/standards.csv'),
     'standards_bureau_report_location': os.path.join(dirname, './reports/standards-bureau.csv'),
     # baseline report
-    'baseline_report_location': os.path.join(dirname, './reports/market.csv')
+    'baseline_report_location': os.path.join(dirname, './reports/market.csv'),
+    # base consumer report
+    'base_consumer_report_location': os.path.join(dirname, './snapshots/base_consumer.csv')
 }
