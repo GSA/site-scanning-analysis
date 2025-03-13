@@ -8,6 +8,7 @@ from report_generators.target_url_list import TargetUrlList
 from report_generators.idea import Idea
 from report_generators.standards import Standards
 from report_generators.baseline import Baseline
+from report_generators.base_consumer import BaseConsumer
 from unique_website_list.unique_website_list import generate_unique_website_list
 
 
@@ -78,6 +79,12 @@ def generate_baseline_report():
     report = baseline_report_generator.generate_report()
     report.to_csv(config['baseline_report_location'], index=False)
 
+def generate_base_consumer_report():
+    df = pd.read_csv(config['unique_snapshot_url'])
+    base_consumer_report_generator = BaseConsumer(df)
+    report = base_consumer_report_generator.generate_report()
+    report.to_csv(config['base_consumer_report_location'], index=False)
+
 if __name__ == '__main__':
     ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -105,3 +112,5 @@ if __name__ == '__main__':
         generate_standards_bureau_report()
     if command == 'generate-baseline-report':
         generate_baseline_report()
+    if command == 'generate-base-consumer-report':
+        generate_base_consumer_report()
