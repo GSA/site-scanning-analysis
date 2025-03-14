@@ -38,9 +38,9 @@ class BaseConsumer:
       result_df = result_df.rename(columns=column_mappings)
 
       final_columns = [
-          'website', 'domain', 'agency', 'bureau', 'visits', 'pageviews', 'search.gov', 
-          'cloud provider', 'CMS provider', 'login provider', 'has a login', 'cloud.gov', 
-          'cloud.gov pages', 'login.gov', 'dap', 'touchpoints', 'uswds', 'has site search'
+          'website', 'domain', 'agency', 'bureau', 'visits', 'pageviews', 'cloud.gov',
+          'cloud.gov pages', 'login.gov', 'search.gov', 'dap', 'touchpoints', 'uswds',
+          'cloud provider', 'CMS provider', 'login provider', 'has a login', 'has site search'
       ]
 
       result_df = result_df[final_columns]
