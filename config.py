@@ -30,5 +30,7 @@ config = {
     # baseline report
     'baseline_report_location': os.path.join(dirname, './reports/market.csv'),
     # base consumer report
-    'base_consumer_report_location': os.path.join(dirname, './snapshots/base_consumer.csv')
+    'base_consumer_report_location': os.path.join(dirname, './snapshots/base_consumer.csv'),
+    # missing target urls in snapshot report
+    'missing_target_url_report_location': os.path.join(dirname, './reports/missing-target-url-in-snapshot.csv')
 }
