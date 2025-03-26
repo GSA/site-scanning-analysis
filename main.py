@@ -9,6 +9,7 @@ from report_generators.idea import Idea
 from report_generators.standards import Standards
 from report_generators.baseline import Baseline
 from report_generators.base_consumer import BaseConsumer
+from report_generators.target_urls_missing_from_snapshot import TargetUrlsMissingFromSnapshot
 from unique_website_list.unique_website_list import generate_unique_website_list
 
 
@@ -85,6 +86,12 @@ def generate_base_consumer_report():
     report = base_consumer_report_generator.generate_report()
     report.to_csv(config['base_consumer_report_location'], index=False)
 
+def generate_missing_target_url_report():
+    df = pd.read_csv(config['target_url_list_url'])
+    missing_target_url_report_generator = TargetUrlsMissingFromSnapshot(df)
+    report = missing_target_url_report_generator.generate_report()
+    report.to_csv(config['missing_target_url_report_location'], index=False)
+
 if __name__ == '__main__':
     ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -114,3 +121,5 @@ if __name__ == '__main__':
         generate_baseline_report()
     if command == 'generate-base-consumer-report':
         generate_base_consumer_report()
+    if command == 'generate-missing-target-url-report':
+        generate_missing_target_url_report()
