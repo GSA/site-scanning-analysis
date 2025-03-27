@@ -32,6 +32,7 @@ jobs:
       - run: python ./main.py generate-standards-bureau-report
       - run: python ./main.py generate-baseline-report
       - run: python ./main.py generate-base-consumer-report
+      - run: python ./main.py federal-standards-snapshot-report
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update report files
