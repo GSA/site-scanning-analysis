@@ -25,8 +25,8 @@ How many urls return a 2xx server code?,13864
 How many urls return a 3xx server code?,0
 How many urls return a 4xx server code?,0
 How many urls return a 5xx server code?,0
-How many urls pass the 404 test?,8343
-How many urls fail the 404 test?,5521
+How many urls pass the 404 test?,8344
+How many urls fail the 404 test?,5520
 How many not found scans completed?,13864
 How many not found scans failed?,0
 How many robots.txt scans completed?,13798
@@ -50,16 +50,16 @@ How many urls have an og_article_published?,236
 How many urls have an og_article_modified?,640
 How many urls have a main_element_present?,5095
 How many urls don't have main_element_present_final_url?,8766
-How many urls have a robots.txt detected?,5704
-How many urls return a 2xx server code for their robots.txt?,8303
+How many urls have a robots.txt detected?,5703
+How many urls return a 2xx server code for their robots.txt?,8302
 How many urls return a 3xx server code for their robots.txt?,0
-How many urls return a 4xx server code for their robots.txt?,5404
+How many urls return a 4xx server code for their robots.txt?,5405
 How many urls return a 5xx server code for their robots.txt?,91
-How many urls' robots.txt are text files?,5152
-How many urls' robots.txt are another file type?,8712
-How many urls' robots.txt file size were detected?,5706
+How many urls' robots.txt are text files?,5151
+How many urls' robots.txt are another file type?,8713
+How many urls' robots.txt file size were detected?,5705
 How many urls' robots.txt have a crawl_delay?,522
-How many urls' robots.txt link to sitemaps?,1828
+How many urls' robots.txt link to sitemaps?,1827
 How many urls have a sitemap.xml detected?,2204
 How many urls return a 2xx server code for their sitemap.xml?,6261
 How many urls return a 3xx server code for their sitemap.xml?,1
