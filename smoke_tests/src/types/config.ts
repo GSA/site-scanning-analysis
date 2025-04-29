@@ -4,7 +4,7 @@ export type GithubIssueResponse = {
   title: string;
 }
 
-export type ITest = {
+export type Test = {
   name: string;
   runTest(): Promise<boolean>;
 }

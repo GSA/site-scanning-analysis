@@ -1,10 +1,10 @@
 import logger from 'services/logger/logger';
-import { ITest } from 'types/config';
+import { Test } from 'types/config';
 import { DataFrame } from 'dataframe-js';
 import { SnapshotLoader } from '../SnapshotLoader';
 import { GithubIssueService } from '../GithubIssueService';
 
-export class RowCountTest implements ITest {
+export class RowCountTest implements Test {
   name = 'RowCountTest';
   private indexPath: string;
   private snapshotPath: string;
