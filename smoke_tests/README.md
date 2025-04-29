@@ -40,5 +40,5 @@ bun install
 ```
 2. **Run all tests**
 ```bash 
-bun run main.ts
+bun run src/main.ts
 ```
