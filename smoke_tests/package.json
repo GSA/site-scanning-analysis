@@ -1,0 +1,19 @@
+{
+  "name": "smoke_tests",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/dataframe-js": "^1.4.3",
+    "@types/pino": "^7.0.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dataframe-js": "^1.4.4",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0"
+  }
+}
