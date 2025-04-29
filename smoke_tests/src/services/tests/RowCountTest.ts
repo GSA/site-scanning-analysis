@@ -1,9 +1,11 @@
 import logger from 'services/logger/logger';
+import { ITest } from 'types/config';
 import { DataFrame } from 'dataframe-js';
 import { SnapshotLoader } from '../SnapshotLoader';
 import { GithubIssueService } from '../GithubIssueService';
 
-export class RowCountTest {
+export class RowCountTest implements ITest {
+  name = 'RowCountTest';
   private indexPath: string;
   private snapshotPath: string;
   private issueCreator: GithubIssueService;
@@ -13,6 +15,7 @@ export class RowCountTest {
     this.snapshotPath = snapshotPath;
     this.issueCreator = new GithubIssueService();
   }
+
 
   async runTest(): Promise<boolean> {
     const indexDf = await DataFrame.fromCSV(this.indexPath);

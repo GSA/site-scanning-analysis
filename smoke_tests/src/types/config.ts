@@ -3,3 +3,8 @@ export type GithubIssueResponse = {
   number: number;
   title: string;
 }
+
+export type ITest = {
+  name: string;
+  runTest(): Promise<boolean>;
+}

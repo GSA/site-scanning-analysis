@@ -1,20 +1,20 @@
 import logger from 'services/logger/logger';
-import { SnapshotLoader } from 'services/SnapshotLoader';
-import { RowCountTest } from 'services/tests/RowCountTest';
+import { getAllTests } from 'services/tests/AllTests';
 
 async function main() {
   logger.info('Starting smoke tests...');
 
-  logger.info('Loading snapshot data...');
-  const rowCountTest = new RowCountTest(
-    'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv',
-    'https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv'
-  );
-  const rowCountResult = await rowCountTest.runTest();
-  if (!rowCountResult) {
-    logger.error('Row count test failed.');
-  }
+  const tests = getAllTests();
 
+  for (const test of tests) {
+    logger.info(`Running test: ${test.name}`);
+    const result = await test.runTest();
+    if (!result) {
+      logger.error(`${test.name} failed.`);
+    } else {
+      logger.info(`${test.name} passed.`);
+    }
+  }
 };
 
 main()
