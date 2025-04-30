@@ -2,7 +2,7 @@ import { Test }  from 'types/config';
 import { RowCountTest } from './RowCountTest';
 import { EmptyColumnsTest } from './EmptyColumnsTest';
 import { HttpsEnforcementTest } from './HttpsEnforcementTest';
-import { ApiAvailabilityTest } from './ApiAvailibilityTest';
+import { ApiAvailabilityTest } from './ApiAvailabilityTest';
 import { SnapshotExistenceAndFormatTest } from './SnapshotExistenceAndFormatTest';
 
 const snapshotUrl = 'https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv';
