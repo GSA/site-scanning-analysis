@@ -18,6 +18,15 @@ These smoke tests focus on validating the **latest published snapshot data** ret
 - **EmptyColumnsTest**  
   Detects any columns that are completely empty or contain only null or empty values.
 
+- **ApiAvailabilityTest**
+  Ensures the API is available and correctly responding to requests.
+
+- **HttpsEnforcementTest**
+  Verifies that all URLs in the snapshot use HTTPS, enforcing secure connections.
+
+- **SnapshotExistenceAndFormatTest**
+  Checks for the existence of required snapshots and ensures they follow the expected format.
+
 ---
 
 ## Prerequisites
@@ -42,3 +51,12 @@ bun install
 ```bash 
 bun run src/main.ts
 ```
+
+## Add New Tests
+
+**Create the Test File**
+- Add your test implementation in the `src/services/tests/` directory.
+- Ensure your test follows the structure and conventions used by existing tests.
+
+**Register the Test**
+- Add an import and include your test in the exported array in `src/services/tests/AllTests.ts`. This ensures it is picked up and executed as part of the test suite.
