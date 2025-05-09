@@ -101,7 +101,7 @@ def generate_federal_standards_snapshot_report():
     report.to_csv(config['federal_standards_snapshot_url'], index=False)
 
 def generate_website_requests_report():
-    df = pd.read_csv(config['primary_snapshot_url'], low_memory=False)
+    df = pd.read_csv(config['all_snapshot_url'], low_memory=False)
     website_requests_report = WebsiteRequests(df)
     report = website_requests_report.generate_report()
     report.to_csv(config['website_requests_report_location'], index=False)
