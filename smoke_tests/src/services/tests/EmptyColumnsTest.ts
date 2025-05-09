@@ -6,10 +6,12 @@ export class EmptyColumnsTest {
   name = 'EmptyColumnsTest';
   private snapshotPath: string;
   private issueCreator: GithubIssueService;
+  private excludedColumns: Set<string>;
 
-  constructor(snapshotPath: string) {
+  constructor(snapshotPath: string, excludedColumns: string[] = []) {
     this.snapshotPath = snapshotPath;
     this.issueCreator = new GithubIssueService();
+    this.excludedColumns = new Set(excludedColumns);
   }
 
   async runTest(): Promise<boolean> {
@@ -20,6 +22,11 @@ export class EmptyColumnsTest {
     const emptyColumns: string[] = [];
 
     for (const col of columns) {
+      if (this.excludedColumns.has(col)) {
+        logger.info(`Skipping excluded column "${col}".`);
+        continue;
+      }
+      
       const values = snapshotDf.select(col).toArray().map(row => row[0]);
       const allNullOrEmpty = values.every(value => value === null || value === undefined || value === '');
       if (allNullOrEmpty) {
