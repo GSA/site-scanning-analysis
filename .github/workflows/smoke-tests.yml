@@ -28,7 +28,7 @@ jobs:
 
       - name: Run smoke tests
         env:
-          ISSUE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_TOKEN: ${{ secrets.ISSUE_TOKEN }}
         run: |
           cd smoke_tests
           bun run src/main.ts
