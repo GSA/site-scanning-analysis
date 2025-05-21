@@ -3,6 +3,8 @@
 
 ## Website Requests
 
+[Download Link](https://raw.githubusercontent.com/GSA/site-scanning-analysis/refs/heads/main/reports/website-requests.csv)
+
 Issues: 
 
 - suspected meta redirect = redirect=TRUE and has a value in pageviews field
