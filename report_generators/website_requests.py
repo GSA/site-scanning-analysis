@@ -49,6 +49,15 @@ class WebsiteRequests:
         www_forbidden_check['issue'] = 'www-forbidden'
         results.append(www_forbidden_check)
 
+        # 6. Blocking scans (title contains specific string)
+        blocking_scans_check = df[df['title'].str.contains(
+            "This site has determined a security issue with your request",
+            case=False, na=False
+        )]
+        blocking_scans_check = blocking_scans_check[columns_to_keep].copy()
+        blocking_scans_check['issue'] = 'blocking scans'
+        results.append(blocking_scans_check)
+
         # Combine all matched rows
         final_results = pd.concat(results, ignore_index=True)
 
