@@ -16,7 +16,7 @@ class TargetUrlList:
             'How many urls are sourced from DAP?': self.num_true('source_list_dap'),
             'How many urls are sourced from the other websites list?': self.num_true('source_list_other'),
             'How many blank cells are there in the target URL list?': self.num_blank(),
-            'How many blank cells are there in the target URL list (exluding omb_idea_public column)?': self.num_blank_without_omb_idea_public(),
+            'How many blank cells are there in the target URL list (excluding omb_idea_public column)?': self.num_blank_without_omb_idea_public(),
             'How many urls are on the omb_idea_public list?': self.num_omb_idea_public(),
             'How many omb_idea_public urls are flagged as public?': self.num_true('omb_idea_public'),
             'How many omb_idea_public urls are not flagged as public?': self.num_false('omb_idea_public'),
