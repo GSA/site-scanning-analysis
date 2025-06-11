@@ -52,9 +52,10 @@ class Standards:
 
         result_df['title_not_empty_pct'] = round(result_df['title_count'] / result_df['total_records'] * 100, 2)
         result_df['description_not_empty_pct'] = round(result_df['description_count'] / result_df['total_records'] * 100, 2)
+        print(result_df.columns)
         result_df['uswds_true_pct'] = round(result_df['uswds_true_count'] / result_df['total_records'] * 100, 2)
 
-        column_mapping = {'gency': 'Agency',
+        column_mapping = {'agency': 'Agency',
                         'bureau': 'Bureau',
                         'total_records': 'Number of Websites',
                         'title_count': 'Number of Websites With Page Title',
