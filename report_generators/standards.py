@@ -50,10 +50,9 @@ class Standards:
             uswds_true_count=('uswds_banner_heres_how', 'sum'),
         ).reset_index()
 
-        result_df['title_not_empty_pct'] = round(result_df['title_count'] / result_df['total_records'] * 100, 2)
-        result_df['description_not_empty_pct'] = round(result_df['description_count'] / result_df['total_records'] * 100, 2)
-        print(result_df.columns)
-        result_df['uswds_true_pct'] = round(result_df['uswds_true_count'] / result_df['total_records'] * 100, 2)
+        result_df['title_not_empty_pct'] = (result_df['title_count'] / result_df['total_records'] * 100).round(2)
+        result_df['description_not_empty_pct'] = (result_df['description_count'] / result_df['total_records'] * 100).round(2)
+        result_df['uswds_true_pct'] = (result_df['uswds_true_count'] / result_df['total_records'] * 100).round(2)
 
         column_mapping = {'agency': 'Agency',
                         'bureau': 'Bureau',
