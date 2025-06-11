@@ -50,6 +50,9 @@ class Standards:
             uswds_true_count=('uswds_banner_heres_how', 'sum'),
         ).reset_index()
 
+        result_df['uswds_true_count'] = pd.to_numeric(result_df['uswds_true_count'], errors='coerce')
+        result_df['total_records'] = pd.to_numeric(result_df['total_records'], errors='coerce')
+
         result_df['title_not_empty_pct'] = (result_df['title_count'] / result_df['total_records'] * 100).round(2)
         result_df['description_not_empty_pct'] = (result_df['description_count'] / result_df['total_records'] * 100).round(2)
         result_df['uswds_true_pct'] = (result_df['uswds_true_count'] / result_df['total_records'] * 100).round(2)
