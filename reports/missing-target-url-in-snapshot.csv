@@ -1,6 +1,5 @@
 missing_url
 prodfcs.acquisition.gov
-staging.acquisition.gov
 qa3.bidenwhitehouse.archives.gov
 drupal-public.bls.gov
 joltsdatad.bls.gov
@@ -10,6 +9,8 @@ clinicalcommons-stage.ccdi.cancer.gov
 ctsu-ci.cancer.gov
 ctsu-unit.cancer.gov
 datacatalog-qa.ccdi.cancer.gov
+blogs.glb.cdc.gov
+stacks-use1.cdc.gov
 data.dissdev3.census.gov
 ftp.stage.adsd.census.gov
 wdob.sandbox.adsd.census.gov
@@ -77,7 +78,6 @@ onrsecure.nre.navy.mil
 unclassifiedurl:https:\\seaspace-u.nswccd.navy.mil
 fsswpl-cpti01d.ncifcrf.gov
 owa.nicic.gov
-api-evsrest.nci.nih.gov
 connect01tst.niehs.nih.gov
 dev-dataview.ncbi.nlm.nih.gov
 devinternal.niehs.nih.gov
@@ -108,7 +108,6 @@ prod-01-alb-www-climate.woc.noaa.gov
 rhw9119.star1.nesdis.noaa.gov
 token.gfdl.noaa.gov
 www-c.star.nesdis.noaa.gov
-parkplanningwb02.nps.gov
 data-stage.nrel.gov
 sws-web-stage.nrel.gov
 test-merge-into-main-reopt-stage.its.nrel.gov
