@@ -11,6 +11,7 @@ ctsu-ci.cancer.gov
 ctsu-unit.cancer.gov
 datacatalog-qa.ccdi.cancer.gov
 blogs.glb.cdc.gov
+hehr.cdc.gov
 stacks-use1.cdc.gov
 data.dissdev3.census.gov
 ftp.stage.adsd.census.gov
@@ -20,13 +21,14 @@ cde.ops.ucr.cjis.gov
 airnowwidget-blue.app.cloud.gov
 federalist-1716bf9c-dd79-4d96-8285-6e56dc391b84.sites.pages.cloud.gov
 federalist-f689d682-d20c-4d0b-af7b-c1a42fcd49f5.sites.pages.cloud.gov
+dr.ops-prod.internal.cms.gov
 sandbox-alpha.nonprod.cybergeek.internal.cms.gov
 tra-impl.cloud.cms.gov
 oradeveloper05.cns.gov
 securityawareness.dcsa.mil
 devpki.dimc.dhs.gov
-ssaform-qa.cbp.dhs.gov
 trade.cbp.dhs.gov
+edit-cldp.doc.gov
 bdwintra01v.oig.dol.gov
 acquia-stage2-dot8.dot.gov
 acquia-test-marad7.dot.gov
@@ -54,6 +56,7 @@ hothcoopcd2.health.mil
 stg-bloodstemcell.cloud.hhs.gov
 emh.housing.navy.mil and www.homes.mil
 devd-iqrs.npdb.hrsa.gov
+mchb.tvisdata.sec.hrsa.gov
 mchbtvisdatastg02.hrsa.gov
 betaarchives.huduser.gov
 usvweiss.ic3.gov
@@ -80,7 +83,6 @@ sit-forum.earthdata.nasa.gov
 static-site.staging.sti.appdat.jsc.nasa.gov
 swot-cms.jpl.nasa.gov
 test-forum.earthdata.nasa.gov
-test-tools.jpl.nasa.gov
 winmd.ird.appdat.jsc.nasa.gov
 www-stage.nasa.gov
 cl.gtclapps.com to be globaltrader.dc2n.navy.mil
@@ -89,6 +91,7 @@ onrsecure.nre.navy.mil
 unclassifiedurl:https:\\seaspace-u.nswccd.navy.mil
 fsswpl-cpti01d.ncifcrf.gov
 owa.nicic.gov
+uatweather.nifc.gov
 cebsp11.niehs.nih.gov
 connect01tst.niehs.nih.gov
 dev-dataview.ncbi.nlm.nih.gov
@@ -119,13 +122,16 @@ nhc-vm-nhcwebdev02.nhc.noaa.gov
 ocean-opc-ops-cprk.ncep.noaa.gov
 prod-01-alb-www-climate.woc.noaa.gov
 rhw9119.star1.nesdis.noaa.gov
+satable-qa-cprk.ncep.noaa.gov
 token.gfdl.noaa.gov
 www-c.star.nesdis.noaa.gov
 data-stage.nrel.gov
 sws-web-stage.nrel.gov
 test-merge-into-main-reopt-stage.its.nrel.gov
+legacyarchive.nsf.gov
 cayuga.nsopw.gov
 uat.nsopw.gov
+www-d.ofia.gov
 uat.namus.nij.ojp.gov
 uat.smart.ojp.gov
 fpi.stage.omb.gov
@@ -156,7 +162,6 @@ mamstaging.cmsd9.chs.usgs.gov
 ngmdb-dev1.usgs.gov
 sgsu-vhptools1.usgs.gov
 staging-ga.water.usgs.gov
-ustopomap-stage.usgs.gov
 s1p-extdrup8-00.uxpax.usitc.gov
 s1p-extdrup8-01.uxpax.usitc.gov
 internal-trademarkcenter-passive.uspto.gov
