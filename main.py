@@ -25,7 +25,6 @@ def generate_all_snapshot_report():
     df = pd.read_csv(config['all_snapshot_url'])
     snapshot_analyzer = Snapshot(df)
     analysis = snapshot_analyzer.generate_report()
-    print("Print report data:", analysis)
     save_to_csv(config['all_snapshot_report_location'], analysis)
 
 def generate_primary_snapshot_report():
