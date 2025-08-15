@@ -23,8 +23,8 @@ def save_to_csv(file, data):
 
 def generate_all_snapshot_report():
     df = pd.read_csv(config['all_snapshot_url'])
+    print("Check dataframe data:", len(pd.unique(df["bureau"])))
     snapshot_analyzer = Snapshot(df)
-    print(len(df.index))
     analysis = snapshot_analyzer.generate_report()
     save_to_csv(config['all_snapshot_report_location'], analysis)
 
