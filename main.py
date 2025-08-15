@@ -1,6 +1,7 @@
 from config import config
 import csv
 import pandas as pd
+import requests
 import ssl
 import sys
 from report_generators.snapshot import Snapshot
@@ -14,6 +15,11 @@ from report_generators.federal_standards import FederalStandardsSnapshot
 from report_generators.website_requests import WebsiteRequests
 from unique_website_list.unique_website_list import generate_unique_website_list
 
+
+url = config['primary_snapshot_url']
+r = requests.get(url)
+print(f"Status code for {url}: {r.status_code}")
+print("First 200 characters of the CSV file:", r.text)
 
 def save_to_csv(file, data):
     with open(file, 'w') as csv_file:
