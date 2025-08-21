@@ -5,7 +5,7 @@ dirname = os.path.dirname(__file__)
 
 config = {
     # snapshots
-    'primary_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv',
+    'primary_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv',
     'all_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv',
     'unique_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-unique.csv',
     'target_url_list_url': 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv',
