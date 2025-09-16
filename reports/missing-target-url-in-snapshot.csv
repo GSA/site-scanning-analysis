@@ -19,7 +19,6 @@ whbstewardship.blm.gov
 secnewsd.psb.bls.gov
 secnewst.psb.bls.gov
 zuni4po.psb.bls.gov
-www8.fed.bop.gov
 cbioportal-qa.ccdi.cancer.gov
 cbioportal.ccdi.cancer.gov
 ctsu-uat.cancer.gov
@@ -36,6 +35,7 @@ hehr.cdc.gov
 it-guides.cdc.gov
 mvpiccs-viz.cdc.gov
 mvpiccs-viz.glb.cdc.gov
+shi-int.cdc.gov
 vehss-int.apps.ecpaas.cdc.gov
 wisqars-viz.glb.cdc.gov
 wisqars.glb.cdc.gov
@@ -82,6 +82,7 @@ feature.sandbox.cms.doe.gov
 beta.dol.gov
 datamanagerstage.dol.gov
 edit.beta.dol.gov
+osha-ita.staging.pace.dol.gov
 osha.staging.pace.dol.gov
 acquia-dev-nhtsa.dot.gov
 acquia-stage-dot8.dot.gov
@@ -133,6 +134,7 @@ f04bmm-advapp02c.fas.gsa.gov
 fedpayvendor.gsa.gov
 gsa-stg-ecas.gsa.gov
 networx-agency-pricer.test-eos.gsa.gov
+p04bmm-dwgisap9.ent.ds.gsa.gov
 preview-gsa-stg-ecas.gsa.gov
 dev-cdmrp.health.mil
 edit.data.healthcare.gov
@@ -208,6 +210,7 @@ nds.gov
 ndstudio.gov
 pec.ng.mil
 owa.nicic.gov
+connect01tst.niehs.nih.gov
 ctl-ctg-labs-frontend--production-v3.ncbi-clintrials-k8s-prod.p2gate.ncbi.nlm.nih.gov
 dev-nbdc-biobank.nida.nih.gov
 dis-test2.cit.nih.gov
@@ -312,7 +315,11 @@ dev-ncvs.bjs.ojp.gov
 drc-usadata.opm.gov
 usadata.opm.gov
 adac.ornl.gov
+aires.ornl.gov
+bptraining.ornl.gov
+ccp2025.ornl.gov
 events.ornl.gov
+fact-efrc.ornl.gov
 gutenpress.ornl.gov
 indico.phy.ornl.gov
 infuse.ornl.gov
@@ -349,6 +356,7 @@ southeasternquantumconference.ornl.gov
 states.ornl.gov
 study-volunteers.ornl.gov
 subcontractorheld.ornl.gov
+triton.ornl.gov
 wagewebsite-oci-devint.int.dmdc.osd.mil
 eamlis-training.osmre.gov
 live-doe.oversight.gov
@@ -392,6 +400,7 @@ planetary-nomenclature.prod-asc.chs.usgs.gov
 sgsu-vhptools1.usgs.gov
 stageburnseverity.cr.usgs.gov
 staging-apps.usgs.gov
+learning.usitc.gov
 s1p-extdrup8-00.uxpax.usitc.gov
 s1p-extdrup8-01.uxpax.usitc.gov
 stage.usmarshals.gov
