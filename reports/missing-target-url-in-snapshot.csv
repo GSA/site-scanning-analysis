@@ -21,7 +21,6 @@ snapr.bis.gov
 whbstewardship.blm.gov
 secnewst.psb.bls.gov
 zuni4po.psb.bls.gov
-cancertrialsfinder.cancer.gov
 cbioportal-qa.ccdi.cancer.gov
 cbioportal-stage.ccdi.cancer.gov
 cbioportal.ccdi.cancer.gov
@@ -66,7 +65,6 @@ federalist-e84bbe91-2c6a-4e45-a985-24afd86ff547.sites.pages.cloud.gov
 federalist-ecc58765-2903-48b3-920c-5d93318ad084.sites.pages.cloud.gov
 federalist-f689d682-d20c-4d0b-af7b-c1a42fcd49f5.sites.pages.cloud.gov
 mia-django-stage.app.cloud.gov
-pic-demo-frontend.app.cloud.gov
 acn.openpaymentsdata.cms.gov
 impl.nonprod.cybergeek.internal.cms.gov
 mdctmcrval.cms.gov
@@ -93,14 +91,13 @@ datamanagerstage.dol.gov
 edit.beta.dol.gov
 osha-ita.staging.pace.dol.gov
 osha.staging.pace.dol.gov
+wioaplans.dol.gov
 acquia-dev-fhwa8.dot.gov
 acquia-dev-nhtsa.dot.gov
 acquia-stage-dot8.dot.gov
 acquia-stage-fmcsa8.dot.gov
 acquia-stage1-fhwa8.dot.gov
-acquia-stage2-fmcsa8.dot.gov
 acquia-test-fmcsa8.dot.gov
-acquia-test-volpe8.dot.gov
 t1.info.ed.gov
 eere-exchanged.energy.gov
 eere-exchanget.energy.gov
@@ -151,7 +148,6 @@ preview-gsa-stg-ecas.gsa.gov
 ray-m04bmm-devweb.ent.ds.gsa.gov
 tdr.test-acqit.helix.gsa.gov
 dev-cdmrp.health.mil
-edit.data.healthcare.gov
 dev-bphc.cloud.hhs.gov
 emh.housing.navy.mil and www.homes.mil
 devb-iqrs.npdb.hrsa.gov
@@ -196,7 +192,6 @@ rrmwiki.llnl.gov
 ssb.llnl.gov
 wormhole.llnl.gov
 demographics-icf.gcn.militaryonesource.mil
-depot.cddis.eosdis.nasa.gov
 dev-ceres.larc.nasa.gov
 dev-tolnet.larc.nasa.gov
 development.science.gsfc.nasa.gov
@@ -217,7 +212,7 @@ qawebpage.jpl.nasa.gov
 sandbox.science.gsfc.nasa.gov
 staging.science.gsfc.nasa.gov
 static-site.staging.sti.appdat.jsc.nasa.gov
-test-vip-slb-prod.earthdata.nasa.gov
+winmd.ird.appdat.jsc.nasa.gov
 www-stage.nasa.gov
 cl.gtclapps.com to be globaltrader.dc2n.navy.mil
 metoc.dc3n.navy.mil
@@ -249,7 +244,6 @@ portalstage.niehs.nih.gov
 profiles-us-east-1.awsprod.nlm.nih.gov
 searchqa7.nlm.nih.gov
 techbull-beta.nlm.nih.gov
-techbullqa.nlm.nih.gov
 test-nbdc-biobank.nida.nih.gov
 uts-documentation-qa.nlm.nih.gov
 uts.awsprod.nlm.nih.gov
@@ -297,12 +291,10 @@ nacc.arl.noaa.gov
 nhc-vm-nhcwebdev02.nhc.noaa.gov
 nosc-staging.woc.noaa.gov
 npad.noaa.gov
-origin-alaskafisheries.noaa.gov
 origin-east-wordpress-photolib.woc.noaa.gov
 prod-01-alb-toolkit-climate.woc.noaa.gov
 prod-01-alb-www-oe.woc.noaa.gov
 prod-esi-api.orr.noaa.gov
-prod-west-nhc.woc.noaa.gov
 satable-qa-cprk.ncep.noaa.gov
 taskforce.coralreef.noaa.gov
 test-storms.ngs.noaa.gov
@@ -390,6 +382,7 @@ live-doj.oversight.gov
 live-ed.oversight.gov
 live-tva.oversight.gov
 qa-eac.oversight.gov
+qa-nsf.oversight.gov
 quality-install-tool.pnnl.gov
 nsr-chip.sandia.gov
 staging.schoolsafety.gov
@@ -397,11 +390,9 @@ stg.simplereport.gov
 español.smokefree.gov
 status.ssa.gov
 gpaitstaging.state.gov
-wwwdev2.fiscal.treasury.gov
 wwwdev7.fiscal.treasury.gov
 int.ttbonline.gov
 usai.gov
-cfpb.usajobs.gov
 darpacareers.usajobs.gov
 dodea-office.usajobs.gov
 hudoig.usajobs.gov
