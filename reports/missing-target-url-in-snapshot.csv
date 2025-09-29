@@ -19,7 +19,6 @@ cms.bea.gov
 cars.bis.gov
 snapr.bis.gov
 whbstewardship.blm.gov
-drupal-public.bls.gov
 joltsdatad.bls.gov
 zuni4po.psb.bls.gov
 cbioportal-qa.ccdi.cancer.gov
@@ -104,7 +103,6 @@ ua-enforcedata.dol.gov
 wioaplans.dol.gov
 acquia-dev-fhwa8.dot.gov
 acquia-dev-nhtsa.dot.gov
-acquia-dev-tsm-nhtsa.dot.gov
 acquia-stage-fmcsa8.dot.gov
 acquia-stage-usmma8.dot.gov
 acquia-stage1-fhwa8.dot.gov
@@ -160,9 +158,9 @@ p04bmm-dwgisap9.ent.ds.gsa.gov
 preview-gsa-stg-ecas.gsa.gov
 ray-m04bmm-devweb.ent.ds.gsa.gov
 tdr.test-acqit.helix.gsa.gov
+catalog.gsafleet.gov
 dev-cdmrp.health.mil
 dev-cms.health.mil
-edit.data.healthcare.gov
 emh.housing.navy.mil and www.homes.mil
 devb-iqrs.npdb.hrsa.gov
 hudhousingcounselors.hud.gov
@@ -294,7 +292,6 @@ apps.arl.noaa.gov
 cbwofs.vlab.noaa.gov
 cpc-qa-cprk.ncep.noaa.gov
 data.aev.class.noaa.gov
-dev-01-alb-toolkit-climate.woc.noaa.gov
 dev-01-alb-www-oe.woc.noaa.gov
 discover.library.noaa.gov
 ftp.opah.nhc.ncep.noaa.gov
@@ -351,6 +348,7 @@ aiexpo.ornl.gov
 aires.ornl.gov
 benjamindoughty.ornl.gov
 bioenergykdf.ornl.gov
+bli14.ornl.gov
 bptraining.ornl.gov
 cast.ornl.gov
 ccp2025.ornl.gov
@@ -421,7 +419,6 @@ wade.ornl.gov
 wic.ornl.gov
 wagewebsite-oci-devint.int.dmdc.osd.mil
 eamlis-training.osmre.gov
-dr.osti.gov
 live-doe.oversight.gov
 live-doj.oversight.gov
 live-ed.oversight.gov
@@ -433,7 +430,6 @@ irrigationviz.pnnl.gov
 quality-install-tool.pnnl.gov
 windvalt.pnnl.gov
 nsr-chip.sandia.gov
-dev-doi.sciencebase.gov
 stg.simplereport.gov
 español.smokefree.gov
 status.ssa.gov
@@ -449,6 +445,7 @@ uspp.usajobs.gov
 usaccess.usalearning.gov
 innovationcenter.cafc.uscourts.gov
 news.uscourts.gov
+www-cacb.qa.uscourts.gov
 ams2.prod.usda.gov
 archivesspace.nal.usda.gov
 ars-sandbox.arsnet.usda.gov
@@ -462,7 +459,6 @@ cdi.code-pages.usgs.gov
 cidr-dmidprod.cr.usgs.gov
 dev-vhptools.usgs.gov
 devburnseverity.cr.usgs.gov
-devmastcalval.cr.usgs.gov
 devmtbs.cr.usgs.gov
 dmp-dmidprod.cr.usgs.gov
 dmp.cr.usgs.gov
