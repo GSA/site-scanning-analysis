@@ -78,6 +78,7 @@ mdctmcr.cms.gov
 mdctmcrval.cms.gov
 openpayments-system.cms.gov
 openpayments.ops-prod.internal.cms.gov
+openpaymentssystem.cms.gov
 sandbox-gamma.nonprod.cybergeek.internal.cms.gov
 staging.bluebutton.cms.gov
 benji-eda-stry0302863-eda9.d.commerce.gov
@@ -96,6 +97,7 @@ trade.cbp.dhs.gov
 ttp-external-web-service-test2.sat.mesh.cbp.dhs.gov
 edit-cldp.doc.gov
 feature.sandbox.cms.doe.gov
+wvphaseonestudies.emcbc.doe.gov
 beta.dol.gov
 datamanagerstage.dol.gov
 edit.beta.dol.gov
@@ -112,6 +114,7 @@ acquia-stage1-fhwa8.dot.gov
 acquia-test-fmcsa8.dot.gov
 dev-nrd-static.nhtsa.dot.gov
 nrd-stage-internal-portal.nhtsa.dot.gov
+gov.ecfr.gov
 t1.info.ed.gov
 ge.qa.eisenhowerlibrary.gov
 fecm.energy.gov
@@ -127,6 +130,7 @@ icsdvweb.aws.epa.gov
 lassostg7.rtpnc.epa.gov
 maple.hesc.epa.gov
 tdbadminstg.epa.gov
+tscaguidemeint.epa.gov
 devfcs.fai.gov
 origin.fai.gov
 cdrh-rst.fda.gov
@@ -165,6 +169,7 @@ catalog.gsafleet.gov
 dev-cdmrp.health.mil
 dev-cms.health.mil
 hothcd3.health.mil
+edit.data.healthcare.gov
 emh.housing.navy.mil and www.homes.mil
 devb-iqrs.npdb.hrsa.gov
 hudhousingcounselors.hud.gov
@@ -205,6 +210,7 @@ lda.gov
 ipo-staging.llnl.gov
 demographics-icf.gcn.militaryonesource.mil
 feature.gcn.militaryonesource.mil
+statepolicy.gcn.militaryonesource.mil
 czbast.czdt.smce.nasa.gov
 depot.cddis.eosdis.nasa.gov
 dev-tolnet.larc.nasa.gov
@@ -218,11 +224,13 @@ grace-cms.jpl.nasa.gov
 gs672-cdf1.sci.gsfc.nasa.gov
 helio.data.nasa.gov
 ipda.jpl.nasa.gov
+moon-cms.gsfc.nasa.gov
 naissbx1.nais.nasa.gov
 neo-bolide-stg.ndc.nasa.gov
 ntts.arc.nasa.gov
 osdr-envviz-stage-1.smce.nasa.gov
 psi-webapps-stage-1.arc.nasa.gov
+rms-staging.nas.nasa.gov
 sandbox.science.gsfc.nasa.gov
 sealevel-dataservices.jpl.nasa.gov
 staging.science.gsfc.nasa.gov
@@ -300,6 +308,7 @@ data.aev.class.noaa.gov
 dev-01-alb-www-oe.woc.noaa.gov
 discover.library.noaa.gov
 ftp.opah.nhc.ncep.noaa.gov
+gmd-int.cmdl.noaa.gov
 imagesite.noaa.gov
 maps.water.noaa.gov
 nacc.arl.noaa.gov
@@ -359,6 +368,7 @@ bptraining.ornl.gov
 cast.ornl.gov
 ccp2025.ornl.gov
 coherent.ornl.gov
+conferencerooms.ornl.gov
 daacclassic.ornl.gov
 dapc.ornl.gov
 dnn-consortium.ornl.gov
@@ -435,7 +445,9 @@ qacur.pay.gov
 irrigationviz.pnnl.gov
 quality-install-tool.pnnl.gov
 windvalt.pnnl.gov
+stgdatatools.samhsa.gov
 nsr-chip.sandia.gov
+dev-doi.sciencebase.gov
 stg.simplereport.gov
 español.smokefree.gov
 status.ssa.gov
