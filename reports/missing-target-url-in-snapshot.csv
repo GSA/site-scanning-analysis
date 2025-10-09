@@ -93,7 +93,6 @@ mdctqmrval.cms.gov
 openpayments-system.cms.gov
 openpayments.ops-prod.internal.cms.gov
 openpaymentssystem.cms.gov
-sandbox-gamma.nonprod.cybergeek.internal.cms.gov
 staging.bluebutton.cms.gov
 benji-eda-stry0302863-eda9.d.commerce.gov
 crypto.gov
@@ -110,7 +109,6 @@ trade-sat.cbp.dhs.gov
 trade.cbp.dhs.gov
 ttp-external-web-service-test2.sat.mesh.cbp.dhs.gov
 edit-cldp.doc.gov
-feature.sandbox.cms.doe.gov
 wvphaseonestudies.emcbc.doe.gov
 bdwintra01v.oig.dol.gov
 beta.dol.gov
@@ -253,7 +251,6 @@ ipda.jpl.nasa.gov
 moon-cms.gsfc.nasa.gov
 naissbx1.nais.nasa.gov
 neo-bolide-stg.ndc.nasa.gov
-osdr-envviz-stage-1.smce.nasa.gov
 psi-webapps-stage-1.arc.nasa.gov
 rms-staging.nas.nasa.gov
 sandbox.science.gsfc.nasa.gov
@@ -266,6 +263,7 @@ winmd.ird.appdat.jsc.nasa.gov
 cl.gtclapps.com to be globaltrader.dc2n.navy.mil
 metoc.dc3n.navy.mil
 mynavsup-public.nag.navy.mil
+touchui-qa-beta.history.navy.mil
 unclassifiedurl:https:\\seaspace-u.nswccd.navy.mil
 ask.ncua.gov
 nds.gov
@@ -278,13 +276,15 @@ cidc-stage.nci.nih.gov
 cidc.nci.nih.gov
 clinprst11.be-md.ncbi.nlm.nih.gov
 clinprst12.be-md.ncbi.nlm.nih.gov
+cmn-admin.nci.nih.gov
+combomatch-int.nci.nih.gov
 connect01tst.niehs.nih.gov
 csms-int.nci.nih.gov
 csms-uat.nci.nih.gov
 csms.nci.nih.gov
 dccps-jenkins.nci.nih.gov
+dcegsystem.nci.nih.gov
 dev-dataview.ncbi.nlm.nih.gov
-dev-nbdc-biobank.nida.nih.gov
 dis-test2.cit.nih.gov
 docline.awsqa.nlm.nih.gov
 evs-stage-aws.nci.nih.gov
@@ -308,7 +308,6 @@ uat-eresources.nlm.nih.gov
 uts.awsprod.nlm.nih.gov
 videocast-b.nih.gov
 vsacrepo-qa.nlm.nih.gov
-wwwappasr.nimh.nih.gov
 wwwapprmr.nimh.nih.gov
 wwwappstage.nimh.nih.gov
 abacus.nist.gov
@@ -354,7 +353,6 @@ npad.noaa.gov
 origin-alaskafisheries.noaa.gov
 origin-east-wordpress-photolib.woc.noaa.gov
 prod-01-alb-toolkit-climate.woc.noaa.gov
-prod-01-alb-www-oe.woc.noaa.gov
 prod-esi-api.orr.noaa.gov
 staging-erma-ui.orr.noaa.gov
 taskforce.coralreef.noaa.gov
@@ -371,7 +369,6 @@ add-cst-tech-reopt-stage.its.nrel.gov
 add-federal-defaults-reopt-stage.its.nrel.gov
 aeroportal.nrel.gov
 bioenergymodels.nrel.gov
-capital-costs-existing-boiler-chiller-reopt-stage.its.nrel.gov
 cdfc.nrel.gov
 docs.nrel.gov
 ev-load-builder-reopt-stage.its.nrel.gov
@@ -527,7 +524,6 @@ dsp-dmidprod.cr.usgs.gov
 goose.fort.usgs.gov
 intrac.dev-wma.chs.usgs.gov
 ngmdb-dev1.usgs.gov
-ngwmn-prod.wma.chs.usgs.gov
 planetary-nomenclature.prod-asc.chs.usgs.gov
 sgsu-vhptools1.usgs.gov
 stageburnseverity.cr.usgs.gov
