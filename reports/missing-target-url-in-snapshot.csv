@@ -17,7 +17,6 @@ pia.army.mil
 research.ari.army.mil
 uat.foia.army.mil
 uat.pia.army.mil
-stage.atf.gov
 connect.aviationweather.gov
 cms.bea.gov
 cars.bis.gov
@@ -63,8 +62,6 @@ wwwncstage.cdc.gov
 youthonline.cdc.gov
 cidr-webpub.train.econ.census.gov
 data.sandbox8.census.gov
-ditd-app058.compute.csp1.census.gov
-ditd-app059.compute.csp1.census.gov
 ecorr.uat.dice.census.gov
 wdob.sandbox.adsd.census.gov
 webapp.ditd.census.gov
@@ -94,7 +91,6 @@ openpayments.ops-prod.internal.cms.gov
 openpaymentssystem.cms.gov
 sandbox-gamma.nonprod.cybergeek.internal.cms.gov
 staging.bluebutton.cms.gov
-benji-eda-stry0302863-eda9.d.commerce.gov
 crypto.gov
 catalog-beta.data.gov
 dashboard.data.gov
@@ -123,7 +119,6 @@ acquia-stage-usmma8.dot.gov
 acquia-stage1-fhwa8.dot.gov
 acquia-test-bts.dot.gov
 acquia-test-fhwa.dot.gov
-acquia-test-fmcsa8.dot.gov
 acquia-test-phmsa.dot.gov
 dev-nrd-static.nhtsa.dot.gov
 fhwa-d.fhwa.dot.gov
@@ -154,13 +149,13 @@ cdrh-rst.fda.gov
 hfp-bpm.fda.gov
 hfpappexternal.fda.gov
 hfpappexternal.preprod.fda.gov
+receivership-d.fdic.gov
 purl.fdlp.gov
 ecfr.federalregister.gov
 data.ferc.gov
 etariffuat.ferc.gov
 facfs-eqrwebd2.ferc.gov
 5x5.firstnet.gov
-uat-www.foia.gov
 staging.bulkorder.ftc.gov
 apps.fws.gov
 devnew.globe.gov
@@ -212,7 +207,6 @@ tl.taxpayeradvocate.irs.gov
 vi.taxpayeradvocate.irs.gov
 zh-cn.taxpayeradvocate.irs.gov
 zh-tw.taxpayeradvocate.irs.gov
-edit.irsauctions.gov
 aem-p-beta.lanl.gov
 aem-p.lanl.gov
 content.lanl.gov
@@ -236,13 +230,11 @@ development.science.gsfc.nasa.gov
 doingbusiness.uat.nasa.gov
 ensight.eosdis.nasa.gov
 eroteamdirectory.nasa.gov
-eva-technical-library.eva.prod-aw-us.ehp.luna.nasa.gov
 gpu1nv.jpl.nasa.gov
 grace-cms.jpl.nasa.gov
 helio.data.nasa.gov
 ipda.jpl.nasa.gov
 moon-cms.gsfc.nasa.gov
-neo-bolide-stg.ndc.nasa.gov
 robotics-archive.jpl.nasa.gov
 sandbox.science.gsfc.nasa.gov
 sealevel-dataservices.jpl.nasa.gov
@@ -271,7 +263,6 @@ clinprst11.be-md.ncbi.nlm.nih.gov
 clinprst12.be-md.ncbi.nlm.nih.gov
 cmn-admin.nci.nih.gov
 combomatch-int.nci.nih.gov
-connect01tst.niehs.nih.gov
 csms-int.nci.nih.gov
 csms-uat.nci.nih.gov
 csms.nci.nih.gov
@@ -294,7 +285,6 @@ mrs.nci.nih.gov
 nbdc-biobank.nida.nih.gov
 ncidockerhub.nci.nih.gov
 nimhiacctest16.nimh.nih.gov
-ohr-pre.od.nih.gov
 planon.nci.nih.gov
 portalstage.niehs.nih.gov
 profiles-us-east-1.awsprod.nlm.nih.gov
@@ -475,7 +465,6 @@ irrigationviz.pnnl.gov
 quality-install-tool.pnnl.gov
 windvalt.pnnl.gov
 d8stage.samhsa.gov
-dev-doi.sciencebase.gov
 stg.simplereport.gov
 español.smokefree.gov
 status.ssa.gov
