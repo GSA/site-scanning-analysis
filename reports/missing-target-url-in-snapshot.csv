@@ -23,7 +23,6 @@ cars.bis.gov
 snapr.bis.gov
 whbstewardship.blm.gov
 c1-ctsu.cancer.gov
-cbioportal-qa.ccdi.cancer.gov
 cbioportal-stage.ccdi.cancer.gov
 cbioportal.ccdi.cancer.gov
 chornobyltissuebank.cancer.gov
@@ -77,7 +76,6 @@ methanestg.app.cloud.gov
 mia-django-stage.app.cloud.gov
 pic-dev-frontend.app.cloud.gov
 upgrade-onrr-route-service.app.cloud.gov
-impl.nonprod.cybergeek.internal.cms.gov
 mdcthcbsval.cms.gov
 mdctmcr.cms.gov
 mdctmcrval.cms.gov
@@ -119,7 +117,6 @@ acquia-test-fra.dot.gov
 acquia-test-fta.dot.gov
 acquia-test-permits.dot.gov
 acquia-test-phmsa.dot.gov
-dev-nrd-static.nhtsa.dot.gov
 fhwa-d.fhwa.dot.gov
 nrd-dev-internal-portal.nhtsa.dot.gov
 nrd-internal-portal.nhtsa.dot.gov
@@ -186,11 +183,13 @@ akastage-everytrycounts.betobaccofree.hhs.gov
 stg-poisonhelp.cloud.hhs.gov
 emh.housing.navy.mil and www.homes.mil
 data-dev3.hdw.hrsa.gov
+deva-iqrs.npdb.hrsa.gov
 devb-iqrs.npdb.hrsa.gov
 hudhousingcounselors.hud.gov
 okta.hud.gov
 bt06182025.ic3.gov
 join.ice.gov
+idp.katherine.identitysandbox.gov
 idp.ursulapato.identitysandbox.gov
 asi.inl.gov
 inlcareers.inl.gov
@@ -226,7 +225,6 @@ weathermachine.lanl.gov
 lda.gov
 gdo-wintap.llnl.gov
 ipo-staging.llnl.gov
-blog-brigade.gcn.militaryonesource.mil
 demographics-icf.gcn.militaryonesource.mil
 feature.gcn.militaryonesource.mil
 czbast.czdt.smce.nasa.gov
@@ -235,12 +233,10 @@ doingbusiness.uat.nasa.gov
 ensight.eosdis.nasa.gov
 eroteamdirectory.nasa.gov
 gcmd.sit.earthdata.nasa.gov
-gpu1nv.jpl.nasa.gov
 grace-cms.jpl.nasa.gov
 helio.data.nasa.gov
 ipda.jpl.nasa.gov
 moon-cms.gsfc.nasa.gov
-ndmsepdev01.ndc.nasa.gov
 robotics-archive.jpl.nasa.gov
 sandbox.science.gsfc.nasa.gov
 sealevel-dataservices.jpl.nasa.gov
@@ -292,6 +288,7 @@ planon.nci.nih.gov
 portalstage.niehs.nih.gov
 profiles-us-east-1.awsprod.nlm.nih.gov
 techbull-beta.nlm.nih.gov
+test-nbdc-biobank.nida.nih.gov
 trials-dcim.nci.nih.gov
 uat-eresources.nlm.nih.gov
 uts.awsprod.nlm.nih.gov
@@ -450,7 +447,6 @@ vera.ornl.gov
 visualization.ornl.gov
 wade.ornl.gov
 wic.ornl.gov
-eamlis-training.osmre.gov
 dr.osti.gov
 qacur.pay.gov
 doe417.pnnl.gov
