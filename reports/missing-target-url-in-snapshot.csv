@@ -40,6 +40,8 @@ populationsciences-qa.datacommons.cancer.gov
 pres.ccr.cancer.gov
 protocols.cancer.gov
 survivalstatstools.cancer.gov
+ace-accounts-d6.cbp.gov
+ace-accounts-sat.cbp.gov
 artreportingdashboard.cdc.gov
 blogs.glb.cdc.gov
 brfssdatasubmission.cdc.gov
@@ -58,8 +60,6 @@ wisqars-viz.glb.cdc.gov
 wisqars.glb.cdc.gov
 wwwncstage.cdc.gov
 youthonline.cdc.gov
-data.sandbox8.census.gov
-wdob.sandbox.adsd.census.gov
 askchips.chips.gov
 presidentscup.cisa.gov
 airnowfire-blue.app.cloud.gov
@@ -135,6 +135,7 @@ heronext.epa.gov
 icsdtweb.aws.epa.gov
 icsdvweb.aws.epa.gov
 maple.hesc.epa.gov
+quickscore.epa.gov
 sems-s.epa.gov
 origin.fai.gov
 accessdata-mig.fda.gov
@@ -160,6 +161,7 @@ visdevnew.globe.gov
 go.gov
 archive.gps.gov
 stg-home.grantsolutions.gov
+beta.ask.gsa.gov
 catalog.fleet-stg.fcs.gsa.gov
 dev-iis.ocfo.gsa.gov
 fedpayvendor.gsa.gov
@@ -180,7 +182,6 @@ akastage-everytrycounts.betobaccofree.hhs.gov
 stg-poisonhelp.cloud.hhs.gov
 emh.housing.navy.mil and www.homes.mil
 data-dev3.hdw.hrsa.gov
-deva-iqrs.npdb.hrsa.gov
 devb-iqrs.npdb.hrsa.gov
 hudhousingcounselors.hud.gov
 okta.hud.gov
@@ -226,10 +227,10 @@ demographics-icf.gcn.militaryonesource.mil
 feature.gcn.militaryonesource.mil
 czbast.czdt.smce.nasa.gov
 dev-tolnet.larc.nasa.gov
-doingbusiness.uat.nasa.gov
 ensight.eosdis.nasa.gov
 eroteamdirectory.nasa.gov
 gcmd.sit.earthdata.nasa.gov
+git.uat.earthdata.nasa.gov
 grace-cms.jpl.nasa.gov
 helio.data.nasa.gov
 ipda.jpl.nasa.gov
@@ -252,7 +253,6 @@ nds.gov
 ndstudio.gov
 pec.ng.mil
 owa.nicic.gov
-afd.nhlbi.nih.gov
 cidc-stage.nci.nih.gov
 cidc.nci.nih.gov
 clinprst11.be-md.ncbi.nlm.nih.gov
@@ -286,7 +286,6 @@ profiles-us-east-1.awsprod.nlm.nih.gov
 techbull-beta.nlm.nih.gov
 test-nbdc-biobank.nida.nih.gov
 trials-dcim.nci.nih.gov
-uat-eresources.nlm.nih.gov
 uts.awsprod.nlm.nih.gov
 videocast-b.nih.gov
 wwwapprmr.nimh.nih.gov
@@ -306,6 +305,7 @@ hit-nexus.nist.gov
 hl7v2-igamt.nist.gov
 ibal.nist.gov
 mfc.nist.gov
+nccoe-mdl-project-fce54a.ipages.nist.gov
 nestr.nist.gov
 openfad.nist.gov
 p-act.nist.gov
@@ -418,7 +418,6 @@ nobel.ornl.gov
 oakridgereservationhunts.ornl.gov
 openenrollment.ornl.gov
 ornlvirtualclassroom.ornl.gov
-pabloseleson.ornl.gov
 primecontract.ornl.gov
 rmcprofile.ornl.gov
 scalemeetings.ornl.gov
@@ -469,7 +468,6 @@ innovationcenter.cafc.uscourts.gov
 www-cacb.qa.uscourts.gov
 ams2.prod.usda.gov
 archivesspace.nal.usda.gov
-ars-sandbox.arsnet.usda.gov
 fas2.stg.platform.usda.gov
 fns.stg.platform.usda.gov
 mymarketnews2.ams.usda.gov
