@@ -12,7 +12,6 @@ financialfrontline.army.mil
 foia.army.mil
 pia.army.mil
 research.ari.army.mil
-uat.foia.army.mil
 uat.pia.army.mil
 connect.aviationweather.gov
 stg.bep.gov
@@ -21,6 +20,7 @@ cars.bis.gov
 snapr.bis.gov
 whbstewardship.blm.gov
 c1-ctsu.cancer.gov
+cbioportal-qa.ccdi.cancer.gov
 cbioportal-stage.ccdi.cancer.gov
 cbioportal.ccdi.cancer.gov
 chornobyltissuebank.cancer.gov
@@ -29,6 +29,7 @@ ctsu-uat.cancer.gov
 ctsu-unit.cancer.gov
 ctsu.cancer.gov
 datacatalog-qa.ccdi.cancer.gov
+dcegconnect-cms.cancer.gov
 dctd-prod-acsf.cancer.gov
 evsexplore-stage.semantics.cancer.gov
 llmpp.ccr.cancer.gov
@@ -59,7 +60,6 @@ vaxvizapp-int.apps.ecpaas.cdc.gov
 vaxvizapp.cdc.gov
 wisqars-viz.glb.cdc.gov
 wisqars.glb.cdc.gov
-wwwncstage.cdc.gov
 youthonline.cdc.gov
 askchips.chips.gov
 presidentscup.cisa.gov
@@ -175,6 +175,7 @@ stg-poisonhelp.cloud.hhs.gov
 emh.housing.navy.mil and www.homes.mil
 data-dev3.hdw.hrsa.gov
 devb-iqrs.npdb.hrsa.gov
+mchbtvisdatastg01.hrsa.gov
 hudhousingcounselors.hud.gov
 okta.hud.gov
 bt06182025.ic3.gov
@@ -221,7 +222,6 @@ czbast.czdt.smce.nasa.gov
 ensight.eosdis.nasa.gov
 eroteamdirectory.nasa.gov
 gcmd.sit.earthdata.nasa.gov
-gcmd.uat.earthdata.nasa.gov
 git.uat.earthdata.nasa.gov
 grace-cms.jpl.nasa.gov
 helio.data.nasa.gov
@@ -245,8 +245,6 @@ pec.ng.mil
 owa.nicic.gov
 cidc-stage.nci.nih.gov
 cidc.nci.nih.gov
-clinprst11.be-md.ncbi.nlm.nih.gov
-clinprst12.be-md.ncbi.nlm.nih.gov
 cmn-admin.nci.nih.gov
 combomatch-int.nci.nih.gov
 combomatch-uat.nci.nih.gov
@@ -332,7 +330,6 @@ webeast.ngs.noaa.gov
 webform.pier.seagrant.noaa.gov
 publicwebcms.nrc-gateway.gov
 ww2.nrc.gov
-add-federal-defaults-reopt-stage.its.nrel.gov
 aeroportal.nrel.gov
 bioenergymodels.nrel.gov
 cdfc.nrel.gov
@@ -340,6 +337,7 @@ data-stage.nrel.gov
 docs.nrel.gov
 forums.nrel.gov
 hvacresourcemap.nrel.gov
+prime-contract.nrel.gov
 test-merge-into-main-reopt-stage.its.nrel.gov
 ncsesdata-internal.nsf.gov
 pokagon.nsopw.gov
@@ -358,7 +356,6 @@ armweb0-prod.ornl.gov
 benjamindoughty.ornl.gov
 bli14.ornl.gov
 bptraining.ornl.gov
-candidfellowship.ornl.gov
 cast.ornl.gov
 ccp2025.ornl.gov
 coherent.ornl.gov
@@ -401,6 +398,7 @@ nobel.ornl.gov
 oakridgereservationhunts.ornl.gov
 openenrollment.ornl.gov
 ornlvirtualclassroom.ornl.gov
+pabloseleson.ornl.gov
 primecontract.ornl.gov
 rmcprofile.ornl.gov
 scalemeetings.ornl.gov
@@ -423,7 +421,6 @@ vera.ornl.gov
 wade.ornl.gov
 wic.ornl.gov
 eamlis-training.osmre.gov
-qacur.pay.gov
 doe417.pnnl.gov
 irrigationviz.pnnl.gov
 quality-install-tool.pnnl.gov
@@ -473,3 +470,4 @@ comptroller.war.gov
 war.gov
 preview-spot.weather.gov
 spot.weather.gov
+famauth-qa.wildfire.gov
