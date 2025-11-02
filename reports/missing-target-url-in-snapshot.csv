@@ -10,7 +10,6 @@ americabydesign.gov
 ancpublicstg.army.mil
 financialfrontline.army.mil
 foia.army.mil
-pia.army.mil
 research.ari.army.mil
 uat.pia.army.mil
 connect.aviationweather.gov
@@ -50,13 +49,13 @@ dnpao-dtm.cdc.gov
 dsmes-program-locator.cdc.gov
 eji.cdc.gov
 hehr.cdc.gov
+icd10cmtool.glb.cdc.gov
 it-guides.cdc.gov
 mvpiccs-viz.cdc.gov
 mvpiccs-viz.glb.cdc.gov
 ndpp-ops-center.cdc.gov
 phgkb.glb.cdc.gov
 shi-int.cdc.gov
-vaxvizapp-int.apps.ecpaas.cdc.gov
 vaxvizapp.cdc.gov
 wisqars-viz.glb.cdc.gov
 wisqars.glb.cdc.gov
@@ -70,7 +69,6 @@ federalist-7a5665fa-136f-49f1-ac07-be7f6dc47a4d.sites.pages.cloud.gov
 federalist-9b06719f-4ddf-4b5e-92cf-4df82a05922b.sites.pages.cloud.gov
 federalist-dad55c1b-07c6-4c7e-89da-5aff1f9335fd.sites.pages.cloud.gov
 federalist-e84bbe91-2c6a-4e45-a985-24afd86ff547.sites.pages.cloud.gov
-methanestg.app.cloud.gov
 mia-django-stage.app.cloud.gov
 pic-dev-frontend.app.cloud.gov
 mdcthcbsval.cms.gov
@@ -174,6 +172,7 @@ akastage-everytrycounts.betobaccofree.hhs.gov
 stg-poisonhelp.cloud.hhs.gov
 emh.housing.navy.mil and www.homes.mil
 data-dev3.hdw.hrsa.gov
+deva-iqrs.npdb.hrsa.gov
 devb-iqrs.npdb.hrsa.gov
 mchbtvisdatastg01.hrsa.gov
 hudhousingcounselors.hud.gov
@@ -216,10 +215,8 @@ weathermachine.lanl.gov
 lda.gov
 gdo-wintap.llnl.gov
 ipo-staging.llnl.gov
-demographics-icf.gcn.militaryonesource.mil
 feature.gcn.militaryonesource.mil
 czbast.czdt.smce.nasa.gov
-ensight.eosdis.nasa.gov
 eroteamdirectory.nasa.gov
 gcmd.sit.earthdata.nasa.gov
 git.uat.earthdata.nasa.gov
@@ -233,6 +230,7 @@ ssc-stage.crystalball.insight.nasa.gov
 static-site.staging.sti.appdat.jsc.nasa.gov
 swot-cms.jpl.nasa.gov
 taskbook.nasa.gov
+uavdb.jpl.nasa.gov
 cl.gtclapps.com to be globaltrader.dc2n.navy.mil
 metoc.dc3n.navy.mil
 mynavsup-public.nag.navy.mil
@@ -339,6 +337,7 @@ forums.nrel.gov
 hvacresourcemap.nrel.gov
 prime-contract.nrel.gov
 test-merge-into-main-reopt-stage.its.nrel.gov
+wrdb.nrel.gov
 ncsesdata-internal.nsf.gov
 pokagon.nsopw.gov
 tonkawa.nsopw.gov
@@ -421,6 +420,7 @@ vera.ornl.gov
 wade.ornl.gov
 wic.ornl.gov
 eamlis-training.osmre.gov
+dr.osti.gov
 doe417.pnnl.gov
 irrigationviz.pnnl.gov
 quality-install-tool.pnnl.gov
@@ -453,7 +453,6 @@ archivesspace.nal.usda.gov
 fas2.stg.platform.usda.gov
 mymarketnewsdev2.ams.usda.gov
 to.usembassy.gov
-dev-vhptools.usgs.gov
 goose.fort.usgs.gov
 learning.usitc.gov
 s1p-extdrup8-00.uxpax.usitc.gov
