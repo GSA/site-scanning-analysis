@@ -27,7 +27,6 @@ cbioportal-stage.ccdi.cancer.gov
 cbioportal.ccdi.cancer.gov
 chornobyltissuebank.cancer.gov
 clinicalcommons-stage.ccdi.cancer.gov
-ctsu-uat.cancer.gov
 ctsu-unit.cancer.gov
 ctsu.cancer.gov
 dcegconnect-cms.cancer.gov
@@ -42,7 +41,6 @@ pres.ccr.cancer.gov
 protocols.cancer.gov
 resilience.ccr.cancer.gov
 survivalstatstools.cancer.gov
-techtransfer-prod-acsf.cancer.gov
 ace-accounts-d6.cbp.gov
 ace-accounts-sat.cbp.gov
 ace-accounts.cbp.gov
@@ -53,7 +51,6 @@ dnpao-dtm.cdc.gov
 dsmes-program-locator.cdc.gov
 eji.cdc.gov
 hehr.cdc.gov
-icd10cmtool.glb.cdc.gov
 it-guides.cdc.gov
 mvpiccs-viz.cdc.gov
 mvpiccs-viz.glb.cdc.gov
@@ -181,7 +178,6 @@ akaprod-everytrycounts.betobaccofree.hhs.gov
 akastage-everytrycounts.betobaccofree.hhs.gov
 emh.housing.navy.mil and www.homes.mil
 iqconnect.house.gov
-data-dev3.hdw.hrsa.gov
 devb-iqrs.npdb.hrsa.gov
 mchb.tvisdata.sec.hrsa.gov
 mchbtvisdatastg01.hrsa.gov
@@ -226,21 +222,17 @@ lda.gov
 gdo-wintap.llnl.gov
 ipo-staging.llnl.gov
 cdaweb1.sci.gsfc.nasa.gov
-czbast.czdt.smce.nasa.gov
 dev-tolnet.larc.nasa.gov
 doingbusiness.uat.nasa.gov
 draftmmt.uat.earthdata.nasa.gov
-eroteamdirectory.nasa.gov
 git.uat.earthdata.nasa.gov
 helio.data.nasa.gov
 ipda.jpl.nasa.gov
-moon-cms.gsfc.nasa.gov
 ntnx-tst-2.nocc.fltops.jpl.nasa.gov
 sealevel-cms.jpl.nasa.gov
 sealevel-dataservices.jpl.nasa.gov
 searchprodapi-1167262027.auto.earthdatacloud.nasa.gov
 spswebecc.ecc.fltops.jpl.nasa.gov
-taskbook.nasa.gov
 uavdb.jpl.nasa.gov
 cl.gtclapps.com to be globaltrader.dc2n.navy.mil
 metoc.dc3n.navy.mil
@@ -264,7 +256,6 @@ dccps-jenkins.nci.nih.gov
 dcegsystem.nci.nih.gov
 desk-apex.nci.nih.gov
 ebccp-admin.nci.nih.gov
-fdanj.awsprod.nlm.nih.gov
 genemed.nci.nih.gov
 gfet.nci.nih.gov
 healthyeatingstage.nhlbi.nih.gov
@@ -406,8 +397,11 @@ indico.phy.ornl.gov
 infuse.ornl.gov
 innovationcrossroads.ornl.gov
 intds2024.ornl.gov
+intercomparisonstudies.ornl.gov
 isfnt-16.ornl.gov
+ivis2025.ornl.gov
 jensa.ornl.gov
+joshmichener.ornl.gov
 jumpintostem.ornl.gov
 kaixiao.ornl.gov
 kdi.ornl.gov
@@ -415,15 +409,18 @@ laboremploymenttraining.ornl.gov
 legend.ornl.gov
 mapspace.ornl.gov
 metrology.ornl.gov
+mmh.ornl.gov
 mpex.ornl.gov
 mstdb.ornl.gov
 nairratdoe.ornl.gov
 namis9.ornl.gov
 nedm.ornl.gov
 neutronimaging.ornl.gov
+noaa-c7.ornl.gov
 nobel.ornl.gov
 oakridgereservationhunts.ornl.gov
 openenrollment.ornl.gov
+ornlvirtualclassroom.ornl.gov
 pabloseleson.ornl.gov
 placetime.ornl.gov
 pmhip.ornl.gov
@@ -460,7 +457,6 @@ quality-install-tool.pnnl.gov
 windvalt.pnnl.gov
 safedc.gov
 d8stage.samhsa.gov
-thunderbirdhacks.sandia.gov
 ca2quantico.sba.gov
 stg.simplereport.gov
 español.smokefree.gov
