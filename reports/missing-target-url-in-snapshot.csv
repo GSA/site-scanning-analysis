@@ -70,7 +70,6 @@ askchips.chips.gov
 presidentscup.cisa.gov
 ahwmpt-prod.app.cloud.gov
 airnowfire-blue.app.cloud.gov
-airnownewdial.app.cloud.gov
 dev-blog-nrrd.app.cloud.gov
 fec-prod-eregs.app.cloud.gov
 federalist-5bcea1d1-7907-4fea-821f-eb2e9554014a.sites.pages.cloud.gov
@@ -94,7 +93,7 @@ prod.eqrs.cms.gov
 prodpreview.eqrs.cms.gov
 staging.bluebutton.cms.gov
 tra-impl.cloud.cms.gov
-qa.coralreef.gov
+edit-data.commerce.gov
 crypto.gov
 catalog-beta.data.gov
 dashboard.data.gov
@@ -159,6 +158,7 @@ hfp-bpm.fda.gov
 hfpappexternal.fda.gov
 hfpappexternal.preprod.fda.gov
 labels-mig.fda.gov
+poca.fda.gov
 purl.fdlp.gov
 ecfr.federalregister.gov
 data.ferc.gov
@@ -286,6 +286,7 @@ lhcfhirtools.nlm.nih.gov
 maintenance.lhcaws-prod-pub.nlm.nih.gov
 mrs.nci.nih.gov
 nbdc-biobank.nida.nih.gov
+omb-clearance.nci.nih.gov
 planon.nci.nih.gov
 portalstage.niehs.nih.gov
 profiles-us-east-1.awsprod.nlm.nih.gov
@@ -369,8 +370,8 @@ legacyarchive.nsf.gov
 ncsesdata-internal.nsf.gov
 pokagon.nsopw.gov
 tonkawa.nsopw.gov
+uat.nsopw.gov
 grants.ntia.gov
-nessadmin.ntis.gov
 ptoft.ntis.gov
 www-d.ofia.gov
 blog.onrr.gov
@@ -514,6 +515,7 @@ www-mnd.qa.uscourts.gov
 ams2.prod.usda.gov
 archivesspace.nal.usda.gov
 fas2.stg.platform.usda.gov
+mymarketnewsdev2.ams.usda.gov
 myplate-prd.kwaps.platform.usda.gov
 to.usembassy.gov
 cdi.code-pages.usgs.gov
