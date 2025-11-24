@@ -89,16 +89,15 @@ mdctqmrval.cms.gov
 mdctseds.cms.gov
 openpayments.ops-prod.internal.cms.gov
 openpaymentssystem.cms.gov
+openpaymentsystem.cms.gov
 prod.eqrs.cms.gov
 prodpreview.eqrs.cms.gov
 staging.bluebutton.cms.gov
 tra-impl.cloud.cms.gov
-edit-data.commerce.gov
 crypto.gov
 catalog-beta.data.gov
 dashboard.data.gov
 securityawareness.dcsa.mil
-ace.ct1.sat.cbp.dhs.gov
 cargo-sat.cbp.dhs.gov
 devpki.dimc.dhs.gov
 esafe-external-web.sat.mesh.cbp.dhs.gov
@@ -149,7 +148,6 @@ maple.hesc.epa.gov
 pintra51.epa.gov
 quickscore.epa.gov
 sems-s.epa.gov
-tscaguidemeintstg.epa.gov
 origin.fai.gov
 accessdata-mig.fda.gov
 cdrh-rst.fda.gov
@@ -174,7 +172,6 @@ go.gov
 archive.gps.gov
 stg-home.grantsolutions.gov
 beta.ask.gsa.gov
-catalog.fleet-stg.fcs.gsa.gov
 dev-apps.ocfo.gsa.gov
 fedpayvendor.gsa.gov
 gsa-stg-ecas.gsa.gov
@@ -201,6 +198,7 @@ idp.ursulapato.identitysandbox.gov
 asi.inl.gov
 inlgov-trn.acc.inl.gov
 niwc.noaa.inl.gov
+nmed.acc.inl.gov
 nric.inl.gov
 nsuf-program.inl.gov
 sai.inl.gov
@@ -239,7 +237,6 @@ dev-tolnet.larc.nasa.gov
 doingbusiness.uat.nasa.gov
 draftmmt.uat.earthdata.nasa.gov
 eroteamdirectory.nasa.gov
-git.uat.earthdata.nasa.gov
 helio.data.nasa.gov
 ipda.jpl.nasa.gov
 ntnx-tst-2.nocc.fltops.jpl.nasa.gov
@@ -264,8 +261,6 @@ pec.ng.mil
 owa.nicic.gov
 cidc-stage.nci.nih.gov
 cidc.nci.nih.gov
-clinprst11.be-md.ncbi.nlm.nih.gov
-clinprst12.be-md.ncbi.nlm.nih.gov
 cmn-admin.nci.nih.gov
 combomatch-int.nci.nih.gov
 combomatch-uat.nci.nih.gov
@@ -281,6 +276,7 @@ genemed.nci.nih.gov
 gfet.nci.nih.gov
 healthyeatingstage.nhlbi.nih.gov
 i2e.nci.nih.gov
+idsstage.nhlbi.nih.gov
 ldlink-stage.nih.gov
 lhcfhirtools.nlm.nih.gov
 maintenance.lhcaws-prod-pub.nlm.nih.gov
@@ -333,7 +329,6 @@ data.aev.class.noaa.gov
 dev-01-alb-www-oe.woc.noaa.gov
 dev-east-www-wpc.woc.noaa.gov
 discover.library.noaa.gov
-emc-dev-cprk.ncep.noaa.gov
 gmd-int.cmdl.noaa.gov
 gmd-prod.cmdl.noaa.gov
 gnome-stage.orr.noaa.gov
@@ -534,7 +529,6 @@ portal.nprod.vetbiz.va.gov
 pr1419-whsmcrqak5bheltbbbwh920ejaqfxxm7.tugboat.vfs.va.gov
 comptroller.war.gov
 war.gov
-preview-spot-cprk.weather.gov
 preview-spot.weather.gov
 spot.weather.gov
 famauth-qa.wildfire.gov
