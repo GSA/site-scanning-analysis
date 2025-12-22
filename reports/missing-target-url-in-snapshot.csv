@@ -24,7 +24,6 @@ discovery-ui.svcs.arm.gov
 ancpublicstg.army.mil
 financialfrontline.army.mil
 foia.army.mil
-pia.army.mil
 research.ari.army.mil
 uat.foia.army.mil
 stage.atf.gov
@@ -50,7 +49,6 @@ datacatalog-qa.ccdi.cancer.gov
 datacommons-stage.cancer.gov
 dctd-prod-acsf.cancer.gov
 evsexplore-stage.semantics.cancer.gov
-hereapp.ccr.cancer.gov
 llmpp.ccr.cancer.gov
 pdts.ccr.cancer.gov
 pins.ccr.cancer.gov
@@ -61,7 +59,6 @@ sbir-dev-acsf.cancer.gov
 survivalstatstools-qa.cancer.gov
 survivalstatstools.cancer.gov
 techtransfer-cms.cancer.gov
-ace-accounts-d6.cbp.gov
 ace-accounts.cbp.gov
 artreportingdashboard.cdc.gov
 blogs.glb.cdc.gov
@@ -90,7 +87,6 @@ data.sandbox17.census.gov
 data.sandbox2.census.gov
 wdob.sandbox.adsd.census.gov
 hmda-eks.dev-regtech.aws.cfpb.gov
-admin.accountcreation.cftc.gov
 askchips.chips.gov
 dev-presidentscup.cisa.gov
 presidentscup.cisa.gov
@@ -186,7 +182,6 @@ cdrh-rst.fda.gov
 hfp-bpm.fda.gov
 hfpappexternal.fda.gov
 hfpappexternal.preprod.fda.gov
-labels-mig.fda.gov
 poca.fda.gov
 ecfr.federalregister.gov
 data.ferc.gov
@@ -285,7 +280,6 @@ psi-webapps-stage-1.arc.nasa.gov
 sandbox.science.gsfc.nasa.gov
 sealevel-dataservices.jpl.nasa.gov
 searchprodapi-1167262027.auto.earthdatacloud.nasa.gov
-sed-admin.gsfc.nasa.gov
 spswebecc.ecc.fltops.jpl.nasa.gov
 staging.science.gsfc.nasa.gov
 static-site.staging.sti.appdat.jsc.nasa.gov
@@ -331,6 +325,7 @@ i2e.nci.nih.gov
 idsstage.nhlbi.nih.gov
 ldlink-stage.nih.gov
 lhcfhirtools.nlm.nih.gov
+mor.lhcaws-stage-pub.nlm.nih.gov
 mrs.nci.nih.gov
 nbdc-biobank.nida.nih.gov
 nctn-data-archive-stage.nci.nih.gov
@@ -425,7 +420,6 @@ legacyarchive.nsf.gov
 ncsesdata-internal.nsf.gov
 pokagon.nsopw.gov
 tonkawa.nsopw.gov
-uat.nsopw.gov
 grants.ntia.gov
 ptoft.ntis.gov
 www-d.ofia.gov
@@ -490,17 +484,14 @@ laboremploymenttraining.ornl.gov
 legend.ornl.gov
 mapspace.ornl.gov
 metrology.ornl.gov
-mmh.ornl.gov
 mpex.ornl.gov
 mstdb.ornl.gov
 nairratdoe.ornl.gov
-namis9.ornl.gov
 nedm.ornl.gov
 neutronimaging.ornl.gov
 nobel.ornl.gov
 oakridgereservationhunts.ornl.gov
 openenrollment.ornl.gov
-ornlvirtualclassroom.ornl.gov
 pabloseleson.ornl.gov
 placetime.ornl.gov
 pmhip.ornl.gov
@@ -558,7 +549,6 @@ int.treasurydirect.gov
 trumpaccounts.gov
 trumpgoldcard.gov
 trumprx.gov
-int-my.ttb.gov
 int.ttbonline.gov
 usai.gov
 darpacareers.usajobs.gov
