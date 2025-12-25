@@ -95,7 +95,6 @@ admin.accountcreation.cftc.gov
 askchips.chips.gov
 dev-presidentscup.cisa.gov
 presidentscup.cisa.gov
-ahwmpt-prod.app.cloud.gov
 airnowfire-blue.app.cloud.gov
 dev-blog-nrrd.app.cloud.gov
 fec-prod-eregs.app.cloud.gov
@@ -127,6 +126,7 @@ councils.gov
 crypto.gov
 dashboard.data.gov
 securityawareness.dcsa.mil
+bwt-qa.cbp.dhs.gov
 cargo-sat.cbp.dhs.gov
 devpki.dimc.dhs.gov
 esafe-external-web.sat.mesh.cbp.dhs.gov
@@ -165,6 +165,7 @@ t1.info.ed.gov
 ge.qa.eisenhowerlibrary.gov
 fecm.energy.gov
 ie-exchange.energy.gov
+livewire.energy.gov
 nationalcoalcouncil.energy.gov
 ncc.energy.gov
 netl-exchange.energy.gov
@@ -184,12 +185,12 @@ semspubaws.lbd.epa.gov
 tcotsadminstg.epa.gov
 v26267ncay521.aa.ad.epa.gov
 origin.fai.gov
-accessdata-mig.fda.gov
 cdrh-rst.fda.gov
 hfp-bpm.fda.gov
 hfpappexternal.fda.gov
 hfpappexternal.preprod.fda.gov
 poca.fda.gov
+purl.fdlp.gov
 ecfr.federalregister.gov
 data.ferc.gov
 etariffuat.ferc.gov
@@ -229,7 +230,6 @@ testa.npdb.hrsa.gov
 hstf.gov
 hudhousingcounselors.hud.gov
 okta.hud.gov
-devmgmt.huduser.gov
 join.ice.gov
 idp.ursulapato.identitysandbox.gov
 asi.inl.gov
@@ -252,6 +252,7 @@ tl.taxpayeradvocate.irs.gov
 vi.taxpayeradvocate.irs.gov
 zh-cn.taxpayeradvocate.irs.gov
 zh-tw.taxpayeradvocate.irs.gov
+akamai-staging.justice.gov
 join.justice.gov
 aem-p-beta.lanl.gov
 aem-p.lanl.gov
@@ -282,7 +283,6 @@ doingbusiness.uat.nasa.gov
 eroteamdirectory.nasa.gov
 helio.data.nasa.gov
 ipda.jpl.nasa.gov
-jsia01-dev10.ndc.nasa.gov
 labcas-viewer.jpl.nasa.gov
 ntnx-tst-2.nocc.fltops.jpl.nasa.gov
 psi-webapps-stage-1.arc.nasa.gov
@@ -373,6 +373,7 @@ events.nist.gov
 hit-nexus.nist.gov
 hl7v2-igamt.nist.gov
 ibal.nist.gov
+icsd-i.nist.gov
 mfc.nist.gov
 nccoe-devsecops-b73ab9.ipages.nist.gov
 nccoe-mdl-project-fce54a.ipages.nist.gov
@@ -393,7 +394,6 @@ cms.staging.water.noaa.gov
 cnrfc.l.noaa.gov
 cwdrupal11.star1.nesdis.noaa.gov
 data.aev.class.noaa.gov
-dev-01-alb-toolkit-climate.woc.noaa.gov
 dev-01-alb-www-oe.woc.noaa.gov
 discover.library.noaa.gov
 gmd-int.cmdl.noaa.gov
@@ -540,6 +540,7 @@ sc-uat.emsl.pnnl.gov
 sc.emsl.pnnl.gov
 windvalt.pnnl.gov
 safedc.gov
+d8stage.samhsa.gov
 access-qual.sandia.gov
 access.sandia.gov
 energyworkshops.sandia.gov
