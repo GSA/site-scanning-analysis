@@ -60,7 +60,6 @@ protocols.cancer.gov
 resilience.ccr.cancer.gov
 sbir-dev-acsf.cancer.gov
 sbir-prod-acsf.cancer.gov
-survivalstatstools-qa.cancer.gov
 survivalstatstools.cancer.gov
 ace-accounts.cbp.gov
 artreportingdashboard.cdc.gov
@@ -87,8 +86,6 @@ data.sandbox13.census.gov
 data.sandbox16.census.gov
 data.sandbox17.census.gov
 data.sandbox2.census.gov
-wdob.sandbox.adsd.census.gov
-hmda-eks.dev-regtech.aws.cfpb.gov
 hmda-eks.staging-regtech.aws.cfpb.gov
 askchips.chips.gov
 presidentscup.cisa.gov
@@ -167,7 +164,6 @@ icisscan.epa.gov
 icsdvweb.aws.epa.gov
 maple.hesc.epa.gov
 pintra51.epa.gov
-sdwisstg.epa.gov
 semspubaws.lbd.epa.gov
 tcotsadminstg.epa.gov
 v26267ncay521.aa.ad.epa.gov
@@ -179,7 +175,6 @@ hfpappexternal.fda.gov
 hfpappexternal.preprod.fda.gov
 poca.fda.gov
 poca.preprod.fda.gov
-purplebooksearch.preprod.fda.gov
 purl.fdlp.gov
 ecfr.federalregister.gov
 data.ferc.gov
@@ -198,7 +193,6 @@ go.gov
 archive.gps.gov
 prd-home.grantsolutions.gov
 stg-home.grantsolutions.gov
-55samfrontendprod.apps.prod-iae.bsp.gsa.gov
 dev-iis.ocfo.gsa.gov
 fedpayvendor.gsa.gov
 gsa-stg-ecas.gsa.gov
@@ -259,7 +253,6 @@ merrychristmas.gov
 blog-brigade.gcn.militaryonesource.mil
 demographics-icf.gcn.militaryonesource.mil
 demographics.gcn.militaryonesource.mil
-feature.gcn.militaryonesource.mil
 appeears.sdbx-1.earthdatacloud.nasa.gov
 czbast.czdt.smce.nasa.gov
 doingbusiness.uat.nasa.gov
@@ -275,7 +268,6 @@ searchprodapi-1167262027.auto.earthdatacloud.nasa.gov
 sed-admin.gsfc.nasa.gov
 spswebecc.ecc.fltops.jpl.nasa.gov
 sscweb-tmp.sci.gsfc.nasa.gov
-staging.science.gsfc.nasa.gov
 static-site.staging.sti.appdat.jsc.nasa.gov
 taskbook.nasa.gov
 test-forum.earthdata.nasa.gov
@@ -325,7 +317,6 @@ profiles-us-east-1.awsprod.nlm.nih.gov
 psubmit.ncbi.nlm.nih.gov
 rarediseases-qa.ncats.nih.gov
 rsc-staging.niaid.nih.gov
-smart.nci.nih.gov
 stagetestdomain6.nih.gov
 stagetestdomain7.nih.gov
 techbull-beta.nlm.nih.gov
@@ -412,15 +403,12 @@ uat.smart.ojp.gov
 blog.onrr.gov
 drc-usadata.opm.gov
 acf.ornl.gov
-actamerica.ornl.gov
 adac.ornl.gov
 aiexpo.ornl.gov
 aires.ornl.gov
 armweb0-prod.ornl.gov
-benjamindoughty.ornl.gov
 bli14.ornl.gov
 bptraining.ornl.gov
-candidfellowship.ornl.gov
 cast.ornl.gov
 ccp2025.ornl.gov
 coherent.ornl.gov
@@ -549,7 +537,6 @@ fas2.stg.platform.usda.gov
 to.usembassy.gov
 cdi.code-pages.usgs.gov
 dev-is.chs.usgs.gov
-dev-vhptools.usgs.gov
 devburnseverity.cr.usgs.gov
 dmiranda.code-pages.usgs.gov
 edclxvs57.cr.usgs.gov
