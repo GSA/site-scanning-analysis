@@ -22,6 +22,7 @@ trumanlibrary.archives.gov
 discovery-ui.svcs.arm.gov
 financialfrontline.army.mil
 foia.army.mil
+hr.ippsa.army.mil
 research.ari.army.mil
 uat.foia.army.mil
 origin.arpa-h.gov
@@ -44,6 +45,7 @@ cbioportal-qa.ccdi.cancer.gov
 cbioportal-stage.ccdi.cancer.gov
 cbioportal.ccdi.cancer.gov
 chornobyltissuebank.cancer.gov
+correlogo.cancer.gov
 ctsu-uat.cancer.gov
 ctsu-unit.cancer.gov
 ctsu.cancer.gov
@@ -70,6 +72,7 @@ dnpao-dtm.cdc.gov
 dsmes-program-locator.cdc.gov
 eji.cdc.gov
 hehr.cdc.gov
+hehrstage.cdc.gov
 it-guides.cdc.gov
 mvpiccs-viz.cdc.gov
 mvpiccs-viz.glb.cdc.gov
@@ -120,6 +123,7 @@ securityawareness.dcsa.mil
 bwt-qa.cbp.dhs.gov
 cargo-sat.cbp.dhs.gov
 devpki.dimc.dhs.gov
+esafe-external-web.prod.mesh.cbp.dhs.gov
 esafe-external-web.sat.mesh.cbp.dhs.gov
 esta-sit.cbp.dhs.gov
 esta-test2.sat.mesh.cbp.dhs.gov
@@ -140,8 +144,10 @@ wioaplans.dol.gov
 acquia-dev-nhtsa.dot.gov
 acquia-stage-fhwa.dot.gov
 acquia-stage-usmma.dot.gov
+acquia-test-bts.dot.gov
 acquia-test-fhwa.dot.gov
 acquia-test-permits.dot.gov
+acquia-test-phmsa.dot.gov
 acquia-test-usmma.dot.gov
 nrd-dev-internal-portal.nhtsa.dot.gov
 nrd-internal-portal.nhtsa.dot.gov
@@ -181,6 +187,7 @@ purl.fdlp.gov
 ecfr.federalregister.gov
 data.ferc.gov
 etariffuat.ferc.gov
+foluat.ferc.gov
 5x5.firstnet.gov
 foreignfundinghighered.gov
 apps.fws.gov
@@ -237,7 +244,6 @@ vi.taxpayeradvocate.irs.gov
 zh-cn.taxpayeradvocate.irs.gov
 zh-tw.taxpayeradvocate.irs.gov
 akamai-staging.justice.gov
-join.justice.gov
 aem-p-beta.lanl.gov
 aem-p.lanl.gov
 cov.lanl.gov
@@ -263,6 +269,7 @@ helio.data.nasa.gov
 ipda.jpl.nasa.gov
 labcas-dav.jpl.nasa.gov
 labcas-viewer.jpl.nasa.gov
+ntnx-tst-2.nocc.fltops.jpl.nasa.gov
 sandbox.science.gsfc.nasa.gov
 sealevel-dataservices.jpl.nasa.gov
 searchprodapi-1167262027.auto.earthdatacloud.nasa.gov
@@ -283,6 +290,7 @@ ndstudio.gov
 pec.ng.mil
 beta.nicic.gov
 owa.nicic.gov
+cadsr-jenkins.nci.nih.gov
 casebrowser.tbportals.niaid.nih.gov
 cidc-stage.nci.nih.gov
 cidc.nci.nih.gov
@@ -299,6 +307,7 @@ dev-nbdc-biobank.nida.nih.gov
 docline.awsint.nlm.nih.gov
 docline.awsqa.nlm.nih.gov
 ebccp-admin.nci.nih.gov
+etd.nih.gov
 fdanj.awsprod.nlm.nih.gov
 genemed.nci.nih.gov
 gfet.nci.nih.gov
@@ -391,6 +400,7 @@ dercf.nrel.gov
 dev-aeroportal.nrel.gov
 forums.nrel.gov
 hvacresourcemap.nrel.gov
+prime-contract.nrel.gov
 wrdb.nrel.gov
 legacyarchive.nsf.gov
 ncsesdata-internal.nsf.gov
@@ -415,10 +425,8 @@ ccp2025.ornl.gov
 coherent.ornl.gov
 colleeniversen.ornl.gov
 conferencerooms.ornl.gov
-ctfom.ornl.gov
 daacclassic.ornl.gov
 daacweb-prod.ornl.gov
-developer.ornl.gov
 dnc2s.ornl.gov
 dnn-consortium.ornl.gov
 eii.ornl.gov
@@ -536,6 +544,7 @@ fas2.stg.platform.usda.gov
 to.usembassy.gov
 cdi.code-pages.usgs.gov
 dev-is.chs.usgs.gov
+dev-vhptools.usgs.gov
 devburnseverity.cr.usgs.gov
 dmiranda.code-pages.usgs.gov
 edclxvs57.cr.usgs.gov
