@@ -14,6 +14,7 @@ sas2018.anl.gov
 discovery-ui.svcs.arm.gov
 financialfrontline.army.mil
 foia.army.mil
+oe.t2com.army.mil
 research.ari.army.mil
 uat.foia.army.mil
 origin.arpa-h.gov
@@ -149,9 +150,9 @@ etariffuat.ferc.gov
 foluat.ferc.gov
 5x5.firstnet.gov
 foreignfundinghighered.gov
+freedom.gov
 apps.fws.gov
 apistagingnew.globe.gov
-dataentrystagingnew.globe.gov
 datasearchstagingnew.globe.gov
 observerstaging.globe.gov
 observerstagingnew.globe.gov
@@ -170,7 +171,6 @@ lantern-stg.healthit.gov
 akaprod-everytrycounts.betobaccofree.hhs.gov
 akastage-everytrycounts.betobaccofree.hhs.gov
 emh.housing.navy.mil and www.homes.mil
-iqconnect.house.gov
 dev3bhwnextgen.bhwenv.hrsa.gov
 dev4bhwnextgen.bhwenv.hrsa.gov
 mchb.tvisdata.sec.hrsa.gov
@@ -236,6 +236,7 @@ ndstudio.gov
 pec.ng.mil
 beta.nicic.gov
 owa.nicic.gov
+chiqa-wip.lhcaws-prod-pub.nlm.nih.gov
 cidc-stage.nci.nih.gov
 cidc.nci.nih.gov
 combomatch-int.nci.nih.gov
@@ -259,8 +260,10 @@ nbdc-biobank.nida.nih.gov
 ofm-stage.od.nih.gov
 omb-clearance.nci.nih.gov
 planon.nci.nih.gov
+portalstage.niehs.nih.gov
 psubmit.ncbi.nlm.nih.gov
 rsc-staging.niaid.nih.gov
+scrubber-wip.lhcaws-prod-pub.nlm.nih.gov
 sra-sra-metadata-explorer--feature-postgres-migration-1kstl.ocpdev-be.p2gate.ncbi.nlm.nih.gov
 techbull-beta.nlm.nih.gov
 test-nbdc-biobank.nida.nih.gov
@@ -317,6 +320,7 @@ webeast.ngs.noaa.gov
 webform.pier.seagrant.noaa.gov
 publicwebcms.nrc-gateway.gov
 ww2.nrc.gov
+add-monthly-peak-loads-reopt-stage.its.nrel.gov
 aeroportal.nrel.gov
 bioenergymodels.nrel.gov
 cdfc.nrel.gov
@@ -341,7 +345,6 @@ bptraining.ornl.gov
 coherent.ornl.gov
 energybootcamp.ornl.gov
 events.ornl.gov
-fact-efrc.ornl.gov
 geoai.ornl.gov
 gridmodernizationtechnologies.ornl.gov
 htpd2024.ornl.gov
