@@ -45,9 +45,7 @@ correlogo.cancer.gov
 ctsu-uat.cancer.gov
 ctsu-unit.cancer.gov
 ctsu.cancer.gov
-datacommons-stage.cancer.gov
 dcegconnect-cms.cancer.gov
-dctd-prod-acsf.cancer.gov
 evsexplore-stage.semantics.cancer.gov
 fundedresearch-dev-aws.cancer.gov
 gdc-stage.cancer.gov
@@ -86,6 +84,7 @@ data.sandbox16.census.gov
 data.sandbox17.census.gov
 data.sandbox2.census.gov
 wdob.sandbox.adsd.census.gov
+hmda-beta-eks.staging-regtech.aws.cfpb.gov
 hmda-eks.staging-regtech.aws.cfpb.gov
 askchips.chips.gov
 presidentscup.cisa.gov
@@ -259,7 +258,6 @@ blog-brigade.gcn.militaryonesource.mil
 demographics-icf.gcn.militaryonesource.mil
 demographics.gcn.militaryonesource.mil
 appeears.sdbx-1.earthdatacloud.nasa.gov
-cdaweb1.sci.gsfc.nasa.gov
 czbast.czdt.smce.nasa.gov
 dev-tolnet.larc.nasa.gov
 doingbusiness.uat.nasa.gov
@@ -269,6 +267,7 @@ helio.data.nasa.gov
 ipda.jpl.nasa.gov
 labcas-dav.jpl.nasa.gov
 labcas-viewer.jpl.nasa.gov
+psi-webapps-stage-1.arc.nasa.gov
 sandbox.science.gsfc.nasa.gov
 sealevel-dataservices.jpl.nasa.gov
 searchprodapi-1167262027.auto.earthdatacloud.nasa.gov
@@ -292,6 +291,7 @@ cadsr-jenkins.nci.nih.gov
 chiqa-wip.lhcaws-prod-pub.nlm.nih.gov
 cidc-stage.nci.nih.gov
 cidc.nci.nih.gov
+clindev12.be-md.ncbi.nlm.nih.gov
 combomatch-int.nci.nih.gov
 combomatch-uat.nci.nih.gov
 commonfund-pre.od.nih.gov
@@ -302,11 +302,11 @@ dccps-jenkins.nci.nih.gov
 dcegsystem.nci.nih.gov
 desk-apex.nci.nih.gov
 dev-nbdc-biobank.nida.nih.gov
+dpcpsi-pre.od.nih.gov
 ebccp-admin.nci.nih.gov
 etd.nih.gov
 genemed.nci.nih.gov
 gfet.nci.nih.gov
-go.nih.gov
 healthyeatingstage.nhlbi.nih.gov
 i2e.nci.nih.gov
 idsstage.nhlbi.nih.gov
@@ -402,7 +402,6 @@ legacyarchive.nsf.gov
 ncsesdata-internal.nsf.gov
 pokagon.nsopw.gov
 tonkawa.nsopw.gov
-uat.nsopw.gov
 grants.ntia.gov
 ptoft.ntis.gov
 www-d.ofia.gov
@@ -537,7 +536,6 @@ cdi.code-pages.usgs.gov
 dev-is.chs.usgs.gov
 devburnseverity.cr.usgs.gov
 dmiranda.code-pages.usgs.gov
-edclxvs57.cr.usgs.gov
 goose.fort.usgs.gov
 igskah401slap18.cr.usgs.gov
 lacoast-t.cr.usgs.gov
