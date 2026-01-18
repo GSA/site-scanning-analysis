@@ -1,7 +1,6 @@
 missing_url
 abd.gov
 data.abmc.gov
-childcare.acf.gov
 ncsacw-pre-prod.acf.gov
 ncsacw-test-static.acf.gov
 ncsacw.acf.gov
@@ -37,7 +36,6 @@ secnewsd.psb.bls.gov
 bluecampaign.gov
 qa.bush41library.gov
 analysistools-stage.cancer.gov
-cbioportal-qa.ccdi.cancer.gov
 cbioportal-stage.ccdi.cancer.gov
 cbioportal.ccdi.cancer.gov
 chornobyltissuebank.cancer.gov
@@ -79,7 +77,6 @@ vaxvizapp.cdc.gov
 wisqars-viz.glb.cdc.gov
 wisqars.glb.cdc.gov
 youthonline.cdc.gov
-data.dissdev3.census.gov
 data.sandbox16.census.gov
 data.sandbox17.census.gov
 wdob.sandbox.adsd.census.gov
@@ -108,7 +105,6 @@ mdctqmrval.cms.gov
 mdctseds.cms.gov
 openpaymentssystem.cms.gov
 openpaymentsystem.cms.gov
-pds.mps.cms.gov
 prod.eqrs.cms.gov
 prodpreview.eqrs.cms.gov
 staging.bluebutton.cms.gov
@@ -199,6 +195,7 @@ stg-home.grantsolutions.gov
 greathealthcare.gov
 dev-iis.ocfo.gsa.gov
 fedpayvendor.gsa.gov
+gsa-stg-ecas.gsa.gov
 marketplace.fleet-stg.fcs.gsa.gov
 preview-gsa-stg-ecas.gsa.gov
 tdr.dev-acqit.helix.gsa.gov
@@ -213,8 +210,6 @@ emh.housing.navy.mil and www.homes.mil
 dev3bhwnextgen.bhwenv.hrsa.gov
 dev4bhwnextgen.bhwenv.hrsa.gov
 help.stg2.hrsa.gov
-mchb.tvisdata.sec.hrsa.gov
-mchbtvisdatastg01.hrsa.gov
 testa.npdb.hrsa.gov
 hstf.gov
 hudhousingcounselors.hud.gov
@@ -315,7 +310,6 @@ ofm-stage.od.nih.gov
 omb-clearance.nci.nih.gov
 planon.nci.nih.gov
 portalstage.niehs.nih.gov
-rsc-staging.niaid.nih.gov
 scrubber-wip.lhcaws-prod-pub.nlm.nih.gov
 sra-sra-metadata-explorer--feature-postgres-migration-1kstl.ocpdev-be.p2gate.ncbi.nlm.nih.gov
 stagetestdomain6.nih.gov
@@ -328,6 +322,7 @@ tpwb-dev7.nci.nih.gov
 trials-dcim.nci.nih.gov
 uts.awsprod.nlm.nih.gov
 videocast-b.nih.gov
+vsacrepo-qa.nlm.nih.gov
 wwwapprmr.nimh.nih.gov
 wwwappstage.nimh.nih.gov
 abacus.nist.gov
@@ -399,6 +394,7 @@ legacyarchive.nsf.gov
 ncsesdata-internal.nsf.gov
 pokagon.nsopw.gov
 tonkawa.nsopw.gov
+uat.nsopw.gov
 grants.ntia.gov
 ptoft.ntis.gov
 www-d.ofia.gov
@@ -422,7 +418,6 @@ colleeniversen.ornl.gov
 conferencerooms.ornl.gov
 daacclassic.ornl.gov
 daacweb-prod.ornl.gov
-developer.ornl.gov
 dnc2s.ornl.gov
 dnn-consortium.ornl.gov
 eii.ornl.gov
@@ -534,22 +529,20 @@ to.usembassy.gov
 cdi.code-pages.usgs.gov
 dev-is.chs.usgs.gov
 devburnseverity.cr.usgs.gov
-dmiranda.code-pages.usgs.gov
 goose.fort.usgs.gov
 igskah401slap18.cr.usgs.gov
-lacoast-t.cr.usgs.gov
 r-training.code-pages.usgs.gov
 staging-nevada.usgs.gov
 s1p-extdrup8-00.uxpax.usitc.gov
 s1p-extdrup8-01.uxpax.usitc.gov
 stage.usmarshals.gov
 preprod.usphs.gov
-ext-sit-seqdata.etc.uspto.gov
 internal-trademarkcenter-passive.uspto.gov
 prod-web-alb-tg.uspto.gov
 usxports.gov
 7a485eceb667a5be17cd1a1e98a52615.vfs.va.gov
 portal.nprod.vetbiz.va.gov
+uat.vlm.cem.va.gov
 comptroller.war.gov
 dowcio.war.gov
 policy.war.gov
