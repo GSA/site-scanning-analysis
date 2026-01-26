@@ -26,7 +26,7 @@ Department of Commerce,Economic Development Administration,3,3,0,1,100.0,0.0,33.
 Department of Commerce,International Trade Administration,19,17,4,2,89.47,21.05,10.53
 Department of Commerce,Minority Business Development Agency,5,5,1,1,100.0,20.0,20.0
 Department of Commerce,National Institute of Standards and Technology,164,139,39,17,84.76,23.78,10.37
-Department of Commerce,National Oceanic and Atmospheric Administration,516,464,129,51,89.92,25.0,9.88
+Department of Commerce,National Oceanic and Atmospheric Administration,514,462,128,51,89.88,24.9,9.92
 Department of Commerce,National Technical Information Service,6,6,1,0,100.0,16.67,0.0
 Department of Commerce,National Telecommunications and Information Administration,11,9,1,2,81.82,9.09,18.18
 Department of Commerce,Office of the Secretary,1,1,0,0,100.0,0.0,0.0
@@ -61,7 +61,7 @@ Department of Energy,"National Nuclear Security Administration, National Securit
 Department of Energy,National Renewable Energy Laboratory,93,75,20,1,80.65,21.51,1.08
 Department of Energy,ORAU,9,8,2,1,88.89,22.22,11.11
 Department of Energy,OSTI,6,6,4,1,100.0,66.67,16.67
-Department of Energy,Oak Ridge National Laboratory,364,333,35,3,91.48,9.62,0.82
+Department of Energy,Oak Ridge National Laboratory,363,332,35,3,91.46,9.64,0.83
 Department of Energy,Office of Energy Efficiency and Renewable Energy,2,2,0,1,100.0,0.0,50.0
 Department of Energy,Pacific Northwest National Laboratory,129,117,23,5,90.7,17.83,3.88
 Department of Energy,Portsmouth/Paducah Project Office,1,1,0,0,100.0,0.0,0.0
@@ -153,7 +153,6 @@ Department of State,Bureau of Political and Military Affairs,1,0,0,1,0.0,0.0,100
 Department of State,Bureau of Western Hemisphere Affairs (WHA),3,3,0,1,100.0,0.0,33.33
 Department of State,Office of the Inspector General,1,1,0,1,100.0,0.0,100.0
 Department of Transportation,Bureau of Transportation Statistics,10,9,3,3,90.0,30.0,30.0
-Department of Transportation,Department of Transportation,187,169,31,24,90.37,16.58,12.83
 Department of Transportation,FAA MMAC,2,2,0,0,100.0,0.0,0.0
 Department of Transportation,FAASTeam,1,1,0,0,100.0,0.0,0.0
 Department of Transportation,Federal Aviation Administration,140,129,13,5,92.14,9.29,3.57
@@ -198,12 +197,6 @@ Department of the Treasury,Departmental Offices,1,1,1,0,100.0,100.0,0.0
 Department of the Treasury,Office of Financial Research (OFR),1,1,1,0,100.0,100.0,0.0
 Department of the Treasury,TCS (IRS),1,1,0,1,100.0,0.0,100.0
 Department of the Treasury,Treasury Inspector General for Tax Administration,1,1,0,1,100.0,0.0,100.0
-Director of National Intelligence,ODNI - IARPA,1,1,1,0,100.0,100.0,0.0
-Director of National Intelligence,Office of Director of National Intelligence - CIO (ICES),36,1,0,0,2.78,0.0,0.0
-Director of National Intelligence,Office of Director of National Intelligence - Public Affairs Office,2,2,1,0,100.0,50.0,0.0
-Director of National Intelligence,Office of Directorate of National Intelligence,3,3,1,0,100.0,33.33,0.0
-Director of National Intelligence,Office of the Director of National Intelligence,4,4,0,0,100.0,0.0,0.0
-Director of National Intelligence,"Office of the Program Manager, Information Sharing Environment, Office of the DNI",1,1,1,0,100.0,100.0,0.0
 Environmental Protection Agency,Federal Remediation Technology Roundtable,1,1,0,1,100.0,0.0,100.0
 Environmental Protection Agency,Office of Federal Sustainability,1,1,1,0,100.0,100.0,0.0
 Equal Employment Opportunity Commission,Equal Employment Opportunity Commission,11,11,1,2,100.0,9.09,18.18
@@ -260,8 +253,6 @@ General Services Administration,"GSA, Office of Government-wide Policy",2,2,0,2,
 General Services Administration,"GSA, Q-FPKI",1,1,0,0,100.0,0.0,0.0
 General Services Administration,"GSA, TTS, Federalist",1,1,1,1,100.0,100.0,100.0
 General Services Administration,"GSA,FAS,Technology Transformation Service",299,174,68,66,58.19,22.74,22.07
-General Services Administration,General Services Administration,6,6,4,5,100.0,66.67,83.33
-General Services Administration,General Services Administration ,1,1,1,1,100.0,100.0,100.0
 General Services Administration,OGP/OSSPI/Executive Councils,1,1,0,1,100.0,0.0,100.0
 General Services Administration,Office of Government-wide Policy,1,1,1,1,100.0,100.0,100.0
 General Services Administration,TTS Public Benefits Studio,1,1,1,1,100.0,100.0,100.0
@@ -312,6 +303,11 @@ Office of Government Ethics,Office of Government Ethics,6,5,0,2,83.33,0.0,33.33
 Office of Personnel Management,Chief Human Capital Officers Council,1,1,0,1,100.0,0.0,100.0
 Office of Personnel Management,Healthcare and Insurance (HI),1,1,0,0,100.0,0.0,0.0
 Office of Personnel Management,Human Resource Solutions (HRS),426,426,15,7,100.0,3.52,1.64
+Office of the Director of National Intelligence,ODNI - IARPA,1,1,1,0,100.0,100.0,0.0
+Office of the Director of National Intelligence,Office of Director of National Intelligence - CIO (ICES),36,1,0,0,2.78,0.0,0.0
+Office of the Director of National Intelligence,Office of Director of National Intelligence - Public Affairs Office,2,2,1,0,100.0,50.0,0.0
+Office of the Director of National Intelligence,Office of Directorate of National Intelligence,3,3,1,0,100.0,33.33,0.0
+Office of the Director of National Intelligence,"Office of the Program Manager, Information Sharing Environment, Office of the DNI",1,1,1,0,100.0,100.0,0.0
 Open World Leadership Center,The Open World Leadership Center,1,1,0,0,100.0,0.0,0.0
 Peace Corps,Office of Inspector General,1,1,0,1,100.0,0.0,100.0
 Peace Corps,Peace Corps,62,61,0,0,98.39,0.0,0.0
