@@ -40,7 +40,7 @@ class Uswds:
                 'v1.x': version_series.str.startswith('v1.', na=False).sum(),
                 'v2.x': version_series.str.startswith('v2.', na=False).sum(),
                 'v3.x': version_series.str.startswith('v3.', na=False).sum(),
-                'banner': group_df['uswds_banner_heres_how'].sum(),
+                'banner': (group_df['uswds_banner_heres_how'] == True).sum(),
                 'usa-class': group_df['uswds_usa_class_list'].notna().sum()
             })
         result_df = pd.DataFrame(results)
