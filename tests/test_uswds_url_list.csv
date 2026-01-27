@@ -1,0 +1,21 @@
+branch,source_list,live,filter,redirect,uswds_semantic_version,uswds_banner_heres_how,uswds_usa_class_list
+Executive,general,True,True,False,v3.5.0,1,usa-button usa-header
+Executive,general,True,True,True,v2.13.0,1,usa-nav
+Executive,general,True,False,False,v1.6.10,0,
+Executive,general,False,False,False,v3.0.0,0,usa-footer
+Executive,omb_idea,True,True,False,v3.1.0,1,usa-banner
+Legislative,general,True,True,False,v2.10.0,1,usa-accordion
+Legislative,general,True,True,True,,0,usa-search
+Legislative,general,True,False,False,v1.0.0,1,
+Legislative,general,False,True,False,v3.2.0,0,usa-menu
+Judicial,general,True,True,False,v2.8.0,1,usa-card
+Judicial,general,True,True,True,v1.5.0,0,
+Judicial,general,True,False,False,,1,usa-list
+Judicial,general,False,False,False,v3.4.0,0,usa-button
+Executive,omb_idea,True,True,False,v2.12.0,1,usa-identifier
+Legislative,omb_idea,True,True,False,v3.6.0,1,usa-breadcrumb
+Judicial,omb_idea,True,True,True,v1.2.0,0,usa-hero
+Executive,general,True,True,False,,1,
+Legislative,general,True,True,False,v2.5.0,0,usa-alert
+Judicial,general,True,True,False,v3.3.0,1,usa-table
+Executive,omb_idea,False,False,False,v2.0.0,0,

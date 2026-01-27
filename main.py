@@ -11,6 +11,7 @@ from report_generators.baseline import Baseline
 from report_generators.base_consumer import BaseConsumer
 from report_generators.target_urls_missing_from_snapshot import TargetUrlsMissingFromSnapshot
 from report_generators.federal_standards import FederalStandardsSnapshot
+from report_generators.uswds import Uswds
 from report_generators.website_requests import WebsiteRequests
 from unique_website_list.unique_website_list import generate_unique_website_list
 
@@ -105,6 +106,12 @@ def generate_website_requests_report():
     report = website_requests_report.generate_report()
     report.to_csv(config['website_requests_report_location'], index=False)
 
+def generate_uswds_report():
+    df = pd.read_csv(config['primary_snapshot_url'], low_memory=False)
+    uswds_report = Uswds(df)
+    report = uswds_report.generate_report()
+    report.to_csv(config['uswds_report_location'], index=False)
+
 if __name__ == '__main__':
     ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -140,3 +147,5 @@ if __name__ == '__main__':
         generate_federal_standards_snapshot_report()
     if command == 'website-requests-report':
         generate_website_requests_report()
+    if command == 'generate-uswds-report':
+        generate_uswds_report()
