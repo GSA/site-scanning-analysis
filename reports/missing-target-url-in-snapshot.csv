@@ -41,12 +41,10 @@ joltsdatad.bls.gov
 secnewsd.psb.bls.gov
 bluecampaign.gov
 cancertrialsfinder.cancer.gov
-cbioportal-qa.ccdi.cancer.gov
 cbioportal.ccdi.cancer.gov
 chornobyltissuebank.cancer.gov
 correlogo.cancer.gov
 cryosparc.cancer.gov
-ctsu-uat.cancer.gov
 ctsu-unit.cancer.gov
 ctsu.cancer.gov
 dctd-dev-acsf.cancer.gov
@@ -77,6 +75,7 @@ eji.cdc.gov
 findtbresources-prod-az.cdc.gov
 hehr.cdc.gov
 hehrstage.cdc.gov
+it-guides.cdc.gov
 mvpiccs-viz.cdc.gov
 mvpiccs-viz.glb.cdc.gov
 ndpp-ops-center.cdc.gov
@@ -244,6 +243,7 @@ playbook.healthit.gov
 akaprod-everytrycounts.betobaccofree.hhs.gov
 akastage-everytrycounts.betobaccofree.hhs.gov
 tech.hhs.gov
+example.hhsops.gov
 emh.housing.navy.mil and www.homes.mil
 dev3bhwnextgen.bhwenv.hrsa.gov
 dev4bhwnextgen.bhwenv.hrsa.gov
@@ -302,6 +302,7 @@ dev-ceres.larc.nasa.gov
 dev-tolnet.larc.nasa.gov
 doingbusiness.uat.nasa.gov
 emit-cms.jpl.nasa.gov
+emit-staging.jpl.nasa.gov
 eroteamdirectory.nasa.gov
 gs674-iswaweb1.ccmc.gsfc.nasa.gov
 gs674-ono.ndc.nasa.gov
@@ -325,6 +326,7 @@ static-site.staging.sti.appdat.jsc.nasa.gov
 swot-cms.jpl.nasa.gov
 sys690.gsfc.nasa.gov
 taskbook.nasa.gov
+winmd.ird.appdat.jsc.nasa.gov
 www-stage.nasa.gov
 cl.gtclapps.com to be globaltrader.dc2n.navy.mil
 metoc.dc3n.navy.mil
@@ -429,6 +431,7 @@ apps.arl.noaa.gov
 arboretum.atdd.noaa.gov
 auth.orr.noaa.gov
 cbwofs.vlab.noaa.gov
+cms.staging.water.noaa.gov
 cnrfc.l.noaa.gov
 cwdrupal11.star1.nesdis.noaa.gov
 data.aev.class.noaa.gov
@@ -456,6 +459,7 @@ prod-01-alb-toolkit-climate.woc.noaa.gov
 prod-01-alb-www-oe.woc.noaa.gov
 prod-esi-api.orr.noaa.gov
 qa.coralreef.noaa.gov
+rhw9119.star1.nesdis.noaa.gov
 snapp-frontend.bldc.nwave.noaa.gov
 snapp-frontend.ctc.nwave.noaa.gov
 taskforce.coralreef.noaa.gov
@@ -512,7 +516,6 @@ colleeniversen.ornl.gov
 conferencerooms.ornl.gov
 daacclassic.ornl.gov
 daacweb-prod.ornl.gov
-developer.ornl.gov
 dnc2s.ornl.gov
 dnn-consortium.ornl.gov
 eii.ornl.gov
@@ -666,7 +669,6 @@ s1p-extdrup8-00.uxpax.usitc.gov
 s1p-extdrup8-01.uxpax.usitc.gov
 stage.usmarshals.gov
 ext-sit-seqdata.etc.uspto.gov
-internal-trademarkcenter-passive.uspto.gov
 prod-web-alb-tg.uspto.gov
 prod.passive.ttab.aws.uspto.gov
 www-web-search-alx.uspto.gov
