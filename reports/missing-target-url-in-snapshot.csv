@@ -49,6 +49,7 @@ ctsu-uat.cancer.gov
 ctsu-unit.cancer.gov
 ctsu.cancer.gov
 dctd-dev-acsf.cancer.gov
+dctd-test-acsf.cancer.gov
 fundedresearch-dev-aws.cancer.gov
 gdc-stage.cancer.gov
 icdgenie.cancer.gov
@@ -64,7 +65,9 @@ resilience.ccr.cancer.gov
 sbir-dev-acsf.cancer.gov
 survivalstatstools.cancer.gov
 techtransfer-cms.cancer.gov
+ace-accounts-d3.cbp.gov
 ace-accounts-d6.cbp.gov
+ace-accounts-sat.cbp.gov
 ace-accounts.cbp.gov
 arinvestmentsdev.cdc.gov
 arinvestmentstst.cdc.gov
@@ -121,6 +124,7 @@ pic-demo-frontend.app.cloud.gov
 pic-dev-frontend.app.cloud.gov
 pic-staging-frontend.app.cloud.gov
 pic-test-frontend.app.cloud.gov
+uswds-testing-t2tn7c2.app.cloud.gov
 mdcthcbsval.cms.gov
 mdctmcr.cms.gov
 mdctmcrval.cms.gov
@@ -258,6 +262,7 @@ dev4bhwnextgen.bhwenv.hrsa.gov
 devb-iqrs.npdb.hrsa.gov
 help.stg2.hrsa.gov
 mchb.tvisdata.sec.hrsa.gov
+testa-iqrs.npdb.hrsa.gov
 testa.npdb.hrsa.gov
 hstf.gov
 hudhousingcounselors.hud.gov
@@ -299,6 +304,7 @@ researchlibrary.lanl.gov
 styleguide.lanl.gov
 weathermachine.lanl.gov
 lda.gov
+gdo-cislunar.llnl.gov
 gdo-wintap.llnl.gov
 ins.llnl.gov
 old-pcmdi.llnl.gov
@@ -401,6 +407,7 @@ scrubber-wip.lhcaws-prod-pub.nlm.nih.gov
 sra-sra-metadata-explorer--feature-postgres-migration-1kstl.ocpdev-be.p2gate.ncbi.nlm.nih.gov
 stagetestdomain6.nih.gov
 stagetestdomain7.nih.gov
+stsuat.nichd.nih.gov
 teamsite04.nlm.nih.gov
 techbull-beta.nlm.nih.gov
 test-nbdc-biobank.nida.nih.gov
@@ -446,6 +453,7 @@ apps.arl.noaa.gov
 arboretum.atdd.noaa.gov
 auth.orr.noaa.gov
 cbwofs.vlab.noaa.gov
+cmr.data-uat.nesdis.noaa.gov
 cms.staging.water.noaa.gov
 cnrfc.l.noaa.gov
 cwdrupal11.star1.nesdis.noaa.gov
@@ -505,6 +513,7 @@ pokagon.nsopw.gov
 tonkawa.nsopw.gov
 uat.nsopw.gov
 grants.ntia.gov
+nessadmin.ntis.gov
 ptoft.ntis.gov
 d9.qa.obamalibrary.gov
 www-d.ofia.gov
@@ -532,6 +541,7 @@ colleeniversen.ornl.gov
 conferencerooms.ornl.gov
 daacclassic.ornl.gov
 daacweb-prod.ornl.gov
+developer.ornl.gov
 dnc2s.ornl.gov
 dnn-consortium.ornl.gov
 eii.ornl.gov
@@ -568,6 +578,7 @@ mapspace.ornl.gov
 metrology.ornl.gov
 mpex.ornl.gov
 mstdb.ornl.gov
+nairratdoe.ornl.gov
 nedm.ornl.gov
 neutronimaging.ornl.gov
 noaa-c7.ornl.gov
@@ -603,6 +614,7 @@ vera.ornl.gov
 visualization.ornl.gov
 wade.ornl.gov
 wic.ornl.gov
+orapubstage.osha.gov
 qa-eac.oversight.gov
 dfstage02.pnl.gov
 doe417.pnnl.gov
@@ -664,6 +676,7 @@ news.uscourts.gov
 www-cacb.qa.uscourts.gov
 www-kyeb.qa.uscourts.gov
 www-mnd.qa.uscourts.gov
+www2.uscourts.gov
 www2.vawd.uscourts.gov
 archivesspace.nal.usda.gov
 ewapsinternalbeta.ers.usda.gov
@@ -674,12 +687,15 @@ to.usembassy.gov
 cdi.code-pages.usgs.gov
 dev-vhptools.usgs.gov
 devburnseverity.cr.usgs.gov
+dmp.cr.usgs.gov
+edclxvs57.cr.usgs.gov
 goose.fort.usgs.gov
 natweb-r53.usgs.gov
 natweb.usgs.gov
 planetary-nomenclature.prod-asc.chs.usgs.gov
 r-training.code-pages.usgs.gov
 sgsu-vhptools1.usgs.gov
+spud-stage.usgs.gov
 staging-apps.usgs.gov
 staging-nevada.usgs.gov
 wasterservices.usgs.gov
