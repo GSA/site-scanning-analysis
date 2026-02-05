@@ -117,35 +117,27 @@ if __name__ == '__main__':
 
     command = sys.argv[1]
 
-    if command == 'generate-all-snapshot-report':
-        generate_all_snapshot_report()
-    if command == 'generate-primary-snapshot-report':
-        generate_primary_snapshot_report()
-    if command == 'generate-unique-url-report':
-        generate_unique_url_report()
-    if command == 'generate-unique-websites-report':
-        generate_unique_websites_report()
-    if command == 'generate-target-url-report':
-        generate_target_url_list_report()
-    if command == 'generate-unique-website-list':
-        generate_unique_website_list()
-    if command == 'generate-idea-report':
-        generate_idea_report()
-    if command == 'generate-idea-bureau-report':
-        generate_idea_bureau_report()
-    if command == 'generate-standards-report':
-        generate_standards_report()
-    if command == 'generate-standards-bureau-report':
-        generate_standards_bureau_report()
-    if command == 'generate-baseline-report':
-        generate_baseline_report()
-    if command == 'generate-base-consumer-report':
-        generate_base_consumer_report()
-    if command == 'generate-missing-target-url-report':
-        generate_missing_target_url_report()
-    if command == 'federal-standards-snapshot-report':
-        generate_federal_standards_snapshot_report()
-    if command == 'website-requests-report':
-        generate_website_requests_report()
-    if command == 'generate-uswds-report':
-        generate_uswds_report()
+    valid_commands = {
+        'generate-all-snapshot-report': generate_all_snapshot_report,
+        'generate-primary-snapshot-report': generate_primary_snapshot_report,
+        'generate-unique-url-report': generate_unique_url_report,
+        'generate-unique-websites-report': generate_unique_websites_report,
+        'generate-target-url-report': generate_target_url_list_report,
+        'generate-unique-website-list': generate_unique_website_list,
+        'generate-idea-report': generate_idea_report,
+        'generate-idea-bureau-report': generate_idea_bureau_report,
+        'generate-standards-report': generate_standards_report,
+        'generate-standards-bureau-report': generate_standards_bureau_report,
+        'generate-baseline-report': generate_baseline_report,
+        'generate-base-consumer-report': generate_base_consumer_report,
+        'generate-missing-target-url-report': generate_missing_target_url_report,
+        'federal-standards-snapshot-report': generate_federal_standards_snapshot_report,
+        'website-requests-report': generate_website_requests_report,
+        'generate-uswds-report': generate_uswds_report,
+    }
+
+    if command in valid_commands:
+        valid_commands[command]()
+    else:
+        print(f"Error: Invalid command '{command}'")
+        sys.exit(1)
