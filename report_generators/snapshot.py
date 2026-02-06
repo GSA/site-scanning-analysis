@@ -24,6 +24,17 @@ class Snapshot:
             'How many home scans failed because of invalid ssl certs?': self.failed_invalid_ssl(),
             'How many home scans failed because of timeouts?': self.failed_timeout(),
             'How many home scans failed for unknown reasons?': self.failed_unkown(),
+            'How many home scans were aborted?': self.failed_aborted(),
+            'How many home scans failed because address was unreachable?': self.failed_address_unreachable(),
+            'How many home scans failed because connection was closed?': self.failed_connection_closed(),
+            'How many home scans failed because of empty response?': self.failed_empty_response(),
+            'How many home scans failed because execution context was destroyed?': self.failed_execution_context_destroyed(),
+            'How many home scans failed because of http2 error?': self.failed_http2_error(),
+            'How many home scans failed because of invalid auth credentials?': self.failed_invalid_auth_credentials(),
+            'How many home scans failed because of invalid response?': self.failed_invalid_response(),
+            'How many home scans failed because of ssl protocol error?': self.failed_ssl_protocol_error(),
+            'How many home scans failed because of ssl version cipher mismatch?': self.failed_ssl_version_cipher_mismatch(),
+            'How many home scans failed because of too many redirects?': self.failed_too_many_redirects(),
             'How many final urls are html files?': self.final_url_mimetype_html(),
             'How many final urls are text files?': self.final_url_mimetype_plain_text(),
             'How many final urls are json files?': self.final_url_mimetype_json(),
@@ -154,6 +165,39 @@ class Snapshot:
 
     def failed_unkown(self):
         return len(self.df.loc[self.df['primary_scan_status'] == 'unknown_error'])
+
+    def failed_aborted(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'aborted'])
+
+    def failed_address_unreachable(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'address_unreachable'])
+
+    def failed_connection_closed(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'connection_closed'])
+
+    def failed_empty_response(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'empty_response'])
+
+    def failed_execution_context_destroyed(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'execution_context_destroyed'])
+
+    def failed_http2_error(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'http2_error'])
+
+    def failed_invalid_auth_credentials(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'invalid_auth_credentials'])
+
+    def failed_invalid_response(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'invalid_response'])
+
+    def failed_ssl_protocol_error(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'ssl_protocol_error'])
+
+    def failed_ssl_version_cipher_mismatch(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'ssl_version_cipher_mismatch'])
+
+    def failed_too_many_redirects(self):
+        return len(self.df.loc[self.df['primary_scan_status'] == 'too_many_redirects'])
 
     def final_url_mimetype_html(self):
         return len(self.df.loc[self.df['media_type'] == 'text/html'])
