@@ -32,6 +32,7 @@ stage.atf.gov
 connect.aviationweather.gov
 apps-fd.bea.gov
 cms.bea.gov
+uat.bep.gov
 cars.bis.gov
 snapr.bis.gov
 whbstewardship.blm.gov
@@ -51,7 +52,6 @@ ctsu.cancer.gov
 dctd-dev-acsf.cancer.gov
 dctd-test-acsf.cancer.gov
 fundedresearch-dev-aws.cancer.gov
-gdc-stage.cancer.gov
 icdgenie.cancer.gov
 llmpp.ccr.cancer.gov
 methylscape-qa.ccr.cancer.gov
@@ -65,6 +65,8 @@ resilience.ccr.cancer.gov
 sbir-dev-acsf.cancer.gov
 survivalstatstools.cancer.gov
 ace-accounts-d3.cbp.gov
+ace-accounts-d6.cbp.gov
+ace-accounts-sat.cbp.gov
 ace-accounts.cbp.gov
 arinvestmentsdev.cdc.gov
 arinvestmentstst.cdc.gov
@@ -93,9 +95,9 @@ vaxvizapp.cdc.gov
 wisqars-viz.glb.cdc.gov
 wisqars.glb.cdc.gov
 youthonline.cdc.gov
-stg.cdfifund.gov
 data.canary.census.gov
 data.dissdev3.census.gov
+data.sandbox14.census.gov
 data.sandbox16.census.gov
 data.sandbox17.census.gov
 ecorr.uat.dice.census.gov
@@ -221,6 +223,7 @@ webprodadmin.fmshrc.gov
 v-main-fcc2-1-outside.fnal.gov
 foreignfundinghighered.gov
 freedom.gov
+fso.gov
 apps.fws.gov
 apistagingnew.globe.gov
 dataentrystagingnew.globe.gov
@@ -257,7 +260,7 @@ dev4bhwnextgen.bhwenv.hrsa.gov
 devb-iqrs.npdb.hrsa.gov
 help.stg2.hrsa.gov
 mchb.tvisdata.sec.hrsa.gov
-testa-iqrs.npdb.hrsa.gov
+mchbtvisdatauat04.hrsa.gov
 testa.npdb.hrsa.gov
 hstf.gov
 hudhousingcounselors.hud.gov
@@ -326,6 +329,7 @@ janibal.lava-pages.nas.nasa.gov
 jssa-sragmsremp.ndc.nasa.gov
 ntnx-tst-2.nocc.fltops.jpl.nasa.gov
 ntts.arc.nasa.gov
+omniweb1.sci.gsfc.nasa.gov
 ono.ccmc.gsfc.nasa.gov
 psi-webapps-stage-1.arc.nasa.gov
 recoveryswapshop.ird.appdat.jsc.nasa.gov
@@ -367,6 +371,7 @@ dccps-jenkins.nci.nih.gov
 dcegsystem.nci.nih.gov
 desk-apex.nci.nih.gov
 dev-nbdc-biobank.nida.nih.gov
+docline.awsqa.nlm.nih.gov
 dpcpsi-pre.od.nih.gov
 ebccp-admin.nci.nih.gov
 etd.nih.gov
@@ -398,6 +403,7 @@ phasespace-explorer.niaid.nih.gov
 planon.nci.nih.gov
 portalstage.niehs.nih.gov
 scrubber-wip.lhcaws-prod-pub.nlm.nih.gov
+sitestats.nci.nih.gov
 sra-sra-metadata-explorer--feature-postgres-migration-1kstl.ocpdev-be.p2gate.ncbi.nlm.nih.gov
 stagetestdomain6.nih.gov
 stagetestdomain7.nih.gov
@@ -494,7 +500,6 @@ cdfc.nrel.gov
 climate.nrel.gov
 data-stage.nrel.gov
 dercf.nrel.gov
-docs.nrel.gov
 forums.nrel.gov
 hvacresourcemap.nrel.gov
 prime-contract.nrel.gov
@@ -502,7 +507,6 @@ small-business-web-stage.nrel.gov
 test-merge-into-main-reopt-stage.its.nrel.gov
 wrdb.nrel.gov
 legacyarchive.nsf.gov
-ncsesdata-internal.nsf.gov
 pokagon.nsopw.gov
 tonkawa.nsopw.gov
 uat.nsopw.gov
@@ -514,6 +518,7 @@ www-d.ofia.gov
 dev-learcat.bjs.ojp.gov
 htcbc.ovc.ojp.gov
 uat.namus.nij.ojp.gov
+uat.smart.ojp.gov
 beta.onrr.gov
 blog.onrr.gov
 revenuedata.onrr.gov
@@ -663,6 +668,7 @@ usaceportland.usajobs.gov
 uspp.usajobs.gov
 veterinaryjobs.usajobs.gov
 usaccess.usalearning.gov
+intra.usbr.gov
 innovationcenter.cafc.uscourts.gov
 news.uscourts.gov
 www-cacb.qa.uscourts.gov
@@ -689,6 +695,7 @@ spud-stage.usgs.gov
 staging-apps.usgs.gov
 staging-nevada.usgs.gov
 wasterservices.usgs.gov
+webvadevvs03.er.usgs.gov
 s1p-extdrup8-00.uxpax.usitc.gov
 s1p-extdrup8-01.uxpax.usitc.gov
 stage.usmarshals.gov
@@ -699,7 +706,6 @@ prod.passive.ttab.aws.uspto.gov
 www-web-search-alx.uspto.gov
 www-web-search-byr.uspto.gov
 usxports.gov
-7a485eceb667a5be17cd1a1e98a52615.vfs.va.gov
 7b1cd380a8dd46dee678e87bfdfe9926.vfs.va.gov
 dev-public-portal.lighthouse.va.gov
 portal.nprod.vetbiz.va.gov
