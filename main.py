@@ -11,9 +11,9 @@ from report_generators.baseline import Baseline
 from report_generators.base_consumer import BaseConsumer
 from report_generators.target_urls_missing_from_snapshot import TargetUrlsMissingFromSnapshot
 from report_generators.federal_standards import FederalStandardsSnapshot
+from report_generators.uswds import Uswds
 from report_generators.website_requests import WebsiteRequests
 from unique_website_list.unique_website_list import generate_unique_website_list
-
 
 def save_to_csv(file, data):
     with open(file, 'w') as csv_file:
@@ -106,38 +106,38 @@ def generate_website_requests_report():
     report = website_requests_report.generate_report()
     report.to_csv(config['website_requests_report_location'], index=False)
 
+def generate_uswds_report():
+    df = pd.read_csv(config['primary_snapshot_url'], low_memory=False)
+    uswds_report = Uswds(df)
+    report = uswds_report.generate_report()
+    report.to_csv(config['uswds_report_location'], index=False)
+
 if __name__ == '__main__':
     ssl._create_default_https_context = ssl._create_unverified_context
 
     command = sys.argv[1]
 
-    if command == 'generate-all-snapshot-report':
-        generate_all_snapshot_report()
-    if command == 'generate-primary-snapshot-report':
-        generate_primary_snapshot_report()
-    if command == 'generate-unique-url-report':
-        generate_unique_url_report()
-    if command == 'generate-unique-websites-report':
-        generate_unique_websites_report()
-    if command == 'generate-target-url-report':
-        generate_target_url_list_report()
-    if command == 'generate-unique-website-list':
-        generate_unique_website_list()
-    if command == 'generate-idea-report':
-        generate_idea_report()
-    if command == 'generate-idea-bureau-report':
-        generate_idea_bureau_report()
-    if command == 'generate-standards-report':
-        generate_standards_report()
-    if command == 'generate-standards-bureau-report':
-        generate_standards_bureau_report()
-    if command == 'generate-baseline-report':
-        generate_baseline_report()
-    if command == 'generate-base-consumer-report':
-        generate_base_consumer_report()
-    if command == 'generate-missing-target-url-report':
-        generate_missing_target_url_report()
-    if command == 'federal-standards-snapshot-report':
-        generate_federal_standards_snapshot_report()
-    if command == 'website-requests-report':
-        generate_website_requests_report()
+    valid_commands = {
+        'generate-all-snapshot-report': generate_all_snapshot_report,
+        'generate-primary-snapshot-report': generate_primary_snapshot_report,
+        'generate-unique-url-report': generate_unique_url_report,
+        'generate-unique-websites-report': generate_unique_websites_report,
+        'generate-target-url-report': generate_target_url_list_report,
+        'generate-unique-website-list': generate_unique_website_list,
+        'generate-idea-report': generate_idea_report,
+        'generate-idea-bureau-report': generate_idea_bureau_report,
+        'generate-standards-report': generate_standards_report,
+        'generate-standards-bureau-report': generate_standards_bureau_report,
+        'generate-baseline-report': generate_baseline_report,
+        'generate-base-consumer-report': generate_base_consumer_report,
+        'generate-missing-target-url-report': generate_missing_target_url_report,
+        'federal-standards-snapshot-report': generate_federal_standards_snapshot_report,
+        'website-requests-report': generate_website_requests_report,
+        'generate-uswds-report': generate_uswds_report,
+    }
+
+    if command in valid_commands:
+        valid_commands[command]()
+    else:
+        print(f"Error: Invalid command '{command}'")
+        sys.exit(1)

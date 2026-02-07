@@ -29,29 +29,6 @@ class Baseline:
 
       ##### End website count analysis #####
 
-      ##### Start public count analysis #####
-      # Get a unique url count for all public websites that are live
-      websites_public_df = self.df[(self.df['live'] == True) & (self.df['public'] == True)]
-      websites_public_url_count = websites_public_df['url'].nunique()
-      print(f"Total number of unique public URLs: {websites_public_url_count}")
-
-      # Get a unique url count for all public websites that are live and the branch = executive
-      websites_public_executive_df = self.df[(self.df['live'] == True) & (self.df['public'] == True) & (self.df['branch'].str.lower() == 'executive')]
-      websites_public_executive_url_count = websites_public_executive_df['url'].nunique()
-      print(f"Total number of unique public URLs for executive branch: {websites_public_executive_url_count}")
-
-      # Get a unique url count for all public websites that are live and the branch = legislative
-      websites_public_legislative_df = self.df[(self.df['live'] == True) & (self.df['public'] == True)& (self.df['branch'].str.lower() == 'legislative')]
-      websites_public_legislative_url_count = websites_public_legislative_df['url'].nunique()
-      print(f"Total number of unique public URLs for legislative branch: {websites_public_legislative_url_count}")
-
-      # Get a unique url count for all public websites that are live and the branch = judicial
-      websites_public_judicial_df = self.df[(self.df['live'] == True) & (self.df['public'] == True) & (self.df['branch'].str.lower() == 'judicial')]
-      websites_public_judicial_url_count = websites_public_judicial_df['url'].nunique()
-      print(f"Total number of unique public URLs for judicial branch: {websites_public_judicial_url_count}")
-
-      ##### End public count analysis #####
-
       ##### Start base_domains count analysis #####
       # Get a unique base_domain count for all websites that are live
       domains_all_df = self.df[self.df['live'] == True]
@@ -145,13 +122,13 @@ class Baseline:
       ##### End websites with logins analysis #####
 
       # Build the new DataFrame
-      categories = ['Websites', 'Public', 'Domains', 'Agencies', 'Bureaus', 'Websites with Logins']
+      categories = ['Websites', 'Domains', 'Agencies', 'Bureaus', 'Websites with Logins']
       data = {
           'Name': categories,
-          'All Branches': [websites_all_url_count, websites_public_url_count, domains_all_url_count, agencies_all_url_count, bureaus_all_url_count, websites_login_url_count],
-          'Executive': [websites_executive_url_count, websites_public_executive_url_count, domains_executive_url_count, agencies_executive_url_count, bureaus_executive_url_count, websites_login_executive_url_count],
-          'Legislative': [websites_legislative_url_count, websites_public_legislative_url_count, domains_legislative_url_count, agencies_legislative_url_count, bureaus_legislative_url_count, websites_login_legislative_url_count],
-          'Judicial': [websites_judicial_url_count, websites_public_judicial_url_count, domains_judicial_url_count, agencies_judicial_url_count, bureaus_judicial_url_count, websites_login_judicial_url_count]
+          'All Branches': [websites_all_url_count, domains_all_url_count, agencies_all_url_count, bureaus_all_url_count, websites_login_url_count],
+          'Executive': [websites_executive_url_count, domains_executive_url_count, agencies_executive_url_count, bureaus_executive_url_count, websites_login_executive_url_count],
+          'Legislative': [websites_legislative_url_count, domains_legislative_url_count, agencies_legislative_url_count, bureaus_legislative_url_count, websites_login_legislative_url_count],
+          'Judicial': [websites_judicial_url_count, domains_judicial_url_count, agencies_judicial_url_count, bureaus_judicial_url_count, websites_login_judicial_url_count]
       }
 
       result_df = pd.DataFrame(data)
