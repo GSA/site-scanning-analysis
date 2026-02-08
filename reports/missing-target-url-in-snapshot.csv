@@ -25,6 +25,7 @@ ancpublicstg.army.mil
 financialfrontline.army.mil
 foia.army.mil
 oe.t2com.army.mil
+pia.army.mil
 regulatory.ops.usace.army.mil
 research.ari.army.mil
 uat.foia.army.mil
@@ -33,7 +34,6 @@ stage.atf.gov
 connect.aviationweather.gov
 apps-fd.bea.gov
 cms.bea.gov
-uat.bep.gov
 cars.bis.gov
 snapr.bis.gov
 whbstewardship.blm.gov
@@ -46,6 +46,7 @@ cancertrialsfinder.cancer.gov
 cbioportal-qa.ccdi.cancer.gov
 cbioportal.ccdi.cancer.gov
 chornobyltissuebank.cancer.gov
+clinicalcommons-stage.ccdi.cancer.gov
 correlogo.cancer.gov
 cryosparc.cancer.gov
 ctsu-uat.cancer.gov
@@ -56,7 +57,6 @@ dctd-test-acsf.cancer.gov
 fundedresearch-dev-aws.cancer.gov
 icdgenie.cancer.gov
 llmpp.ccr.cancer.gov
-methylscape-qa.ccr.cancer.gov
 methylscape-stage.ccr.cancer.gov
 pdts.ccr.cancer.gov
 physics-prod-acsf.cancer.gov
@@ -125,6 +125,7 @@ pic-demo-frontend.app.cloud.gov
 pic-dev-frontend.app.cloud.gov
 pic-staging-frontend.app.cloud.gov
 pic-test-frontend.app.cloud.gov
+impl.nonprod.cybergeek.internal.cms.gov
 mdcthcbsval.cms.gov
 mdctmcr.cms.gov
 mdctmcrval.cms.gov
@@ -144,10 +145,8 @@ securityawareness.dcsa.mil
 adminleave.stage.eie.dhs.gov
 bwt-public.sat.mesh.cbp.dhs.gov
 bwt-qa.cbp.dhs.gov
-devpki.dimc.dhs.gov
 esafe-external-web.prod.mesh.cbp.dhs.gov
 esafe-external-web.sat.mesh.cbp.dhs.gov
-esta-test2.sat.mesh.cbp.dhs.gov
 immvets.dhs.gov
 isccompliance-staging.atlas-ext.cisa.dhs.gov
 isccompliance.atlas-ext.cisa.dhs.gov
@@ -179,7 +178,6 @@ acquia-test-bts.dot.gov
 acquia-test-fhwa.dot.gov
 acquia-test-fra.dot.gov
 acquia-test-fta.dot.gov
-acquia-test-marad.dot.gov
 acquia-test-phmsa.dot.gov
 acquia-test-volpe.dot.gov
 cms8.fhwa.dot.gov
@@ -192,6 +190,7 @@ ge.qa.eisenhowerlibrary.gov
 doe417.energy.gov
 energydashboard.energy.gov
 fecm.energy.gov
+hgeo.energy.gov
 ie-exchange.energy.gov
 livewire.energy.gov
 nationalcoalcouncil.energy.gov
@@ -256,6 +255,7 @@ akastage-everytrycounts.betobaccofree.hhs.gov
 tech.hhs.gov
 example.hhsops.gov
 emh.housing.navy.mil and www.homes.mil
+community.hrsa.gov
 dev3bhwnextgen.bhwenv.hrsa.gov
 dev4bhwnextgen.bhwenv.hrsa.gov
 devb-iqrs.npdb.hrsa.gov
@@ -323,7 +323,6 @@ emit-staging.jpl.nasa.gov
 eroteamdirectory.nasa.gov
 gs674-iswaweb1.ccmc.gsfc.nasa.gov
 gs674-ono.ndc.nasa.gov
-gwm-stage.gsfc.nasa.gov
 helio.data.nasa.gov
 ipda.jpl.nasa.gov
 janibal.lava-pages.nas.nasa.gov
@@ -370,6 +369,8 @@ csms.nci.nih.gov
 dccps-jenkins.nci.nih.gov
 dcegsystem.nci.nih.gov
 desk-apex.nci.nih.gov
+dev-dataview.ncbi.nlm.nih.gov
+devtestdomain6.nih.gov
 docline.awsqa.nlm.nih.gov
 dpcpsi-pre.od.nih.gov
 ebccp-admin.nci.nih.gov
@@ -448,6 +449,7 @@ survey.nist.gov
 vocab.nist.gov
 wipp-plugins.nist.gov
 nlr.gov
+sam.nlr.gov
 search4.nlr.gov
 small-business.nlr.gov
 adios-edit.orr.noaa.gov
@@ -458,7 +460,6 @@ cbwofs.vlab.noaa.gov
 cmr.data-uat.nesdis.noaa.gov
 cms.staging.water.noaa.gov
 cnrfc.l.noaa.gov
-cwdrupal11.star1.nesdis.noaa.gov
 data.aev.class.noaa.gov
 dev-01-alb-www-oe.woc.noaa.gov
 discover.library.noaa.gov
@@ -494,18 +495,17 @@ webeast.ngs.noaa.gov
 webform.pier.seagrant.noaa.gov
 publicwebcms.nrc-gateway.gov
 ww2.nrc.gov
-add-monthly-peak-loads-reopt-stage.its.nrel.gov
 aeroportal.nrel.gov
 bioenergymodels.nrel.gov
 cdfc.nrel.gov
 climate.nrel.gov
 data-stage.nrel.gov
 dercf.nrel.gov
+docs.nrel.gov
 forums.nrel.gov
 hvacresourcemap.nrel.gov
 prime-contract.nrel.gov
 small-business-web-stage.nrel.gov
-test-merge-into-main-reopt-stage.its.nrel.gov
 wrdb.nrel.gov
 legacyarchive.nsf.gov
 pokagon.nsopw.gov
@@ -520,7 +520,6 @@ dev-learcat.bjs.ojp.gov
 htcbc.ovc.ojp.gov
 uat.amberalert.ojp.gov
 uat.namus.nij.ojp.gov
-uat.smart.ojp.gov
 beta.onrr.gov
 blog.onrr.gov
 revenuedata.onrr.gov
@@ -543,7 +542,6 @@ conferencerooms.ornl.gov
 daacclassic.ornl.gov
 daacweb-prod.ornl.gov
 developer.ornl.gov
-dnc2s.ornl.gov
 dnn-consortium.ornl.gov
 eii.ornl.gov
 energybootcamp.ornl.gov
@@ -675,6 +673,7 @@ www-cacb.qa.uscourts.gov
 www-kyeb.qa.uscourts.gov
 www2.uscourts.gov
 www2.vawd.uscourts.gov
+aglab-staging.arsnet.usda.gov
 archivesspace.nal.usda.gov
 fas2.stg.platform.usda.gov
 fdc-stage.nal.usda.gov
@@ -685,6 +684,7 @@ cdi.code-pages.usgs.gov
 dev-vhptools.usgs.gov
 devburnseverity.cr.usgs.gov
 dmp.cr.usgs.gov
+ers-imsprod.cr.usgs.gov
 goose.fort.usgs.gov
 igskah401slap18.cr.usgs.gov
 natweb-r53.usgs.gov
