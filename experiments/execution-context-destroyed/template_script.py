@@ -8,7 +8,7 @@ RESULTS_OVER_TIME_CSV_PATH = './your/file/path/results-over-time.csv'
 def get_df(db_name: str):
     """
     This function could be set up to pull data from a local copy of the postgres
-    database. It could also be reworked to pull from the publically hosted snapshot CSV
+    database. It could also be reworked to pull from the publicly hosted snapshot CSV
     if we move from weekly to daily snapshot generation.
     """
     pass
