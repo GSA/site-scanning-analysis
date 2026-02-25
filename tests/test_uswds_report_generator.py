@@ -108,12 +108,22 @@ class TargetUrlListReportGeneratorTest(unittest.TestCase):
 
     def test_report_columns(self):
         """Verify report has all expected columns"""
-        expected_columns = ['Group', 'count', 'semantic version', 'v1.x', 'v2.x', 'v3.x', 'banner', 'usa-class']
+        expected_columns = [
+            'Group', 'count', 'Agencies', 'semantic version', 'Agencies_sv',
+            'v1.x', 'Agencies_v1', 'v2.x', 'Agencies_v2', 'v3.x', 'Agencies_v3',
+            'banner', 'Agencies_banner', 'usa-class', 'Agencies_usa_class'
+        ]
         self.assertEqual(list(self.report.columns), expected_columns)
 
     def test_counts_are_non_negative(self):
         """Verify all counts are non-negative integers"""
-        for col in ['count', 'semantic version', 'v1.x', 'v2.x', 'v3.x', 'banner', 'usa-class']:
+        numeric_cols = [
+            'count', 'Agencies', 'semantic version', 'Agencies_sv',
+            'v1.x', 'Agencies_v1', 'v2.x', 'Agencies_v2',
+            'v3.x', 'Agencies_v3', 'banner', 'Agencies_banner',
+            'usa-class', 'Agencies_usa_class'
+        ]
+        for col in numeric_cols:
             self.assertTrue((self.report[col] >= 0).all())
 
     def test_filtering_hierarchy(self):
@@ -127,6 +137,48 @@ class TargetUrlListReportGeneratorTest(unittest.TestCase):
             self.assertLessEqual(live, scanned)
             self.assertLessEqual(filtered, live)
             self.assertLessEqual(non_redir, filtered)
+
+    def test_agencies_count_bounded_by_site_count(self):
+        """Verify agency counts never exceed site counts for each group"""
+        for _, row in self.report.iterrows():
+            self.assertLessEqual(row['Agencies'], row['count'])
+
+    def test_agencies_metric_bounded_by_metric(self):
+        """Verify each Agencies_* column never exceeds its corresponding metric column"""
+        metric_pairs = [
+            ('Agencies_sv', 'semantic version'),
+            ('Agencies_v1', 'v1.x'),
+            ('Agencies_v2', 'v2.x'),
+            ('Agencies_v3', 'v3.x'),
+            ('Agencies_banner', 'banner'),
+            ('Agencies_usa_class', 'usa-class'),
+        ]
+        for agency_col, metric_col in metric_pairs:
+            for _, row in self.report.iterrows():
+                self.assertLessEqual(
+                    row[agency_col], row[metric_col],
+                    f"{agency_col} ({row[agency_col]}) > {metric_col} ({row[metric_col]}) "
+                    f"for group '{row['Group']}'"
+                )
+
+    def test_agencies_zero_when_metric_zero(self):
+        """Verify agency count is zero when corresponding metric is zero"""
+        metric_pairs = [
+            ('Agencies_sv', 'semantic version'),
+            ('Agencies_v1', 'v1.x'),
+            ('Agencies_v2', 'v2.x'),
+            ('Agencies_v3', 'v3.x'),
+            ('Agencies_banner', 'banner'),
+            ('Agencies_usa_class', 'usa-class'),
+        ]
+        for agency_col, metric_col in metric_pairs:
+            for _, row in self.report.iterrows():
+                if row[metric_col] == 0:
+                    self.assertEqual(
+                        row[agency_col], 0,
+                        f"{agency_col} should be 0 when {metric_col} is 0 "
+                        f"for group '{row['Group']}'"
+                    )
 
 if __name__ == '__main__':
     unittest.main()

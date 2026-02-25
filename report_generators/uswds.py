@@ -36,12 +36,19 @@ class Uswds:
             results.append({
                 'Group': group,
                 'count': len(group_df),
+                'Agencies': group_df['agency'].nunique(),
                 'semantic version': version_series.notna().sum(),
+                'Agencies_sv': group_df.loc[version_series.notna(), 'agency'].nunique(),
                 'v1.x': version_series.str.startswith('v1.', na=False).sum(),
+                'Agencies_v1': group_df.loc[version_series.str.startswith('v1.', na=False), 'agency'].nunique(),
                 'v2.x': version_series.str.startswith('v2.', na=False).sum(),
+                'Agencies_v2': group_df.loc[version_series.str.startswith('v2.', na=False), 'agency'].nunique(),
                 'v3.x': version_series.str.startswith('v3.', na=False).sum(),
+                'Agencies_v3': group_df.loc[version_series.str.startswith('v3.', na=False), 'agency'].nunique(),
                 'banner': (group_df['uswds_banner_heres_how'] == True).sum(),
-                'usa-class': group_df['uswds_usa_class_list'].notna().sum()
+                'Agencies_banner': group_df.loc[group_df['uswds_banner_heres_how'] == True, 'agency'].nunique(),
+                'usa-class': group_df['uswds_usa_class_list'].notna().sum(),
+                'Agencies_usa_class': group_df.loc[group_df['uswds_usa_class_list'].notna(), 'agency'].nunique(),
             })
         result_df = pd.DataFrame(results)
 
