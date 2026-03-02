@@ -77,7 +77,7 @@ def generate_standards_bureau_report():
     report.to_csv(config['standards_bureau_report_location'], index=False)
 
 def generate_baseline_report():
-    df = pd.read_csv(config['unique_snapshot_url'])
+    df = pd.read_csv(config['unique_snapshot_url'], low_memory=False)
     baseline_report_generator = Baseline(df)
     report = baseline_report_generator.generate_report()
     report.to_csv(config['baseline_report_location'], index=False)

@@ -132,5 +132,5 @@ class Baseline:
       }
 
       result_df = pd.DataFrame(data)
-      
+
       return result_df

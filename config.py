@@ -7,7 +7,7 @@ config = {
     # snapshots
     'primary_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv',
     'all_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv',
-    'unique_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-unique.csv',
+    'unique_snapshot_url': 'https://api.gsa.gov/technology/site-scanning/data/site-scanning-live-filtered-unique-latest.csv',
     'target_url_list_url': 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv',
     # report file locations
     'primary_snapshot_report_location': os.path.join(dirname, './reports/snapshot-primary.csv'),

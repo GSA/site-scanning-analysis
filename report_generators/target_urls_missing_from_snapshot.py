@@ -7,7 +7,7 @@ class TargetUrlsMissingFromSnapshot:
 
     def generate_report(self):
         target_url_list = self.df[['initial_url']].copy()
-        snapshot_url_list = pd.read_csv('https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv', usecols=['initial_domain'])
+        snapshot_url_list = pd.read_csv('https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv', usecols=['initial_domain'])
 
         target_url_list['initial_url'] = target_url_list['initial_url'].str.strip().str.lower()
         snapshot_url_list['initial_domain'] = snapshot_url_list['initial_domain'].str.strip().str.lower()
