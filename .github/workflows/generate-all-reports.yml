@@ -34,6 +34,7 @@ jobs:
       - run: python ./main.py generate-base-consumer-report
       - run: python ./main.py federal-standards-snapshot-report
       - run: python ./main.py generate-uswds-report
+      - run: python ./main.py generate-tts-adoption-report
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update report files
