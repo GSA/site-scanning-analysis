@@ -38,5 +38,7 @@ config = {
     # website requests report
     'website_requests_report_location': os.path.join(dirname, './reports/website-requests.csv'),
     # uswds report
-    'uswds_report_location': os.path.join(dirname, './reports/uswds.csv')
+    'uswds_report_location': os.path.join(dirname, './reports/uswds.csv'),
+    # tts adoption report
+    'tts_adoption_report_location': os.path.join(dirname, './reports/tts_adoption.csv'),
 }
