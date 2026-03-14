@@ -25,7 +25,7 @@ Delta Regional Authority,1,1,0,0,100.0,0.0,0.0
 Denali Commission,3,3,1,0,100.0,33.33,0.0
 Department of Agriculture,364,303,63,81,83.24,17.31,22.25
 Department of Commerce,901,795,207,101,88.24,22.97,11.21
-Department of Defense,967,922,234,28,95.35,24.2,2.9
+Department of Defense,967,922,233,28,95.35,24.1,2.9
 Department of Education,134,123,28,13,91.79,20.9,9.7
 Department of Energy,2219,1963,433,135,88.46,19.51,6.08
 Department of Health and Human Services,2656,2403,545,291,90.47,20.52,10.96
@@ -33,7 +33,7 @@ Department of Homeland Security,435,420,59,39,96.55,13.56,8.97
 Department of Housing and Urban Development,68,63,2,1,92.65,2.94,1.47
 Department of Justice,455,434,43,54,95.38,9.45,11.87
 Department of Labor,267,258,37,25,96.63,13.86,9.36
-Department of State,342,321,228,207,93.86,66.67,60.53
+Department of State,341,320,228,207,93.84,66.86,60.7
 Department of Transportation,358,327,48,33,91.34,13.41,9.22
 Department of Veterans Affairs,593,567,97,22,95.62,16.36,3.71
 Department of the Interior,455,384,85,78,84.4,18.68,17.14
@@ -58,15 +58,16 @@ Federal Permitting Improvement Council,1,1,1,1,100.0,100.0,100.0
 Federal Reserve Board of Governors,42,38,5,1,90.48,11.9,2.38
 Federal Retirement Thrift Investment Board,10,8,2,4,80.0,20.0,40.0
 Federal Trade Commission,31,27,13,12,87.1,41.94,38.71
-General Services Administration,469,364,123,165,77.61,26.23,35.18
+General Services Administration,468,363,123,164,77.56,26.28,35.04
 Government Accountability Office,12,8,2,0,66.67,16.67,0.0
 Government Publishing Office,26,23,3,0,88.46,11.54,0.0
 Gulf Coast Ecosystem Restoration Council,2,1,1,1,50.0,50.0,50.0
-Harry S. Truman Scholarship Foundation,1,1,1,0,100.0,100.0,0.0
+Harry S Truman Scholarship Foundation,1,1,1,0,100.0,100.0,0.0
 Institute of Museum and Library Services,7,7,3,1,100.0,42.86,14.29
 Inter-American Foundation,2,2,1,2,100.0,50.0,100.0
+International Trade Commission,9,8,2,4,88.89,22.22,44.44
 James Madison Memorial Fellowship Foundation,1,1,0,0,100.0,0.0,0.0
-Japan-U.S. Friendship Commission,3,3,0,0,100.0,0.0,0.0
+Japan-United States Friendship Commission,3,3,0,0,100.0,0.0,0.0
 Legal Services Corporation,5,5,2,0,100.0,40.0,0.0
 Library of Congress,41,37,21,1,90.24,51.22,2.44
 Marine Mammal Commission,1,1,1,0,100.0,100.0,0.0
@@ -82,7 +83,7 @@ National Council on Disability,2,2,1,1,100.0,50.0,50.0
 National Credit Union Administration,28,27,10,0,96.43,35.71,0.0
 National Endowment for the Arts,4,4,1,1,100.0,25.0,25.0
 National Endowment for the Humanities,4,4,0,0,100.0,0.0,0.0
-National Gallery of Art,15,14,3,0,93.33,20.0,0.0
+National Gallery of Art,15,15,3,0,100.0,20.0,0.0
 National Indian Gaming Commission,3,3,1,0,100.0,33.33,0.0
 National Labor Relations Board,2,2,0,1,100.0,0.0,50.0
 National Mediation Board,4,4,1,0,100.0,25.0,0.0
@@ -94,6 +95,7 @@ Occupational Safety and Health Review Commission,2,2,0,0,100.0,0.0,0.0
 Office of Congressional Workplace Rights,1,1,0,0,100.0,0.0,0.0
 Office of Government Ethics,6,5,0,2,83.33,0.0,33.33
 Office of Personnel Management,513,512,36,23,99.81,7.02,4.48
+Office of Special Counsel,4,4,0,1,100.0,0.0,25.0
 Office of the Director of National Intelligence,50,15,2,0,30.0,4.0,0.0
 Open World Leadership Center,1,1,0,0,100.0,0.0,0.0
 Peace Corps,60,60,0,1,100.0,0.0,1.67
@@ -116,23 +118,21 @@ Stennis Center for Public Service,1,1,1,0,100.0,100.0,0.0
 Supreme Court of the United States,2,2,0,0,100.0,0.0,0.0
 Surface Transportation Board,2,2,1,1,100.0,50.0,50.0
 Tennessee Valley Authority,16,11,0,0,68.75,0.0,0.0
+Trade And Development Agency,1,1,0,1,100.0,0.0,100.0
 U.S. Commission for the Preservation of Americas Heritage Abroad,2,1,2,0,50.0,100.0,0.0
 U.S. Commission of Fine Arts,1,1,0,0,100.0,0.0,0.0
 U.S. Commission on Civil Rights,2,2,1,1,100.0,50.0,50.0
 U.S. Commission on International Religious Freedom,1,1,1,0,100.0,100.0,0.0
 U.S. Interagency Council on Homelessness,7,1,1,1,14.29,14.29,14.29
 U.S. Nuclear Waste Technical Review Board,1,1,0,0,100.0,0.0,0.0
-U.S. Office of Special Counsel,4,4,0,1,100.0,0.0,25.0
 U.S. Semiquincentennial Commission,3,3,1,0,100.0,33.33,0.0
-U.S. Trade and Development Agency,1,1,0,1,100.0,0.0,100.0
 U.S.-China Economic and Security Review Commission,1,1,0,0,100.0,0.0,0.0
 United States AbilityOne Commission,5,5,0,3,100.0,0.0,60.0
 United States African Development Foundation,2,2,1,0,100.0,50.0,0.0
 United States Agency for Global Media,12,11,4,0,91.67,33.33,0.0
-United States House of Representatives,461,448,74,0,97.18,16.05,0.0
+United States House of Representatives,464,451,74,0,97.2,15.95,0.0
 United States International Development Finance Corporation,2,2,1,1,100.0,50.0,50.0
-United States International Trade Commission,9,8,2,4,88.89,22.22,44.44
 United States Postal Service,49,39,0,0,79.59,0.0,0.0
 United States Senate,144,143,17,0,99.31,11.81,0.0
 Western Hemisphere Drug Policy Commission,1,1,0,0,100.0,0.0,0.0
-Total,14891,13508,3027,1494,90.71,20.33,10.03
+Total,14892,13510,3026,1493,90.72,20.32,10.03
