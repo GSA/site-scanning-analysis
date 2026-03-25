@@ -69,9 +69,9 @@ class Uswds:
 
         # Apply filtering based on scan type
         if 'live, filtered, non-redirecting sites' in group_name:
-            return df[(df['live'] == True) & (df['filter'] == True) & (df['redirect'] != True)]
+            return df[(df['live'] == True) & (df['filter'] == False) & (df['redirect'] != True)]
         elif 'live, filtered sites' in group_name:
-            return df[(df['live'] == True) & (df['filter'] == True)]
+            return df[(df['live'] == True) & (df['filter'] == False)]
         elif 'live sites' in group_name:
             return df[df['live'] == True]
         else:
