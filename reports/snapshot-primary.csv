@@ -1,90 +1,90 @@
 question,answer
-How many urls did we scan?,31761
+How many urls did we scan?,31755
 How many agency owners are represented?,146
 How many bureau owners are represented?,273
 How many domains did we scan?,1409
-How many final urls are represented?,18626
+How many final urls are represented?,18640
 How many final domains are represented?,935
-How many urls are from the executive branch?,30324
+How many urls are from the executive branch?,30318
 How many urls are from the legislative branch?,1061
 How many urls are from the judicial branch?,370
-How many home scans completed?,20966
-How many home scans failed?,10795
+How many home scans completed?,20992
+How many home scans failed?,10763
 How many home scans failed because of a refused connection?,522
-How many home scans failed because of a reset connection?,258
-How many home scans failed because of dns resolution?,5933
+How many home scans failed because of a reset connection?,254
+How many home scans failed because of dns resolution?,5929
 How many home scans failed because of invalid ssl certs?,182
-How many home scans failed because of timeouts?,3208
+How many home scans failed because of timeouts?,3193
 How many home scans failed for unknown reasons?,5
 How many home scans were aborted?,3
-How many home scans failed because address was unreachable?,129
+How many home scans failed because address was unreachable?,126
 How many home scans failed because connection was closed?,134
 How many home scans failed because of empty response?,58
-How many home scans failed because execution context was destroyed?,68
+How many home scans failed because execution context was destroyed?,62
 How many home scans failed because of http2 error?,54
 How many home scans failed because of invalid auth credentials?,127
 How many home scans failed because of invalid response?,17
 How many home scans failed because of ssl protocol error?,20
 How many home scans failed because of ssl version cipher mismatch?,65
 How many home scans failed because of too many redirects?,12
-How many final urls are html files?,20299
-How many final urls are text files?,206
+How many final urls are html files?,20320
+How many final urls are text files?,207
 How many final urls are json files?,118
 How many final urls are xml files?,22
-How many final urls are another filetype?,11116
-How many urls return a 2xx server code?,14869
-How many urls return a 3xx server code?,35
-How many urls return a 4xx server code?,5370
-How many urls return a 5xx server code?,649
-How many urls pass the 404 test?,10495
-How many urls fail the 404 test?,21266
-How many not found scans completed?,31761
+How many final urls are another filetype?,11088
+How many urls return a 2xx server code?,14882
+How many urls return a 3xx server code?,36
+How many urls return a 4xx server code?,5387
+How many urls return a 5xx server code?,643
+How many urls pass the 404 test?,10505
+How many urls fail the 404 test?,21250
+How many not found scans completed?,31755
 How many not found scans failed?,0
-How many robots.txt scans completed?,21096
-How many robots.txt scans failed?,10665
-How many sitemap.xml scans completed?,20946
-How many sitemap.xml scans failed?,10815
-How many DNS scans completed?,31761
+How many robots.txt scans completed?,21117
+How many robots.txt scans failed?,10638
+How many sitemap.xml scans completed?,20968
+How many sitemap.xml scans failed?,10787
+How many DNS scans completed?,31755
 How many DNS scans failed?,0
-How many urls have a uswds count below 50?,17319
-How many urls have a uswds count 51-100?,1839
-How many urls have a uswds count 101-150?,564
-How many urls have a uswds count 151+?,1203
-How many urls have dap detected?,7147
-How many urls don't have dap detected?,13819
-How many urls weren't scanned for DAP (failed scans)?,10795
-How many urls have an og_title?,4593
-How many urls have an og_description?,3043
-How many urls have an og_title but don't have an og_description?,1582
+How many urls have a uswds count below 50?,17335
+How many urls have a uswds count 51-100?,1845
+How many urls have a uswds count 101-150?,569
+How many urls have a uswds count 151+?,1202
+How many urls have dap detected?,7163
+How many urls don't have dap detected?,13829
+How many urls weren't scanned for DAP (failed scans)?,10763
+How many urls have an og_title?,4601
+How many urls have an og_description?,3054
+How many urls have an og_title but don't have an og_description?,1579
 How many urls have an og_description but don't have an og_title?,32
-How many urls have an og_article_published?,387
-How many urls have an og_article_modified?,915
-How many urls have a main_element_present?,6395
-How many urls don't have main_element_present_final_url?,14546
-How many urls have a robots.txt detected?,7125
-How many urls return a 2xx server code for their robots.txt?,10281
-How many urls return a 3xx server code for their robots.txt?,33
-How many urls return a 4xx server code for their robots.txt?,9654
-How many urls return a 5xx server code for their robots.txt?,1128
-How many urls' robots.txt are text files?,6736
-How many urls' robots.txt are another file type?,25025
-How many urls' robots.txt file size were detected?,7963
-How many urls' robots.txt have a crawl_delay?,889
-How many urls' robots.txt link to sitemaps?,2201
-How many urls have a sitemap.xml detected?,3226
-How many urls return a 2xx server code for their sitemap.xml?,7359
-How many urls return a 3xx server code for their sitemap.xml?,33
-How many urls return a 4xx server code for their sitemap.xml?,12402
-How many urls return a 5xx server code for their sitemap.xml?,1152
-How many urls' sitemap.xml file size were detected?,3587
-How many urls' sitemap.xml are xml files?,2533
-How many urls' sitemap.xml are another file type?,2533
-How many urls' sitemap.xml have an item count?,3587
-How many urls' sitemap.xml have a pdf count?,3587
-How many urls have an AAAA record (a.k.a. are likely IPv6 compliant)?,17750
-How many urls do not have an AAAA record (a.k.a. are likely not IPv6 compliant)?,14011
-How many urls have third party services?,12704
-How many urls have 1-5 third party services?,7260
-How many urls have 6-10 third party services?,3566
-How many urls have 11-20 third party services?,1668
+How many urls have an og_article_published?,386
+How many urls have an og_article_modified?,919
+How many urls have a main_element_present?,6398
+How many urls don't have main_element_present_final_url?,14569
+How many urls have a robots.txt detected?,7150
+How many urls return a 2xx server code for their robots.txt?,10299
+How many urls return a 3xx server code for their robots.txt?,34
+How many urls return a 4xx server code for their robots.txt?,9662
+How many urls return a 5xx server code for their robots.txt?,1122
+How many urls' robots.txt are text files?,6757
+How many urls' robots.txt are another file type?,24998
+How many urls' robots.txt file size were detected?,7985
+How many urls' robots.txt have a crawl_delay?,890
+How many urls' robots.txt link to sitemaps?,2214
+How many urls have a sitemap.xml detected?,3247
+How many urls return a 2xx server code for their sitemap.xml?,7377
+How many urls return a 3xx server code for their sitemap.xml?,34
+How many urls return a 4xx server code for their sitemap.xml?,12408
+How many urls return a 5xx server code for their sitemap.xml?,1149
+How many urls' sitemap.xml file size were detected?,3607
+How many urls' sitemap.xml are xml files?,2553
+How many urls' sitemap.xml are another file type?,2553
+How many urls' sitemap.xml have an item count?,3607
+How many urls' sitemap.xml have a pdf count?,3607
+How many urls have an AAAA record (a.k.a. are likely IPv6 compliant)?,17748
+How many urls do not have an AAAA record (a.k.a. are likely not IPv6 compliant)?,14007
+How many urls have third party services?,12728
+How many urls have 1-5 third party services?,7269
+How many urls have 6-10 third party services?,3584
+How many urls have 11-20 third party services?,1667
 How many urls have over 20 third party services?,238
