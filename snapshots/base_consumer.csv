@@ -1411,7 +1411,6 @@ mycocosm.jgi.doe.gov,doe.gov,Department of Energy,Office of the Chief Informatio
 n3b-aw-idm.em-la.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,,,,,,,,,,,,,,
 n3b-aw-seg.em-la.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,,,,,,,,,,,,,,
 ne.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,,,,,,,,,,,,,,
-netl.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,84867.0,404991.0,,,,,TRUE,TRUE,,,Drupal,,,TRUE
 nnaccess.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,,,,,,,,,,,,,,
 nncams.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,,,,,,,,,,,,,,
 ntc.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,,,,,,,,TRUE,,,Microsoft Sharepoint,,"[""\""userid\"""","">Sign In<""]",TRUE
@@ -2048,7 +2047,6 @@ eseclab.gov,eseclab.gov,Government Accountability Office,,,,,,,,,,,,,,"[""\""pas
 vpn3.eseclab.gov,eseclab.gov,Government Accountability Office,,,,,,,,,,,,,,"[""\""password\"""",""type=\""password\""""]",
 vpngw.eseclab.gov,eseclab.gov,Government Accountability Office,,,,,,,,,,,,,,"[""\""password\""""]",
 z70.eseclab.gov,eseclab.gov,Government Accountability Office,,,,,,,,,,,,,,"[""\""password\"""",""type=\""password\""""]",
-esgrevents.mil,esgrevents.mil,Department of Defense,,,,,,,,,TRUE,,,,,,
 esgr.mil,esgr.mil,Department of Defense,,,,,,,,,TRUE,,,DNN,,,TRUE
 evergladesrestoration.gov,evergladesrestoration.gov,Department of the Interior,,,,,,,,,TRUE,,,,,,TRUE
 e-verify.gov,e-verify.gov,Department of Homeland Security,Citizenship and Immigration Services,695352.0,1226137.0,,,TRUE,,TRUE,TRUE,TRUE,akamaitechnologies.com,Drupal,login.gov,,TRUE
@@ -2679,7 +2677,7 @@ view.hanford.gov,hanford.gov,Department of Energy,Hanford Mission Integration So
 view-piv.hanford.gov,hanford.gov,Department of Energy,Hanford Mission Integration Solutions,,,,,,,,,,,,,,
 vtours.hanford.gov,hanford.gov,Department of Energy,Hanford Mission Integration Solutions,,,,,,,,,,,,,,
 companyprofiles.healthcare.gov,healthcare.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,656.0,1023.0,,,,,TRUE,TRUE,,akadns.net,,,,TRUE
-data.healthcare.gov,healthcare.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,41876.0,64079.0,,,,,TRUE,TRUE,,edgekey.net,Drupal,,,TRUE
+data.healthcare.gov,healthcare.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,41876.0,64079.0,,,,,,TRUE,,edgekey.net,Drupal,,,TRUE
 dsrs.api.healthcare.gov,healthcare.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,,,,,,,,,,edgekey.net,,,,
 finder.healthcare.gov,healthcare.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,8181.0,8513.0,,,,,TRUE,TRUE,,edgekey.net,,,,
 healthcare.gov,healthcare.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,3853923.0,6038312.0,,,,,,TRUE,,akamaitechnologies.com,,,"[""\""password\""""]",TRUE
@@ -3362,7 +3360,7 @@ gisportal.hrsa.gov,hrsa.gov,Department of Health and Human Services,Health Resou
 grants.hrsa.gov,hrsa.gov,Department of Health and Human Services,Health Resources and Services Administration,61763.0,86206.0,,,,,TRUE,TRUE,,edgekey.net,,,,
 help.hrsa.gov,hrsa.gov,Department of Health and Human Services,Health Resources and Services Administration,9407.0,27657.0,,,,,TRUE,TRUE,,edgekey.net,,,,TRUE
 iqrs.npdb.hrsa.gov,hrsa.gov,Department of Health and Human Services,Health Resources and Services Administration,141446.0,181242.0,,,,,TRUE,TRUE,,edgekey.net,,id.me,"[""\""password\"""","">Sign In<"",""showpassword"",""type=\""password\""""]",
-mchb.tvisdata.hrsa.gov,hrsa.gov,Department of Health and Human Services,Health Resources and Services Administration,7704.0,13830.0,,,,,TRUE,TRUE,,,WordPress,,,TRUE
+mchb.tvisdata.hrsa.gov,hrsa.gov,Department of Health and Human Services,Health Resources and Services Administration,7704.0,13830.0,,,,,TRUE,TRUE,,edgekey.net,WordPress,,,TRUE
 npdb-hipdb.hrsa.gov,hrsa.gov,Department of Health and Human Services,Health Resources and Services Administration,,,,,,,,TRUE,,edgekey.net,,,,
 npdb.hrsa.gov,hrsa.gov,Department of Health and Human Services,Health Resources and Services Administration,160934.0,428557.0,,,,,TRUE,TRUE,,akamaitechnologies.com,,,"["">Sign In<""]",TRUE
 opotxfind.hrsa.gov,hrsa.gov,Department of Health and Human Services,Health Resources and Services Administration,,,,,,,,TRUE,,edgekey.net,,,,TRUE
@@ -3722,7 +3720,6 @@ periodic.lanl.gov,lanl.gov,Department of Energy,Los Alamos National Laboratory,2
 permalink.lanl.gov,lanl.gov,Department of Energy,Los Alamos National Laboratory,,,,,,,,TRUE,,,,,,
 phage-f5.lanl.gov,lanl.gov,Department of Energy,Los Alamos National Laboratory,,,,,,,,,,,,,,
 plumecalc.lanl.gov,lanl.gov,Department of Energy,Los Alamos National Laboratory,,,,,,,,TRUE,,,,,,
-primo.lanl.gov,lanl.gov,Department of Energy,Los Alamos National Laboratory,,,,,,,,TRUE,,,,,,TRUE
 proxied-iis-f5.lanl.gov,lanl.gov,Department of Energy,Los Alamos National Laboratory,,,,,,,,,,,,,"[""\""password\"""",""type=\""password\""""]",
 proxied-peakeasy-f5.lanl.gov,lanl.gov,Department of Energy,Los Alamos National Laboratory,,,,,,,,,,,,,,
 pyfehm.lanl.gov,lanl.gov,Department of Energy,Los Alamos National Laboratory,,,,,,,,,,,,,,TRUE
@@ -4253,7 +4250,6 @@ mbescbesdev.medicaid.gov,medicaid.gov,Department of Health and Human Services,Ce
 mbescbes.medicaid.gov,medicaid.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,,,,,,,,,,,,,,
 mbescbesval0.medicaid.gov,medicaid.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,,,,,,,,,,,,,,
 medicaid.gov,medicaid.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,508091.0,848303.0,,,,,TRUE,TRUE,TRUE,akamaitechnologies.com,,,,TRUE
-medicalcountermeasures.gov,medicalcountermeasures.gov,Department of Health and Human Services,"Assistant Secretary for Preparedness and Response, Office of the Secretary",13851.0,18940.0,,,,True,TRUE,TRUE,,,,,,TRUE
 es.medicare.gov,medicare.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,605424.0,753275.0,,,,,TRUE,TRUE,TRUE,edgekey.net,Drupal,,,TRUE
 frontend.imp.medicare.gov,medicare.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,,,,,,,,TRUE,TRUE,edgekey.net,,,,
 frontend.medicare.gov,medicare.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,,,,,,,,TRUE,TRUE,edgekey.net,,,,
@@ -4924,7 +4920,6 @@ seawifs.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NAS
 seec.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,2308.0,3080.0,,,,,TRUE,TRUE,,,,,,
 senegal.arc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,,,,,,,
 sep.ccmc.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,37.0,76.0,,,,,TRUE,TRUE,,,,,,
-sewp1-1-pz.sewp.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,6904.0,15103.0,,,,,,TRUE,,,,,,
 sewp-avi-lb-pz.sewp.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,TRUE,,,,,,
 sewp.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,99056.0,481542.0,,,,,,TRUE,,,,,,
 sfa.ird.appdat.jsc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,44.0,65.0,,,,True,TRUE,TRUE,,,,,,TRUE
@@ -5745,6 +5740,7 @@ snpfisher.nichd.nih.gov,nih.gov,Department of Health and Human Services,National
 snpinfo.niehs.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,298.0,745.0,,,,,TRUE,TRUE,TRUE,,Drupal,,,TRUE
 soadev.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,,,,,,,,,,,,,,
 soatest.ha.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,,,,,,,,,,,,,,
+soatest.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,,,,,,,,,,,,,,
 soccer.nci.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,150.0,127.0,,,,,TRUE,TRUE,,amazonaws.com,,sams.cdc.gov,,
 specializedscientificjobs.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,,,,,,,,TRUE,,,,,,
 spotlight.nlm.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,81.0,4659.0,,,,,TRUE,TRUE,,amazonaws.com,,,,TRUE
@@ -5832,6 +5828,7 @@ calnet.nist.gov,nist.gov,Department of Commerce,National Institute of Standards 
 cccbdb.nist.gov,nist.gov,Department of Commerce,National Institute of Standards and Technology,,,,,,,TRUE,TRUE,,,,,,
 cdcs.registry.nist.gov,nist.gov,Department of Commerce,National Institute of Standards and Technology,6.0,49.0,,,,,TRUE,TRUE,,,,,,TRUE
 cfreds-archive.nist.gov,nist.gov,Department of Commerce,National Institute of Standards and Technology,,,,,,True,,TRUE,,,,,,TRUE
+cfreds.nist.gov,nist.gov,Department of Commerce,National Institute of Standards and Technology,,,,,,,,,,amazonaws.com,,,,
 chemdata.nist.gov,nist.gov,Department of Commerce,National Institute of Standards and Technology,3204.0,7350.0,,,,,,TRUE,,,,,,TRUE
 circular.nist.gov,nist.gov,Department of Commerce,National Institute of Standards and Technology,89.0,214.0,,,,,TRUE,TRUE,,,,,,TRUE
 code.nist.gov,nist.gov,Department of Commerce,National Institute of Standards and Technology,,,,,,,,TRUE,,,,,,
@@ -6005,6 +6002,7 @@ bigsouthfork.atdd.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and 
 bldrvpn.ncep.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,,,,,,"[""\""password\""""]",
 blend.mdl.nws.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,TRUE,,,,,,
 blog.marinedebris.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,8479.0,12149.0,,,,,TRUE,TRUE,,amazonaws.com,Drupal,,,TRUE
+blog.response.restoration.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,13307.0,17539.0,,,,,TRUE,TRUE,,amazonaws.com,Drupal,,,TRUE
 boulder.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,2946.0,4182.0,,,,,TRUE,TRUE,TRUE,,WordPress,,,TRUE
 bpm-west.csp.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,,,,,,,
 btr.coast.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,,,,,,,
@@ -6160,6 +6158,7 @@ magpara.ncep.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmos
 manati.star.nesdis.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,8995.0,59300.0,,,,True,TRUE,TRUE,,,,,,TRUE
 maps.coastalscience.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,108.0,126.0,,,,,TRUE,TRUE,,azure.com,,,,
 maps.fisheries.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,,,amazonaws.com,,,,TRUE
+marinedebris.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,44175.0,67360.0,,,,,TRUE,TRUE,,amazonaws.com,Drupal,,,TRUE
 marinenavigation.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,4418.0,5552.0,,,,True,TRUE,TRUE,,ocs-aws-prod.net,,,,TRUE
 marineprotectedareas.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,5406.0,7716.0,,,,True,TRUE,TRUE,,azure.com,,,,TRUE
 marinerhiring.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,TRUE,TRUE,,azurewebsites.us,,,,
@@ -7063,6 +7062,7 @@ ondemand-compass.pnnl.gov,pnnl.gov,Department of Energy,Pacific Northwest Nation
 orslearn.pnnl.gov,pnnl.gov,Department of Energy,Pacific Northwest National Laboratory,191.0,303.0,,,,,TRUE,TRUE,,,Drupal,,"[""\""password\"""",""type=\""password\""""]",
 orsportal.pnnl.gov,pnnl.gov,Department of Energy,Pacific Northwest National Laboratory,449.0,1016.0,,,,,TRUE,TRUE,,,,,,
 persistentcheckout.pnnl.gov,pnnl.gov,Department of Energy,Pacific Northwest National Laboratory,,,,,,,,,,,,,,
+phoenixclassic.pnnl.gov,pnnl.gov,Department of Energy,Pacific Northwest National Laboratory,,,,,,,,TRUE,,,,,,
 phoenix.pnnl.gov,pnnl.gov,Department of Energy,Pacific Northwest National Laboratory,,,,,,,,TRUE,,,,,,
 pnnl.gov,pnnl.gov,Department of Energy,Pacific Northwest National Laboratory,577084.0,616205.0,,,,,TRUE,TRUE,,,Drupal,,,TRUE
 rcdemo.pnnl.gov,pnnl.gov,Department of Energy,Pacific Northwest National Laboratory,,,,,,,,,,,,,,
@@ -7237,7 +7237,6 @@ sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,928821.0
 sarape.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,1029.0,1208.0,,,,,TRUE,TRUE,,,,,,
 sgtt.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,,,,,
 silentthunder.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,TRUE,,,,,,
-tracktable.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,479.0,2280.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
 university.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,,,,,
 usability.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,,,,,
 vanguard.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,224.0,1764.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
@@ -7810,14 +7809,14 @@ foodsafetycareers.usajobs.gov,usajobs.gov,Office of Personnel Management,,225.0,
 forestservicecareers.usajobs.gov,usajobs.gov,Office of Personnel Management,,25285.0,77977.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 forestservicetempfire.usajobs.gov,usajobs.gov,Office of Personnel Management,,108.0,234.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 frtibrecruitment.usajobs.gov,usajobs.gov,Office of Personnel Management,,310.0,593.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
-fsisstudentjobs.usajobs.gov,usajobs.gov,Office of Personnel Management,,112.0,204.0,,,,,,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
+fsisstudentjobs.usajobs.gov,usajobs.gov,Office of Personnel Management,,112.0,204.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 fsr5fire.usajobs.gov,usajobs.gov,Office of Personnel Management,,42.0,61.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 fsr5.usajobs.gov,usajobs.gov,Office of Personnel Management,,375.0,1271.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 general.usajobs.gov,usajobs.gov,Office of Personnel Management,,1953.0,6874.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 gsa.usajobs.gov,usajobs.gov,Office of Personnel Management,,3757.0,10755.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 healthphysics.usajobs.gov,usajobs.gov,Office of Personnel Management,,698.0,2621.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 help.usajobs.gov,usajobs.gov,Office of Personnel Management,,763085.0,1194796.0,,,TRUE,,TRUE,TRUE,TRUE,edgekey.net,,login.gov,"[""Create Account""]",TRUE
-hhs-ihs.usajobs.gov,usajobs.gov,Office of Personnel Management,,135.0,379.0,,,,,,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
+hhs-ihs.usajobs.gov,usajobs.gov,Office of Personnel Management,,135.0,379.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 hhs.usajobs.gov,usajobs.gov,Office of Personnel Management,,1271.0,3678.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 hrearlycareer.usajobs.gov,usajobs.gov,Office of Personnel Management,,24.0,29.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 hrmanagement.usajobs.gov,usajobs.gov,Office of Personnel Management,,6546.0,25626.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
@@ -7858,7 +7857,7 @@ nlrb.usajobs.gov,usajobs.gov,Office of Personnel Management,,,,,,,,TRUE,TRUE,,ed
 nps.usajobs.gov,usajobs.gov,Office of Personnel Management,,30005.0,87356.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 nswccarderock.usajobs.gov,usajobs.gov,Office of Personnel Management,,386.0,648.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 nswcdd.usajobs.gov,usajobs.gov,Office of Personnel Management,,809.0,1404.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
-nswcihd.usajobs.gov,usajobs.gov,Office of Personnel Management,,164.0,368.0,,,,,,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
+nswcihd.usajobs.gov,usajobs.gov,Office of Personnel Management,,164.0,368.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 nswcpcd.usajobs.gov,usajobs.gov,Office of Personnel Management,,50.0,72.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 nswcpd.usajobs.gov,usajobs.gov,Office of Personnel Management,,66.0,141.0,,,,,,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 nswcphd.usajobs.gov,usajobs.gov,Office of Personnel Management,,15.0,41.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
@@ -7896,7 +7895,7 @@ ssaisanfrancisco.usajobs.gov,usajobs.gov,Office of Personnel Management,,5715.0,
 ssaiseattle.usajobs.gov,usajobs.gov,Office of Personnel Management,,1599.0,3923.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 ssai.usajobs.gov,usajobs.gov,Office of Personnel Management,,19162.0,62718.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 ssapathways.usajobs.gov,usajobs.gov,Office of Personnel Management,,281.0,629.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
-ssa.usajobs.gov,usajobs.gov,Office of Personnel Management,,2536.0,8689.0,,,,,,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
+ssa.usajobs.gov,usajobs.gov,Office of Personnel Management,,2536.0,8689.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 ssp.usajobs.gov,usajobs.gov,Office of Personnel Management,,620.0,1311.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 statistics.usajobs.gov,usajobs.gov,Office of Personnel Management,,717.0,3186.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 stem.usajobs.gov,usajobs.gov,Office of Personnel Management,,4320.0,12401.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
@@ -8689,6 +8688,7 @@ my.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,
 nas.er.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,1644677.0,1790907.0,,,,,TRUE,TRUE,,cloudflare.net,,,,TRUE
 natwebcaas01.wr.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,70.0,1605.0,,,,,TRUE,TRUE,TRUE,,,,,TRUE
 natwebcaww01.wr.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,68.0,1193.0,,,,,TRUE,TRUE,TRUE,,,,,
+natwebcaww02.wr.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,59.0,436.0,,,,,TRUE,TRUE,TRUE,,,,,
 natweb.resolve.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,109.0,204.0,,,,,TRUE,TRUE,,,,,,TRUE
 natwebsdas01.cr.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,39.0,1436.0,,,,,TRUE,TRUE,TRUE,,,,,TRUE
 natwebsdww01.cr.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,56.0,344.0,,,,,TRUE,TRUE,TRUE,,,,,
@@ -8862,6 +8862,7 @@ tmdesigncodes.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Tradema
 tm-eog.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,3112.0,4380.0,,,,,TRUE,TRUE,,cloudfront.net,,,,TRUE
 tmep.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,41876.0,51168.0,,,,,TRUE,TRUE,,,,,,TRUE
 tmidm.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,,,,,,,,TRUE,,,,,,TRUE
+tmng-al.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,,,,,,,,,,,,,,
 tmog.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,22851.0,75633.0,,,,,TRUE,TRUE,,cloudfront.net,,,,TRUE
 tmsearch.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,85084.0,228035.0,,,,,,TRUE,,cloudfront.net,,,,TRUE
 trademarkcenter.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,278899.0,2487130.0,,,,,TRUE,TRUE,,cloudfront.net,,,,
