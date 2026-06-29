@@ -1,0 +1,104 @@
+---
+name: debug-snapshot-threshold
+description: Diagnose smoke-test row-count alerts (e.g. "Row count below threshold" issues filed by RowCountTest) against the Site Scanning snapshot. Use when investigating a smoke-test failure that compares the published snapshot CSV to the target-url-list, or any user question of the form "why does the snapshot have N rows / why did the threshold trip / is the engine broken".
+---
+
+# Debug Snapshot Threshold Alerts
+
+Use this when a `RowCountTest` smoke test fires (typically as a GitHub issue titled "Row count below 95% threshold" in `GSA/site-scanning`) and you need to decide whether the engine is actually short or the smoke test is a false positive.
+
+## Background you must know
+
+- The "Expected rows" number in the issue body is `indexDf.count()` from `https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv`, parsed by `dataframe-js`. See `smoke_tests/src/services/tests/RowCountTest.ts:21-25` and `smoke_tests/src/services/tests/AllTests.ts:11`.
+- The "Snapshot rows" number is `snapshotDf.count()` from `https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv`, also parsed by `dataframe-js`.
+- The threshold is computed dynamically: `floor(indexCount * 0.95)` (`RowCountTest.ts:30`). Nothing is hardcoded.
+- `dataframe-js`'s CSV parser is fragile. The target-url-list has historically contained malformed rows (free-text like `... and ...`, `... to be ...`, `unclassifiedurl:https:\\...`) that pandas absorbs cleanly but dataframe-js mis-handles. **The first thing to suspect is parser mismatch, not engine failure.**
+
+## Workflow
+
+Don't speculate. Run the numbers.
+
+### 1. Pull the *real* counts with pandas
+
+The repo's own pandas reads are the ground truth (matches what every other report uses).
+
+```sh
+python3 -m pip install -q pandas  # if not already installed
+```
+
+```py
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context  # CI does this too
+import pandas as pd
+
+snap = pd.read_csv('https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv', low_memory=False)
+idx  = pd.read_csv('https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv')
+print('snapshot rows (pandas):', len(snap))
+print('index rows (pandas):   ', len(idx))
+print('gap:                   ', len(idx) - len(snap))
+print('95% threshold:         ', int(len(idx) * 0.95))
+```
+
+If the pandas snapshot count is >= 95% of the pandas index count, the engine is fine, and the smoke test is wrong (parser bug). Stop here, report findings, recommend closing the issue and fixing `RowCountTest.ts`.
+
+### 2. Confirm the engine ran
+
+```py
+print(snap['scan_date'].str[:10].value_counts().sort_index())
+print(snap['primary_scan_status'].value_counts(dropna=False).head(15))
+```
+
+- A normal run shows the bulk of rows on one recent day.
+- A mix of `completed` and recorded failures (`dns_resolution_error`, `timeout`, `connection_refused`, ...) is normal and means the engine *did* attempt those URLs. Failures still produce rows — they don't disappear from the snapshot.
+- If `scan_date` is stale or rows look truncated, escalate to the engine repo (`GSA/site-scanning-engine`).
+
+### 3. Identify the real missing URLs
+
+Run the existing generator. It does exactly the comparison you need.
+
+```sh
+python3 main.py generate-missing-target-url-report
+```
+
+Output: `reports/missing-target-url-in-snapshot.csv`. Stdout prints `Target URL Count`, `Snapshot URL Count`, `Missing URLs Count`.
+
+Categorize the missing entries:
+
+- **Malformed index rows** (literal spaces, `and`/`to be`, backslashes, `unclassifiedurl:` prefix). Not the engine's fault — bad data in `GSA/federal-website-index`.
+- **Internal / VPN-gated subdomains** (NIH/NLM `lforms-*`, `lhc-*`, LLNL `*.llnl.gov`, etc.). Engine can't reach them by design.
+- **Staging / UAT** (`*uat*`, `household-survey*`, etc.). Same.
+- **Actually-public unreachable** — these are the only ones worth flagging.
+
+### 4. Decide
+
+- pandas counts pass threshold → **smoke-test parser bug**. Close the issue. Recommend replacing `DataFrame.fromCSV` in `RowCountTest.ts` with a stricter parser (e.g. papaparse) and/or cleaning the upstream garbage rows.
+- pandas counts fail threshold and `scan_date` is recent → genuine engine shortfall. Escalate to `GSA/site-scanning-engine` with the missing-url categories.
+- pandas counts fail threshold and `scan_date` is stale → engine didn't run. Check engine's GitHub Actions.
+
+## Things not to do
+
+- Don't trust the numbers in the issue body. They come from `dataframe-js` and have been wrong before.
+- Don't assume "27k of 29k = engine outage". Failed scans still produce rows; the snapshot only shrinks if the engine never wrote them.
+- Don't edit `RowCountTest.ts` thresholds to silence alerts. The threshold isn't the bug; the parser is.
+- Don't hand-edit `reports/missing-target-url-in-snapshot.csv` — it's regenerated by CI.
+
+## Report template
+
+When reporting findings back to the user:
+
+```
+Snapshot (pandas):     <N>
+Target list (pandas):  <M>
+Real gap:              <M-N> URLs (<pct>%)
+Threshold (95%):       <0.95*M>
+
+Engine status: <fine | partial | not run>  (scan_date max = <date>)
+
+Missing URL breakdown:
+- Malformed index entries: <n>
+- Internal/VPN-gated:      <n>
+- Staging/UAT:             <n>
+- Genuinely unreachable:   <n>
+
+Conclusion: <smoke-test parser bug | real shortfall | engine outage>
+```
