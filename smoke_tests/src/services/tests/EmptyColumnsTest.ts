@@ -15,8 +15,8 @@ export class EmptyColumnsTest implements Test {
     this.excludedColumns = new Set(excludedColumns);
   }
 
-  // boolean false and numeric 0 are intentionally NOT treated as empty —
-  // only null, undefined, and empty string indicate a missing value.
+  // `false` and `0` are intentionally NOT treated as empty.
+  // only `null`, `undefined`, and `''` indicate a missing value.
   private isEmpty(value: unknown): boolean {
     return value === null || value === undefined || value === '';
   }
