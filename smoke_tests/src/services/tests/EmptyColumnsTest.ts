@@ -1,8 +1,9 @@
 import logger from 'services/logger/logger';
+import { Test } from 'types/config';
 import { SnapshotLoader } from '../SnapshotLoader';
 import { GithubIssueService } from '../GithubIssueService';
 
-export class EmptyColumnsTest {
+export class EmptyColumnsTest implements Test {
   name = 'EmptyColumnsTest';
   private snapshotPath: string;
   private issueCreator: GithubIssueService;
@@ -12,6 +13,12 @@ export class EmptyColumnsTest {
     this.snapshotPath = snapshotPath;
     this.issueCreator = new GithubIssueService();
     this.excludedColumns = new Set(excludedColumns);
+  }
+
+  // boolean false and numeric 0 are intentionally NOT treated as empty —
+  // only null, undefined, and empty string indicate a missing value.
+  private isEmpty(value: unknown): boolean {
+    return value === null || value === undefined || value === '';
   }
 
   async runTest(): Promise<boolean> {
@@ -28,7 +35,7 @@ export class EmptyColumnsTest {
       }
       
       const values = snapshotDf.select(col).toArray().map(row => row[0]);
-      const allNullOrEmpty = values.every(value => value === null || value === undefined || value === '');
+      const allNullOrEmpty = values.every(value => this.isEmpty(value));
       if (allNullOrEmpty) {
         emptyColumns.push(col);
         logger.warn(`Column "${col}" is completely empty or null.`);

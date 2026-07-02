@@ -27,9 +27,10 @@ export class GithubIssueService {
     });
 
     if (!res.ok) {
-      const error = await res.text();
-      logger.error(`Failed to create GitHub issue: ${res.status} - ${error}`);
-      throw new Error(`Failed to create GitHub issue: ${res.status} - ${error}`);
+      const errorText = await res.text();
+      // Log status only. The raw response body may contain auth details
+      logger.error(`Failed to create GitHub issue: HTTP ${res.status}`);
+      throw new Error(`Failed to create GitHub issue: HTTP ${res.status} - ${errorText}`);
     }
 
     const json = await res.json() as GithubIssueResponse;
