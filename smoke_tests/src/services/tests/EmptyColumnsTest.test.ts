@@ -163,8 +163,8 @@ describe('EmptyColumnsTest', () => {
   );
 
   test(
-    // NOTE: unlike ColumnValuePresenceTest, EmptyColumnsTest does not catch load
-    // errors — the thrown error propagates to the caller.
+    // EmptyColumnsTest does not catch load errors. The thrown error propagates to the caller.
+    // and we possibly want to change this behavior in the future.
     'snapshot load throws → propagates the error',
     async () => {
       const { patch, restore } = stubServices('throw');
