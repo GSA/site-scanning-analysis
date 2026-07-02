@@ -2,6 +2,9 @@
   "name": "smoke_tests",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "test": "bun test"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/dataframe-js": "^1.4.3",
