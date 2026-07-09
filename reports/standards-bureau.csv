@@ -48,7 +48,7 @@ Department of Energy,Department of Energy Bulding Energy Codes Program,1,1,0,1,1
 Department of Energy,Energy Information Administration,4,3,2,0,75.0,50.0,0.0
 Department of Energy,Fermi National Accelerator Laboratory,222,216,6,0,97.3,2.7,0.0
 Department of Energy,Hanford Mission Integration Solutions,16,13,2,0,81.25,12.5,0.0
-Department of Energy,Idaho National Laboratory,54,49,0,0,90.74,0.0,0.0
+Department of Energy,Idaho National Laboratory,54,50,0,0,92.59,0.0,0.0
 Department of Energy,Lawrence Berkeley National Laboratory,452,423,85,0,93.58,18.81,0.0
 Department of Energy,Lawrence Livermore National Laboratory,188,180,133,124,95.74,70.74,65.96
 Department of Energy,Los Alamos National Laboratory,72,68,23,0,94.44,31.94,0.0
@@ -59,16 +59,16 @@ Department of Energy,Oak Ridge Associated Universities,7,6,1,1,85.71,14.29,14.29
 Department of Energy,Oak Ridge National Laboratory,228,217,34,3,95.18,14.91,1.32
 Department of Energy,Office of Energy Efficiency and Renewable Energy,1,1,0,0,100.0,0.0,0.0
 Department of Energy,Office of Scientific and Technical Information,4,4,4,1,100.0,100.0,25.0
-Department of Energy,Office of the Chief Information Officer,187,172,19,9,91.98,10.16,4.81
+Department of Energy,Office of the Chief Information Officer,186,171,19,9,91.94,10.22,4.84
 Department of Energy,Pacific Northwest National Laboratory,84,76,12,6,90.48,14.29,7.14
 Department of Energy,Portsmouth/Paducah Project Office,1,1,0,0,100.0,0.0,0.0
 Department of Energy,Princeton Plasma Physics Lab,32,26,5,0,81.25,15.62,0.0
-Department of Energy,Sandia National Laboratories,80,70,53,0,87.5,66.25,0.0
+Department of Energy,Sandia National Laboratories,79,69,52,0,87.34,65.82,0.0
 Department of Energy,Savannah River National Lab,1,1,1,0,100.0,100.0,0.0
 Department of Energy,Savannah River Nuclear Solutions (SRNS),8,8,0,0,100.0,0.0,0.0
 Department of Energy,The National Isotope Development Center,1,1,0,1,100.0,0.0,100.0
 Department of Energy,Western Area Power Administration,7,7,0,1,100.0,0.0,14.29
-Department of Health and Human Services,Administration for Children and Families,74,66,4,6,89.19,5.41,8.11
+Department of Health and Human Services,Administration for Children and Families,72,65,4,6,90.28,5.56,8.33
 Department of Health and Human Services,Administration for Community Living,43,37,17,16,86.05,39.53,37.21
 Department of Health and Human Services,Administration for Strategic Preparedness and Response,1,1,1,1,100.0,100.0,100.0
 Department of Health and Human Services,Advanced Research Projects Agency for Health,5,5,5,5,100.0,100.0,100.0
@@ -110,7 +110,7 @@ Department of Homeland Security,U.S. Customs and Border Protection,35,35,2,1,100
 Department of Homeland Security,U.S. Immigration and Customs Enforcement,17,16,2,2,94.12,11.76,11.76
 Department of Homeland Security,United States Coast Guard,10,10,7,0,100.0,70.0,0.0
 Department of Homeland Security,United States Secret Service,6,3,0,1,50.0,0.0,16.67
-Department of Housing and Urban Development,Assistant Secretary for Policy Development and Research,5,4,0,0,80.0,0.0,0.0
+Department of Housing and Urban Development,Assistant Secretary for Policy Development and Research,5,5,1,1,100.0,20.0,20.0
 Department of Housing and Urban Development,Government National Mortgage Association,11,11,0,0,100.0,0.0,0.0
 Department of Justice,Asset Forfeiture Management Staff,9,9,1,0,100.0,11.11,0.0
 Department of Justice,"Bureau of Alcohol, Tobacco, Firearms, and Explosives",12,12,2,0,100.0,16.67,0.0
@@ -132,7 +132,7 @@ Department of Justice,"U.S. Department of Justice, BI, Domestic Security Allianc
 Department of Justice,U.S. Marshals Service,4,4,2,2,100.0,50.0,50.0
 Department of Justice,Unicor,1,1,0,0,100.0,0.0,0.0
 Department of Labor,Bureau of Labor Statistics,22,21,1,0,95.45,4.55,0.0
-Department of Labor,Employment and Training Administration,129,129,49,0,100.0,37.98,0.0
+Department of Labor,Employment and Training Administration,129,129,50,0,100.0,38.76,0.0
 Department of Labor,Office of the Assistant Secretary for Administration and Management,1,1,1,0,100.0,100.0,0.0
 Department of State,Bureau of Diplomatic Security,1,1,0,0,100.0,0.0,0.0
 Department of State,Bureau of East Asian and Pacific Affairs,3,2,0,0,66.67,0.0,0.0
@@ -163,7 +163,7 @@ Department of the Interior,National Wildfire Coordinating Group,4,4,0,0,100.0,0.
 Department of the Interior,Office of Inspector General,5,1,0,1,20.0,0.0,20.0
 Department of the Interior,Office of Surface Mining Reclamation and Enforcement,9,9,0,4,100.0,0.0,44.44
 Department of the Interior,United States Fish and Wildlife Service,37,36,1,0,97.3,2.7,0.0
-Department of the Interior,United States Geological Survey,366,215,41,38,58.74,11.2,10.38
+Department of the Interior,United States Geological Survey,366,215,42,39,58.74,11.48,10.66
 Department of the Treasury,Alcohol and Tobacco Tax and Trade Bureau,12,10,2,1,83.33,16.67,8.33
 Department of the Treasury,Bureau of Engraving and Printing,1,1,0,1,100.0,0.0,100.0
 Department of the Treasury,Bureau of the Fiscal Service,81,76,3,6,93.83,3.7,7.41
@@ -195,7 +195,7 @@ Medicare Payment Advisory Commission,Medicare Payment Advisory Commission,1,1,0,
 Morris K. Udall and Stewart L. Udall Foundation,Morris K. Udall and Stewart L. Udall Foundation,8,7,2,0,87.5,25.0,0.0
 National Aeronautics and Space Administration,Langley Research Center,1,1,0,0,100.0,0.0,0.0
 National Aeronautics and Space Administration,NASA Earth Science Division,2,2,2,2,100.0,100.0,100.0
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,897,834,328,9,92.98,36.57,1.0
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,898,834,329,9,92.87,36.64,1.0
 National Aeronautics and Space Administration,NASA Science Data Systems Branch,15,15,3,0,100.0,20.0,0.0
 National Endowment for the Arts,Office of Information and Technology Management,5,5,2,1,100.0,40.0,20.0
 National Endowment for the Humanities,Office of Information Resources Management,7,6,0,0,85.71,0.0,0.0
@@ -217,6 +217,6 @@ United States House of Representatives,Congressional-Executive Commission on Chi
 United States House of Representatives,Democratic Whip's Office,1,1,0,0,100.0,0.0,0.0
 United States House of Representatives,House Democratic Caucus,2,2,0,0,100.0,0.0,0.0
 United States House of Representatives,House Republican Conference,1,1,0,0,100.0,0.0,0.0
-United States House of Representatives,House of Representatives,500,495,97,0,99.0,19.4,0.0
+United States House of Representatives,House of Representatives,501,496,98,0,99.0,19.56,0.0
 United States House of Representatives,Office of the House Republican Leader,1,1,0,0,100.0,0.0,0.0
 United States House of Representatives,"The Joint Committee on Taxation, United States Congress",1,1,0,0,100.0,0.0,0.0
