@@ -12,6 +12,14 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
         result = self.snapshot.num_records()
         self.assertEqual(result, 1)
 
+    def test_num_columns(self):
+        result = self.snapshot.num_columns()
+        self.assertEqual(result, 68)
+
+    def test_num_populated_cells(self):
+        result = self.snapshot.num_populated_cells()
+        self.assertEqual(result, 43)
+
     def test_num_true(self):
         result = self.snapshot.num_true('live')
         self.assertEqual(result, 1)
