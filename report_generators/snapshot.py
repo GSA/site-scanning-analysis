@@ -16,6 +16,8 @@ class Snapshot:
             'How many urls are from the executive branch?': self.branch('Executive'),
             'How many urls are from the legislative branch?': self.branch('Legislative'),
             'How many urls are from the judicial branch?': self.branch('Judicial'),
+            'How many columns are in the snapshot?': self.num_columns(),
+            'How many cells are populated in the snapshot?': self.num_populated_cells(),
             'How many home scans completed?': self.num_completed('primary_scan_status'),
             'How many home scans failed?': self.num_not_completed('primary_scan_status'),
             'How many home scans failed because of a refused connection?': self.failed_connection_refused(),
@@ -108,6 +110,12 @@ class Snapshot:
 
     def num_records(self):
         return len(self.df.index)
+
+    def num_columns(self):
+        return len(self.df.columns)
+
+    def num_populated_cells(self):
+        return int(self.df.notna().to_numpy().sum())
 
     def num_true(self, field):
         return len(self.df.loc[self.df[field] == True])
