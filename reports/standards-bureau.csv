@@ -10,7 +10,7 @@ Court Services and Offender Supervision Agency for the District of Columbia,Pret
 Department of Agriculture,Agricultural Research Service,4,4,2,2,100.0,50.0,50.0
 Department of Agriculture,Food and Nutrition Service,1,1,1,1,100.0,100.0,100.0
 Department of Agriculture,Forest Service,8,7,5,1,87.5,62.5,12.5
-Department of Agriculture,Office of Chief Financial Officer,3,0,0,0,0.0,0.0,0.0
+Department of Agriculture,Office of Chief Financial Officer,2,0,0,0,0.0,0.0,0.0
 Department of Agriculture,Office of Chief Information Officer,1,1,0,1,100.0,0.0,100.0
 Department of Agriculture,Office of Communications,2,2,2,2,100.0,100.0,100.0
 Department of Commerce,Bureau of Economic Analysis,4,4,1,0,100.0,25.0,0.0
@@ -24,13 +24,13 @@ Department of Commerce,National Technical Information Service,5,5,1,0,100.0,20.0
 Department of Commerce,National Telecommunications and Information Administration,6,6,2,2,100.0,33.33,33.33
 Department of Commerce,U.S. Patent and Trademark Office,42,40,4,0,95.24,9.52,0.0
 Department of Defense,Air Force,189,188,32,1,99.47,16.93,0.53
-Department of Defense,Army,133,129,49,11,96.99,36.84,8.27
+Department of Defense,Army,132,129,49,11,97.73,37.12,8.33
 Department of Defense,Coast Guard,3,3,0,0,100.0,0.0,0.0
 Department of Defense,Defense Health Agency,2,2,1,1,100.0,50.0,50.0
 Department of Defense,National Guard,1,1,0,0,100.0,0.0,0.0
 Department of Defense,National Security Agency,6,5,2,2,83.33,33.33,33.33
 Department of Defense,Navy,49,43,4,2,87.76,8.16,4.08
-Department of Defense,Office of the Secretary of Defense,5,5,2,2,100.0,40.0,40.0
+Department of Defense,Office of the Secretary of Defense,6,6,2,2,100.0,33.33,33.33
 Department of Defense,Space Force,2,2,1,0,100.0,50.0,0.0
 Department of Education,Office of the Chief Information Officer,95,80,17,11,84.21,17.89,11.58
 Department of Energy,Ames National Laboratory,3,3,1,0,100.0,33.33,0.0
@@ -53,11 +53,11 @@ Department of Energy,Oak Ridge Associated Universities,6,6,1,1,100.0,16.67,16.67
 Department of Energy,Oak Ridge National Laboratory,200,197,34,3,98.5,17.0,1.5
 Department of Energy,Office of Critical Minerals and Energy Innovation,1,1,0,0,100.0,0.0,0.0
 Department of Energy,Office of Scientific and Technical Information,4,4,4,1,100.0,100.0,25.0
-Department of Energy,Office of the Chief Information Officer,141,135,21,13,95.74,14.89,9.22
+Department of Energy,Office of the Chief Information Officer,140,134,21,13,95.71,15.0,9.29
 Department of Energy,Pacific Northwest National Laboratory,76,70,13,7,92.11,17.11,9.21
 Department of Energy,Portsmouth/Paducah Project Office,1,1,0,0,100.0,0.0,0.0
 Department of Energy,Princeton Plasma Physics Lab,25,19,5,0,76.0,20.0,0.0
-Department of Energy,Sandia National Laboratories,52,47,31,0,90.38,59.62,0.0
+Department of Energy,Sandia National Laboratories,50,45,29,0,90.0,58.0,0.0
 Department of Energy,Savannah River National Lab,1,1,1,0,100.0,100.0,0.0
 Department of Energy,Savannah River Nuclear Solutions (SRNS),4,4,0,0,100.0,0.0,0.0
 Department of Energy,The National Isotope Development Center,1,1,0,1,100.0,0.0,100.0
@@ -70,13 +70,14 @@ Department of Health and Human Services,Agency for Healthcare Research and Quali
 Department of Health and Human Services,"Assistant Secretary for Financial Resources, Office of the Secretary",12,11,6,7,91.67,50.0,58.33
 Department of Health and Human Services,"Assistant Secretary for Planning and Evaluation, Office of the Secretary",2,2,0,0,100.0,0.0,0.0
 Department of Health and Human Services,"Assistant Secretary for Preparedness and Response, Office of the Secretary",1,1,1,0,100.0,100.0,0.0
-Department of Health and Human Services,Centers for Disease Control and Prevention,90,84,50,6,93.33,55.56,6.67
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,113,101,36,21,89.38,31.86,18.58
+Department of Health and Human Services,Centers for Disease Control and Prevention,93,86,51,7,92.47,54.84,7.53
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,113,101,36,22,89.38,31.86,19.47
 Department of Health and Human Services,"Enterprise Information Technology, NIH",11,11,2,0,100.0,18.18,0.0
 Department of Health and Human Services,Food and Drug Administration,39,25,7,2,64.1,17.95,5.13
 Department of Health and Human Services,Health Resources and Services Administration,27,26,8,5,96.3,29.63,18.52
 Department of Health and Human Services,Indian Health Service,12,12,1,0,100.0,8.33,0.0
 Department of Health and Human Services,"National Cancer Institute, NIH",156,154,76,5,98.72,48.72,3.21
+Department of Health and Human Services,National Center for Advancing Translational Sciences,1,1,1,0,100.0,100.0,0.0
 Department of Health and Human Services,"National Institute on Alcohol Abuse and Alcoholism, NIH",1,1,1,1,100.0,100.0,100.0
 Department of Health and Human Services,"National Institute on Drug Abuse, NIH",3,3,3,1,100.0,100.0,33.33
 Department of Health and Human Services,National Institutes of Health,516,492,114,85,95.35,22.09,16.47
@@ -84,11 +85,11 @@ Department of Health and Human Services,"National Library of Medicine, NIH",15,1
 Department of Health and Human Services,"Office of Disease Prevention and Health Promotion, Office of the Secretary",2,2,1,1,100.0,50.0,50.0
 Department of Health and Human Services,"Office of Grants, Division of Workforce Development",1,1,0,0,100.0,0.0,0.0
 Department of Health and Human Services,"Office of Public Health and Science, Office on Women's Health",1,1,1,1,100.0,100.0,100.0
-Department of Health and Human Services,Office of the Assistant Secretary for Health,6,6,5,0,100.0,83.33,0.0
+Department of Health and Human Services,Office of the Assistant Secretary for Health,7,7,6,0,100.0,85.71,0.0
 Department of Health and Human Services,"Office of the National Coordinator, Office of the Secretary",27,26,4,2,96.3,14.81,7.41
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,98,95,30,15,96.94,30.61,15.31
 Department of Health and Human Services,Program Support Center,11,8,1,0,72.73,9.09,0.0
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,14,14,3,1,100.0,21.43,7.14
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,15,15,3,1,100.0,20.0,6.67
 Department of Homeland Security,Citizenship and Immigration Services,10,10,7,5,100.0,70.0,50.0
 Department of Homeland Security,Cybersecurity and Infrastructure Security Agency,4,4,3,4,100.0,75.0,100.0
 Department of Homeland Security,Federal Emergency Management Agency,32,32,9,7,100.0,28.12,21.88
@@ -121,12 +122,12 @@ Department of Labor,Bureau of Labor Statistics,19,18,1,0,94.74,5.26,0.0
 Department of Labor,Employment and Training Administration,107,107,104,0,100.0,97.2,0.0
 Department of Labor,Office of the Assistant Secretary for Administration and Management,1,1,1,0,100.0,100.0,0.0
 Department of State,Bureau of East Asian and Pacific Affairs,2,2,0,0,100.0,0.0,0.0
-Department of State,Bureau of Global Public Affairs,273,270,228,207,98.9,83.52,75.82
+Department of State,Bureau of Global Public Affairs,274,271,228,207,98.91,83.21,75.55
 Department of State,Bureau of Information Resources Management,1,1,0,0,100.0,0.0,0.0
 Department of State,Bureau of Political and Military Affairs,1,0,0,1,0.0,0.0,100.0
 Department of State,Bureau of Western Hemisphere Affairs,3,3,0,1,100.0,0.0,33.33
 Department of Transportation,Bureau of Transportation Statistics,9,9,3,2,100.0,33.33,22.22
-Department of Transportation,Federal Aviation Administration,53,46,7,6,86.79,13.21,11.32
+Department of Transportation,Federal Aviation Administration,54,47,7,6,87.04,12.96,11.11
 Department of Transportation,National Highway Traffic Safety Administration,3,3,0,0,100.0,0.0,0.0
 Department of Transportation,U.S. Department of Transportation,2,2,0,2,100.0,0.0,100.0
 Department of Veterans Affairs,Department of Veterans Affairs - PREVENTS,1,1,1,0,100.0,100.0,0.0
@@ -146,7 +147,7 @@ Department of the Interior,Office of Inspector General,4,1,1,1,25.0,25.0,25.0
 Department of the Interior,Office of Surface Mining Reclamation and Enforcement,9,9,0,4,100.0,0.0,44.44
 Department of the Interior,USGS-NWRC,1,1,0,0,100.0,0.0,0.0
 Department of the Interior,United States Fish and Wildlife Service,16,14,2,0,87.5,12.5,0.0
-Department of the Interior,United States Geological Survey,122,118,53,43,96.72,43.44,35.25
+Department of the Interior,United States Geological Survey,123,119,54,44,96.75,43.9,35.77
 Department of the Treasury,Alcohol and Tobacco Tax and Trade Bureau,4,4,2,1,100.0,50.0,25.0
 Department of the Treasury,Bureau of Engraving and Printing,1,1,0,1,100.0,0.0,100.0
 Department of the Treasury,Bureau of the Fiscal Service,56,54,1,3,96.43,1.79,5.36
@@ -155,7 +156,7 @@ Department of the Treasury,Citizens Coinage Advisory Committee (Mint),1,1,0,1,10
 Department of the Treasury,Department of the Treasury - DO,16,16,6,8,100.0,37.5,50.0
 Department of the Treasury,Department of the Treasury - OCIO,30,30,5,9,100.0,16.67,30.0
 Department of the Treasury,Departmental Offices,2,2,2,1,100.0,100.0,50.0
-Department of the Treasury,Financial Crimes Enforcement Network,5,5,1,4,100.0,20.0,80.0
+Department of the Treasury,Financial Crimes Enforcement Network,5,4,1,4,80.0,20.0,80.0
 Department of the Treasury,Internal Revenue Service,19,19,14,1,100.0,73.68,5.26
 Department of the Treasury,Office of Financial Research (OFR),1,1,1,0,100.0,100.0,0.0
 Department of the Treasury,Office of the Comptroller of the Currency,13,13,6,0,100.0,46.15,0.0
@@ -178,7 +179,7 @@ Medicare Payment Advisory Commission,Medicare Payment Advisory Commission,1,1,0,
 Morris K. Udall and Stewart L. Udall Foundation,Morris K. Udall and Stewart L. Udall Foundation,9,8,2,0,88.89,22.22,0.0
 National Aeronautics and Space Administration,Langley Research Center,1,1,0,0,100.0,0.0,0.0
 National Aeronautics and Space Administration,NASA Earth Science Division,1,1,1,1,100.0,100.0,100.0
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,714,692,312,11,96.92,43.7,1.54
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,716,694,313,11,96.93,43.72,1.54
 National Aeronautics and Space Administration,NASA Science Data Systems Branch,11,11,2,0,100.0,18.18,0.0
 National Endowment for the Arts,Office of Information and Technology Management,4,4,2,1,100.0,50.0,25.0
 National Endowment for the Humanities,Office of Information Resources Management,7,6,0,0,85.71,0.0,0.0
