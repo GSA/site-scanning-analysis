@@ -82,6 +82,7 @@ class Snapshot:
             # 'How many urls do not have a LIVE robots.txt?': self.num_false('robots_txt_final_url_live'),
             'How many urls\' robots.txt are text files?': self.robots_txt_is_txt(),
             'How many urls\' robots.txt are another file type?': self.robots_txt_is_not_txt(),
+            'How many urls\' robots.txt media types were not detected?': self.robots_txt_media_type_not_detected(),
             # 'How many urls\' robots.txt redirect?': self.num_true('robots_txt_target_url_redirects'),
             'How many urls\' robots.txt file size were detected?': self.num_not_na('robots_txt_filesize'),
             'How many urls\' robots.txt have a crawl_delay?': self.num_not_na('robots_txt_crawl_delay'),
@@ -96,7 +97,8 @@ class Snapshot:
             # 'How many urls\' sitemap.xml redirect?': self.num_true('sitemap_xml_target_url_redirects'),
             'How many urls\' sitemap.xml file size were detected?': self.num_not_na('sitemap_xml_filesize'),
             'How many urls\' sitemap.xml are xml files?': self.sitemap_xml_is_xml(),
-            'How many urls\' sitemap.xml are another file type?': self.sitemap_xml_is_xml(),
+            'How many urls\' sitemap.xml are another file type?': self.sitemap_xml_is_not_xml(),
+            'How many urls\' sitemap.xml media types were not detected?': self.sitemap_xml_media_type_not_detected(),
             'How many urls\' sitemap.xml have an item count?': self.num_not_na('sitemap_xml_count'),
             'How many urls\' sitemap.xml have a pdf count?': self.num_not_na('sitemap_xml_pdf_count'),
             'How many urls have an AAAA record (a.k.a. are likely IPv6 compliant)?': self.num_true('ipv6'),
@@ -240,10 +242,24 @@ class Snapshot:
         return len(self.df.loc[self.df['robots_txt_media_type'].isin(['text/plain', 'plaintext'])])
 
     def robots_txt_is_not_txt(self):
-        return len(self.df.loc[~self.df['robots_txt_media_type'].isin(['text/plain', 'plaintext'])])
+        media_type = self.df['robots_txt_media_type']
+        return len(self.df.loc[
+            media_type.notna() &
+            ~media_type.isin(['text/plain', 'plaintext'])
+        ])
+
+    def robots_txt_media_type_not_detected(self):
+        return self.num_na('robots_txt_media_type')
 
     def sitemap_xml_is_xml(self):
         return len(self.df.loc[self.df['sitemap_xml_media_type'].isin(['application/xhtml', 'application/xml', 'text/xml'])])
 
     def sitemap_xml_is_not_xml(self):
-        return len(self.df.loc[~self.df['sitemap_xml_media_type'].isin(['application/xhtml', 'application/xml', 'text/xml'])])
+        media_type = self.df['sitemap_xml_media_type']
+        return len(self.df.loc[
+            media_type.notna() &
+            ~media_type.isin(['application/xhtml', 'application/xml', 'text/xml'])
+        ])
+
+    def sitemap_xml_media_type_not_detected(self):
+        return self.num_na('sitemap_xml_media_type')

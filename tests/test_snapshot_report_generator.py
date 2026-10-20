@@ -132,6 +132,15 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
         result = self.snapshot.robots_txt_is_not_txt()
         self.assertEqual(result, 0)
 
+    def test_robots_txt_media_type_categories_are_mutually_exclusive(self):
+        snapshot = Snapshot(pd.DataFrame({
+            'robots_txt_media_type': ['text/plain', 'text/html', None]
+        }))
+
+        self.assertEqual(snapshot.robots_txt_is_txt(), 1)
+        self.assertEqual(snapshot.robots_txt_is_not_txt(), 1)
+        self.assertEqual(snapshot.robots_txt_media_type_not_detected(), 1)
+
     def test_sitemap_xml_is_xml(self):
         result = self.snapshot.sitemap_xml_is_xml()
         self.assertEqual(result, 1)
@@ -139,6 +148,28 @@ class SnapshotReportGeneratorTest(unittest.TestCase):
     def test_sitemap_xml_is_not_xml(self):
         result = self.snapshot.sitemap_xml_is_not_xml()
         self.assertEqual(result, 0)
+
+    def test_sitemap_xml_media_type_categories_are_mutually_exclusive(self):
+        snapshot = Snapshot(pd.DataFrame({
+            'sitemap_xml_media_type': ['application/xml', 'text/html', None]
+        }))
+
+        self.assertEqual(snapshot.sitemap_xml_is_xml(), 1)
+        self.assertEqual(snapshot.sitemap_xml_is_not_xml(), 1)
+        self.assertEqual(snapshot.sitemap_xml_media_type_not_detected(), 1)
+
+    def test_generate_report_uses_nonmatching_sitemap_media_type_count(self):
+        df = pd.concat([self.snapshot.df] * 3, ignore_index=True)
+        df['sitemap_xml_media_type'] = ['application/xml', 'text/html', None]
+        df['robots_txt_media_type'] = ['text/plain', 'text/html', None]
+        snapshot = Snapshot(df)
+
+        report = snapshot.generate_report()
+
+        self.assertEqual(
+            report['How many urls\' sitemap.xml are another file type?'],
+            1,
+        )
 
 if __name__ == '__main__':
     unittest.main()
