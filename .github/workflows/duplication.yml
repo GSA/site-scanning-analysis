@@ -1,0 +1,59 @@
+---
+name: Duplication
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.py'
+      - '**.ts'
+      - '**.yml'
+      - '.jscpd.json'
+  # Any base branch, so stacked PRs (based on another PR's branch) get CI too.
+  pull_request:
+    paths:
+      - '**.py'
+      - '**.ts'
+      - '**.yml'
+      - '.jscpd.json'
+
+permissions:
+  contents: read
+
+concurrency:
+  # A PR's runs share a group, so a new push cancels the superseded run. Other
+  # events are keyed by commit: GitHub keeps only one pending run per group,
+  # so a shared group would drop all but the latest of several queued pushes.
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.ref || github.sha }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  # Pinned so CI matches the local command in AGENTS.md; bump both together.
+  JSCPD_VERSION: 5.4.1
+
+jobs:
+  jscpd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      # Visibility only, like coverage: no threshold is set, so this never
+      # fails on the amount of duplication. Scope (code only, no CSVs) lives in
+      # .jscpd.json; ubuntu runners ship a Node.js that satisfies jscpd.
+      - name: jscpd
+        run: npx --yes "jscpd@$JSCPD_VERSION" --reporters console,json --output "$RUNNER_TEMP/jscpd" .
+
+      - name: Summary
+        run: |
+          report="$RUNNER_TEMP/jscpd/jscpd-report.json"
+          {
+            echo '## Duplicated code (jscpd)'
+            echo
+            jq -r '.statistics.total | "\(.clones) clones, \(.duplicatedLines) of \(.lines) lines duplicated (\((.percentage * 100 | round) / 100)%)"' "$report"
+            echo
+            jq -r '.duplicates[] | "- `\(.firstFile.name):\(.firstFile.start)-\(.firstFile.end)` ↔ `\(.secondFile.name):\(.secondFile.start)-\(.secondFile.end)` (\(.lines) lines)"' "$report"
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,7 @@
+{
+  "format": ["python", "typescript", "yaml"],
+  "ignore": ["**/node_modules/**"],
+  "gitignore": true,
+  "reporters": ["console"],
+  "absolute": false
+}

@@ -36,6 +36,14 @@ cd smoke_tests && bun install && bun run src/main.ts
 
 `ISSUE_TOKEN` is required — without it the runner logs an error and exits before running any tests (it doesn't just skip issue creation). Register new smoke tests in `smoke_tests/src/services/tests/AllTests.ts`.
 
+## Duplicate code report
+
+```sh
+npx --yes jscpd@5.4.1 .
+```
+
+Needs Node.js. Config is in `.jscpd.json`: Python, TypeScript, and YAML only, so the committed CSVs and Markdown are never scanned. `.github/workflows/duplication.yml` runs the same version (`JSCPD_VERSION`; bump both together) on PRs and pushes to `main` that touch code, and lists every clone in the job summary. It's visibility only, with no threshold.
+
 ## Report output paths are tracked artifacts
 
 CSV outputs in `reports/`, `snapshots/`, and `unique_website_list/results/` are committed back to `main` by the scheduled workflows in `.github/workflows/generate-*.yml` (via `git-auto-commit-action`). Treat them as generated but versioned — don't hand-edit, and expect noisy diffs after a local run.
