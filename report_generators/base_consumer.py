@@ -1,9 +1,28 @@
 import pandas as pd
+from urllib.parse import urlparse
 
 
 class BaseConsumer:
     def __init__(self, df):
         self.df = df
+
+    @staticmethod
+    def _matches_domain(value, domain):
+      if pd.isna(value):
+        return False
+
+      normalized_domain = domain.lower()
+      for candidate in str(value).replace(';', ',').split(','):
+        candidate = candidate.strip().lower()
+        if not candidate:
+          continue
+
+        parsed_candidate = urlparse(candidate if '://' in candidate else f"//{candidate}")
+        hostname = parsed_candidate.hostname
+        if hostname and (hostname == normalized_domain or hostname.endswith(f".{normalized_domain}")):
+          return True
+
+      return False
 
     def generate_report(self):
       column_mappings = {
@@ -26,9 +45,13 @@ class BaseConsumer:
       columns_to_keep = list(column_mappings.keys())
       result_df = self.df[columns_to_keep].copy()
 
-      result_df['cloud.gov'] = result_df['hostname'].apply(lambda x: 'TRUE' if 'cloud.gov' in str(x) else '')
+      result_df['cloud.gov'] = result_df['hostname'].apply(
+          lambda x: 'TRUE' if self._matches_domain(x, 'cloud.gov') else ''
+      )
       result_df['cloud.gov pages'] = result_df['cms'].apply(lambda x: 'TRUE' if str(x).lower() == 'cloud.gov pages' else '')
-      result_df['login.gov'] = result_df['login_provider'].apply(lambda x: 'TRUE' if 'login.gov' in str(x) else '')
+      result_df['login.gov'] = result_df['login_provider'].apply(
+          lambda x: 'TRUE' if self._matches_domain(x, 'login.gov') else ''
+      )
       result_df['dap'] = result_df['dap'].apply(lambda x: 'TRUE' if str(x).upper() == 'TRUE' else '')
       result_df['touchpoints'] = result_df['third_party_service_domains'].apply(lambda x: 'TRUE' if pd.notna(x) and x != '' else '')
       result_df['uswds'] = result_df['uswds_banner_heres_how'].apply(lambda x: 'TRUE' if str(x).upper() == 'TRUE' else '')
