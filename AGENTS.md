@@ -4,7 +4,7 @@ Analysis scripts for the GSA Site Scanning program. Pulls public CSV snapshots f
 
 ## Two sub-projects
 
-- **Root (Python 3.9, pandas-only):** report generators driven by `main.py`.
+- **Root (Python 3.14, pandas-only):** report generators driven by `main.py`.
 - **`smoke_tests/` (Bun + TypeScript):** independent suite that validates the published snapshot data and files GitHub issues on failure. Has its own `package.json`, `README.md`, and CI workflow. Do not mix it with the Python code.
 
 ## Run a report
@@ -26,7 +26,7 @@ Most commands fetch a remote CSV (URLs in `config.py`) so they need network acce
 python3 -m unittest discover tests
 ```
 
-Stdlib `unittest`, not pytest. Fixtures are committed CSVs next to the tests (`tests/test_*.csv`). CI (`.github/workflows/test.yml`) pins Python 3.9.
+Stdlib `unittest`, not pytest. Fixtures are committed CSVs next to the tests (`tests/test_*.csv`). CI (`.github/workflows/test.yml`) pins Python 3.14.
 
 Smoke tests are separate:
 
