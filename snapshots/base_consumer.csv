@@ -316,6 +316,7 @@ view.avmc.army.mil,army.mil,Department of Defense,Army,,,,,,,,,,,,,,
 w3.saj.usace.army.mil,army.mil,Department of Defense,Army,,,,,,,,,,,,,,
 water.usace.army.mil,army.mil,Department of Defense,Army,,,,,,,,TRUE,,amazonaws.com,,,,
 webtrac.mwr.army.mil,army.mil,Department of Defense,Army,,,,,,,,,,,,,,
+wva.army.mil,army.mil,Department of Defense,Army,,,,,,,TRUE,TRUE,,,,,,TRUE
 xtech.army.mil,army.mil,Department of Defense,Army,,,,,,,,TRUE,,,WordPress,,"[""\""password\"""",""type=\""password\""""]",TRUE
 aberdeen.armymwr.com,armymwr.com,,,8808.0,14886.0,,,,,TRUE,TRUE,,cloudfront.net,,,,TRUE
 academy.armymwr.com,armymwr.com,,,2.0,2.0,,,,,,TRUE,,amazonaws.com,,,,TRUE
@@ -404,7 +405,6 @@ npgsweb.ars-grin.gov,ars-grin.gov,Department of Agriculture,Agricultural Researc
 applicantportal.arts.gov,arts.gov,National Endowment for the Arts,Office of Information and Technology Management,,,,,,,,TRUE,,,,,,
 arts.gov,arts.gov,National Endowment for the Arts,Office of Information and Technology Management,210277.0,267139.0,,,,,TRUE,TRUE,TRUE,amazonaws.com,Drupal,,,TRUE
 reach.arts.gov,arts.gov,National Endowment for the Arts,Office of Information and Technology Management,,,,,TRUE,,,TRUE,,,,login.gov,"["">Sign In<"",""Create Account""]",
-asc.gov,asc.gov,Appraisal Subcommittee of the Federal Financial Institutions Examination Council,,199036.0,420518.0,,,,,TRUE,TRUE,,,Drupal,,,TRUE
 refermyappraisalcomplaint.asc.gov,asc.gov,Appraisal Subcommittee of the Federal Financial Institutions Examination Council,,778.0,4624.0,,,,,TRUE,TRUE,,,Drupal,,,TRUE
 asianpacificheritage.gov,asianpacificheritage.gov,Library of Congress,,,,,,,,,TRUE,,,,,,
 aspr.gov,aspr.gov,Department of Health and Human Services,Administration for Strategic Preparedness and Response,32.0,36.0,,,,,,TRUE,TRUE,akamaitechnologies.com,Drupal,,,TRUE
@@ -526,8 +526,7 @@ bondpro.gov,bondpro.gov,Department of the Treasury,Bureau of the Fiscal Service,
 careers.bop.gov,bop.gov,Department of Justice,Federal Bureau of Prisons,48907.0,213938.0,,,,,TRUE,TRUE,,amazonaws.com,,,,
 r3mx.bop.gov,bop.gov,Department of Justice,Federal Bureau of Prisons,,,,,,,,,,,,,"[""\""password\"""",""\""userid\"""",""type=\""password\""""]",
 bpa.gov,bpa.gov,Department of Energy,Bonneville Power Administration,45396.0,101415.0,,,,,TRUE,TRUE,,,,,,TRUE
-mypcpiv.bpa.gov,bpa.gov,Department of Energy,Bonneville Power Administration,,,,,,,,,,,,,,TRUE
-storefront.bpa.gov,bpa.gov,Department of Energy,Bonneville Power Administration,,,,,,,,,,,,,,TRUE
+sftesting.bpa.gov,bpa.gov,Department of Energy,Bonneville Power Administration,,,,,,,,,,,,,,TRUE
 bsee.gov,bsee.gov,Department of the Interior,Minerals Management Service,57259.0,223548.0,,,,,TRUE,TRUE,,akamaitechnologies.com,Drupal,,,TRUE
 data.bsee.gov,bsee.gov,Department of the Interior,Minerals Management Service,,,,,,,,TRUE,TRUE,,,,,TRUE
 ewell.bsee.gov,bsee.gov,Department of the Interior,Minerals Management Service,,,,,,,,TRUE,,,,,,
@@ -592,7 +591,7 @@ dctd-prod-acsf.cancer.gov,cancer.gov,Department of Health and Human Services,"Na
 designsystem.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",1005.0,1419.0,,,,,TRUE,TRUE,,edgekey.net,,,,TRUE
 docs.gdc.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",8953.0,22763.0,,,,,TRUE,TRUE,,,,,,TRUE
 drpseq.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",,,,,,,,TRUE,,,,,,
-ebccp.cancercontrol.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",7170.0,15041.0,,,,True,TRUE,TRUE,,,,,,TRUE
+ebccp.cancercontrol.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",7170.0,15041.0,,,,True,,TRUE,,,,,,TRUE
 edrn.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",,,,,,,,TRUE,,amazonaws.com,,,,TRUE
 emblem.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",436.0,542.0,,,,,TRUE,TRUE,,,,,,TRUE
 epidataplatforms.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",,,,,,,,TRUE,,,,,,
@@ -693,7 +692,7 @@ survivalstatstools.cancer.gov,cancer.gov,Department of Health and Human Services
 techtransfer.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",16147.0,19571.0,,,,,TRUE,TRUE,,edgekey.net,Drupal,,,TRUE
 techtransfer-prod-acsf.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",208.0,397.0,,,,,TRUE,TRUE,,edgekey.net,Drupal,,,TRUE
 tp53.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",9044.0,24823.0,,,,,TRUE,TRUE,,,,,,
-trainatnci.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",4805.0,9238.0,,,,,,TRUE,,,,,,TRUE
+trainatnci.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",4805.0,9238.0,,,,,TRUE,TRUE,,,,,,TRUE
 training.seer.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",181977.0,317845.0,,,,,TRUE,TRUE,,,,,,TRUE
 viewer.imaging.datacommons.cancer.gov,cancer.gov,Department of Health and Human Services,"National Cancer Institute, NIH",,,,,,,,,,,,,,
 155th.cap.gov,cap.gov,Department of Defense,Air Force,,,,,,,,TRUE,,,,,,
@@ -780,6 +779,7 @@ mawg.cap.gov,cap.gov,Department of Defense,Air Force,,,,,,,,TRUE,,,,,,
 mcchord.wawg.cap.gov,cap.gov,Department of Defense,Air Force,,,,,,,,TRUE,,,,,,TRUE
 mcguire.cap.gov,cap.gov,Department of Defense,Air Force,,,,,,,,TRUE,,,,,,
 mdwg.cap.gov,cap.gov,Department of Defense,Air Force,,,,,,,,TRUE,,,,,,
+member.lawg.cap.gov,cap.gov,Department of Defense,Air Force,,,,,,,,,,,,,,
 members.ner.cap.gov,cap.gov,Department of Defense,Air Force,,,,,,,,TRUE,,,Joomla,,"[""\""password\"""",""Forgot your Password?"",""type=\""password\""""]",
 mewg.cap.gov,cap.gov,Department of Defense,Air Force,,,,,,,,TRUE,,,,,,
 mist.akwg.cap.gov,cap.gov,Department of Defense,Air Force,,,,,,,,,,,,,,
@@ -918,7 +918,6 @@ diabetespath2prevention.cdc.gov,cdc.gov,Department of Health and Human Services,
 dprp.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,1434.0,1945.0,,,,,TRUE,TRUE,,edgekey.net,,,,
 dprpdataportal.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,2275.0,16012.0,,,,,TRUE,TRUE,,edgekey.net,,,,
 dsmes-portal.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,26.0,63.0,,,,,TRUE,TRUE,,edgekey.net,,,,
-dsmes-program-locator.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,1057.0,1163.0,,,,,TRUE,TRUE,,edgekey.net,,,,
 dvppartnersportal.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,,,,,,,,TRUE,,,,,,
 ephtracking.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,5714.0,11471.0,,,,True,TRUE,TRUE,,,,,,TRUE
 ephtracking.glb.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,101.0,5719.0,,,,True,TRUE,TRUE,,,,,,TRUE
@@ -966,7 +965,6 @@ thecommunityguide.cdc.gov,cdc.gov,Department of Health and Human Services,Center
 tools.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,48630.0,60367.0,,,,,TRUE,TRUE,,akamaitechnologies.com,,,"["">Sign In<""]",TRUE
 tools-origin.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,23.0,4919.0,,,,,TRUE,TRUE,,,,,"["">Sign In<""]",TRUE
 t-origin.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,43.0,4792.0,,,,,TRUE,TRUE,,,,,"["">Sign In<""]",TRUE
-vaxvizapp.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,185.0,504.0,,,,,TRUE,TRUE,,edgekey.net,,,,
 vetoviolence.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,20981.0,182903.0,,,,,TRUE,TRUE,,,,,,TRUE
 webappx.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,,,,,,,,,,,,,,
 webdev.techlab.cdc.gov,cdc.gov,Department of Health and Human Services,Centers for Disease Control and Prevention,,,,,,,,,,,,,,
@@ -1181,7 +1179,7 @@ comptrollerofthecurrency.gov,comptrollerofthecurrency.gov,Department of the Trea
 computersforlearning.gov,computersforlearning.gov,General Services Administration,Federal Acquisition Service,1843.0,14184.0,,,,,TRUE,TRUE,TRUE,cloudfront.net,,,,
 api.congress.gov,congress.gov,Library of Congress,,,,,,,,,,,data.gov,,,,
 bioguide.congress.gov,congress.gov,Library of Congress,,,,,,,,,TRUE,,,,,,TRUE
-bioguideretro.congress.gov,congress.gov,Library of Congress,,,,,,,,,TRUE,,,,,,TRUE
+bioguideretro.congress.gov,congress.gov,Library of Congress,,,,,,,,,,,,,,,
 congress.gov,congress.gov,Library of Congress,,,,,,,,,TRUE,,,,,,TRUE
 constitution.congress.gov,congress.gov,Library of Congress,,,,,,,,,TRUE,,,,,,TRUE
 connect.gov,connect.gov,Department of Agriculture,Office of Chief Information Officer,,,,,,,,TRUE,TRUE,,,,,
@@ -1406,7 +1404,6 @@ ats.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer
 au-piv-registration.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,,,,,,,,,,,,,,
 c2m2.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,143.0,234.0,,,,,TRUE,TRUE,,,,,,
 cid.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,298.0,1198.0,,,,True,TRUE,TRUE,,,,,,TRUE
-citrixpgh-rs.netl.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,,,,,,,,,,,,,,TRUE
 contacts.jgi.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,,,,,,,,,,,,,,
 ctsedwweb.ee.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,1043.0,3282.0,,,,,TRUE,TRUE,,,,,,
 damal.doe.gov,doe.gov,Department of Energy,Office of the Chief Information Officer,223.0,895.0,,,,,,,,,,,"[""\""password\"""",""type=\""password\""""]",
@@ -2109,7 +2106,7 @@ awc.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration
 cats.airports.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
 cbtopsatcami.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
 designee.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
-drs.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,TRUE
+drs.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
 elms.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,TRUE
 faadronezone-access.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,TRUE,cloudfront.net,,,,
 faapaveair.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,,,edgekey.net,,,"[""\""password\"""",""type=\""password\""""]",
@@ -2121,7 +2118,6 @@ hotline.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administra
 iacra.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,"[""\""password\"""",""type=\""password\""""]",
 iacratraining.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
 labcapabilities.npn.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,"[""\""password\"""",""type=\""password\""""]",
-lldb.tc.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,"[""\""password\"""",""type=\""password\""""]",
 medxpress.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
 myaccessxtl.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,TRUE,,,TRUE,TRUE,amazonaws.com,,login.gov,"[""\""password\"""",""showpassword""]",
 nfdc.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,,,edgekey.net,,,,
@@ -2141,7 +2137,6 @@ uas-support.faa.gov,faa.gov,Department of Transportation,Federal Aviation Admini
 usas.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,,,edgekey.net,,,,
 vdrp.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
 wbpp.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,amazonaws.com,,,,
-weathercams.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
 webdatasheet.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
 webfcr.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,,,edgekey.net,,,,TRUE
 wildlife.faa.gov,faa.gov,Department of Transportation,Federal Aviation Administration,,,,,,,,TRUE,,edgekey.net,,,,
@@ -2377,7 +2372,7 @@ listserv.fnal.gov,fnal.gov,Department of Energy,Fermi National Accelerator Labor
 news.fnal.gov,fnal.gov,Department of Energy,Fermi National Accelerator Laboratory,104616.0,109322.0,,,,,TRUE,TRUE,,,WordPress,,,TRUE
 nustec.fnal.gov,fnal.gov,Department of Energy,Fermi National Accelerator Laboratory,467.0,576.0,,,,,TRUE,TRUE,,cloudflare.net,WordPress,,,TRUE
 opss.fnal.gov,fnal.gov,Department of Energy,Fermi National Accelerator Laboratory,194.0,230.0,,,,,TRUE,TRUE,,cloudflare.net,WordPress,,,TRUE
-pac.fnal.gov,fnal.gov,Department of Energy,Fermi National Accelerator Laboratory,137.0,174.0,,,,,TRUE,TRUE,,,WordPress,,,TRUE
+pac.fnal.gov,fnal.gov,Department of Energy,Fermi National Accelerator Laboratory,137.0,174.0,,,,,TRUE,TRUE,,cloudflare.net,WordPress,,,TRUE
 partnerships.fnal.gov,fnal.gov,Department of Energy,Fermi National Accelerator Laboratory,460.0,506.0,,,,,TRUE,TRUE,,cloudflare.net,WordPress,,,TRUE
 pip2.fnal.gov,fnal.gov,Department of Energy,Fermi National Accelerator Laboratory,1221.0,1542.0,,,,,TRUE,TRUE,,cloudflare.net,WordPress,,,TRUE
 policies.fnal.gov,fnal.gov,Department of Energy,Fermi National Accelerator Laboratory,1023.0,1050.0,,,,,TRUE,TRUE,,cloudflare.net,WordPress,,,TRUE
@@ -3631,7 +3626,7 @@ oig.justice.gov,justice.gov,Department of Justice,,73207.0,198351.0,,,,,TRUE,TRU
 ovwreview.justice.gov,justice.gov,Department of Justice,,,,,,,,,,,,,,,
 portal.eoir.justice.gov,justice.gov,Department of Justice,,,,,,,,,TRUE,,,,,,
 probono.eoir.justice.gov,justice.gov,Department of Justice,,,,,,,,,TRUE,,,,,,
-respondentaccess.eoir.justice.gov,justice.gov,Department of Justice,,,,,,,,,TRUE,,,,,,
+respondentaccess.eoir.justice.gov,justice.gov,Department of Justice,,,,,,,,,,,,,,,
 usalogin.justice.gov,justice.gov,Department of Justice,,,,,,,,,TRUE,,amazonaws.com,,.okta.com,"[""\""password\"""",""showpassword""]",
 usarelativity.justice.gov,justice.gov,Department of Justice,,,,,,,,,,,,,,,
 usaremote2.justice.gov,justice.gov,Department of Justice,,,,,,,,,,,,,,,
@@ -4274,7 +4269,7 @@ data.mcc.gov,mcc.gov,Millennium Challenge Corporation,,,,,,,,TRUE,TRUE,,,WordPre
 ibcm.mcc.gov,mcc.gov,Millennium Challenge Corporation,,,,,,,,,TRUE,,,,,,
 mcc.gov,mcc.gov,Millennium Challenge Corporation,,32688.0,53768.0,,TRUE,,True,TRUE,TRUE,TRUE,,cloud.gov Pages,,,TRUE
 registered.mda.mil,mda.mil,Department of Defense,,,,,,,,TRUE,TRUE,,,,,,
-data.medicaid.gov,medicaid.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,160210.0,205859.0,,,,,TRUE,TRUE,,edgekey.net,Drupal,,,TRUE
+data.medicaid.gov,medicaid.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,160210.0,205859.0,,,,,,TRUE,,edgekey.net,Drupal,,,TRUE
 mbescbesdev.medicaid.gov,medicaid.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,,,,,,,,,,,,,,
 mbescbes.medicaid.gov,medicaid.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,,,,,,,,,,,,,,
 mbescbesval0.medicaid.gov,medicaid.gov,Department of Health and Human Services,Centers for Medicare and Medicaid Services,,,,,,,,,,,,,,
@@ -4438,6 +4433,7 @@ disc1.gesdisc.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administra
 disc1.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,TRUE,,,WordPress,,,
 disc2.gesdisc.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,TRUE,,,WordPress,,,
 disc-beta.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,150.0,195.0,,,,,TRUE,TRUE,,,,,,
+disc.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,136422.0,286218.0,,,,,TRUE,TRUE,,,,,,
 discnrt1.gesdisc.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,TRUE,,,WordPress,,,
 discnrt2.gesdisc.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,TRUE,,,WordPress,,,
 discovery.larc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,3846.0,6964.0,,,,,TRUE,TRUE,,,,,,
@@ -4663,7 +4659,6 @@ laketahoe.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NA
 lambda.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,12586.0,32619.0,,,,,TRUE,TRUE,,,,,,TRUE
 landweb.modaps.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,54.0,530.0,,,,,,TRUE,,,,,,
 largelakes.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,1201.0,1389.0,,,,,TRUE,TRUE,,,,,,
-lasco6.nascom.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,26.0,157.0,,,,,TRUE,TRUE,,,,,,
 lbpw-ftp.larc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,,,,,,,
 lbpw.larc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,459.0,1272.0,,,,,TRUE,TRUE,,,WordPress,,,
 ldas.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,3714.0,5230.0,,,,,TRUE,TRUE,,,Drupal,,,TRUE
@@ -4733,7 +4728,7 @@ mwsci.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA O
 mynasadata.larc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,31222.0,52734.0,,,,,TRUE,TRUE,,,Drupal,,,TRUE
 my.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,178558.0,253848.0,,,,,TRUE,TRUE,,amazonaws.com,,,,
 mysteries.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,164.0,175.0,,,,,TRUE,TRUE,,,,,,TRUE
-naif.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,14395.0,35190.0,,,,,,TRUE,,,,,,
+naif.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,14395.0,35190.0,,,,,TRUE,TRUE,,,,,,
 nari.arc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,11663.0,21423.0,,,,,TRUE,TRUE,,amazonaws.com,,,,
 nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,8888045.0,14814455.0,,,,,TRUE,TRUE,,,WordPress,,,TRUE
 nasatoms.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,4418.0,4820.0,,,,,,,,,,,,
@@ -4759,7 +4754,7 @@ nrt3.modaps.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administrati
 nrt4.modaps.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,29346.0,529268.0,,,,,TRUE,TRUE,,,,,"["">Sign In<""]",
 nssdc.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,2481.0,6589.0,,,,,,TRUE,,,WordPress,,,
 nssrgeo.ndc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,,,,,,,
-ntrs.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,2035382.0,2107285.0,,,,,TRUE,TRUE,,,,,,
+ntrs.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,2035382.0,2107285.0,,,,,,TRUE,,,,,,
 ocdb.smce.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,TRUE,,amazonaws.com,,,,
 oceandata.sci.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,196687.0,225578.0,,,,,TRUE,TRUE,,,,,,
 oceanworldslab.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,118.0,172.0,,,,,TRUE,TRUE,,,,,,
@@ -4770,6 +4765,7 @@ ocsp.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office
 oig.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,20031.0,31858.0,,,,,TRUE,TRUE,,,WordPress,,,TRUE
 oltaris.larc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,,,,,,"[""\""password\"""",""\""user_password\"""",""Forgot your Password?"",""id=\""new_user\"""",""type=\""password\""""]",
 oltaris.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,,,,,,"[""\""password\"""",""\""user_password\"""",""Forgot your Password?"",""id=\""new_user\"""",""type=\""password\""""]",
+omisips1.omisips.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,972.0,37287.0,,,,,TRUE,TRUE,,,,,"[""\""password\"""",""type=\""password\""""]",
 omniweb.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,8116.0,24179.0,,,,True,TRUE,TRUE,,,,,,TRUE
 omps.gesdisc.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,TRUE,,,WordPress,,,
 openaltimetry.earthdatacloud.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,26.0,43.0,,,,,,TRUE,,cloudfront.net,,,,
@@ -4881,6 +4877,7 @@ snpp-sounder.gesdisc.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Adm
 so2.gsfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,2.0,2.0,,,,,,,,,,,,
 software.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,24525.0,49873.0,,,,,TRUE,TRUE,,cloudfront.net,Drupal,,,TRUE
 sohodb.nascom.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,,,,,,,
+soho.nascom.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,29374.0,35106.0,,,,,TRUE,TRUE,,,,,,
 solar-b.msfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,29.0,277.0,,,,,TRUE,TRUE,,,,,,TRUE
 solarb.msfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,4603.0,4861.0,,,,,TRUE,TRUE,,,,,,TRUE
 solarscience.msfc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,TRUE,,,,,,
@@ -4977,7 +4974,7 @@ weather.ndc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA
 web.cddis.eosdis.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,9.0,9.0,,,,,,,,,,,,
 webdisks.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,,,,,,,,,,,,,
 wgc2.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,150.0,161.0,,,,,TRUE,TRUE,,,,,,
-wgc.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,368.0,367.0,,,,,TRUE,TRUE,,,,,,
+wgc.jpl.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,368.0,367.0,,,,,,,,,,,,
 wiki.earthdata.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,45421.0,91899.0,,,,,TRUE,TRUE,,,,,,TRUE
 wind.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,1070.0,1877.0,,,,,TRUE,TRUE,,,,,,
 winmd.appdat.jsc.nasa.gov,nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,466.0,740.0,,,,,TRUE,TRUE,,,,,,TRUE
@@ -5130,7 +5127,6 @@ id.nicic.gov,nicic.gov,Department of Justice,"Department of Justice, National In
 kb.nicic.gov,nicic.gov,Department of Justice,"Department of Justice, National Institute of Corrections",51.0,138.0,,,,,TRUE,TRUE,TRUE,,,,,TRUE
 learn.nicic.gov,nicic.gov,Department of Justice,"Department of Justice, National Institute of Corrections",11277.0,15787.0,,,,,TRUE,TRUE,TRUE,,,,,TRUE
 learnstage.nicic.gov,nicic.gov,Department of Justice,"Department of Justice, National Institute of Corrections",15.0,122.0,,,,,TRUE,TRUE,TRUE,,,,,TRUE
-nan.nicic.gov,nicic.gov,Department of Justice,"Department of Justice, National Institute of Corrections",475.0,950.0,,,,,TRUE,TRUE,TRUE,,Drupal,,,TRUE
 nicic.gov,nicic.gov,Department of Justice,"Department of Justice, National Institute of Corrections",38705.0,77289.0,,,,,TRUE,TRUE,TRUE,,Drupal,,,TRUE
 search.nicic.gov,nicic.gov,Department of Justice,"Department of Justice, National Institute of Corrections",23.0,114.0,,,,,TRUE,TRUE,TRUE,,,,,TRUE
 t4c.nicic.gov,nicic.gov,Department of Justice,"Department of Justice, National Institute of Corrections",4257.0,13575.0,,,,,TRUE,TRUE,TRUE,,Drupal,,,TRUE
@@ -5159,6 +5155,7 @@ aghealth.nih.gov,nih.gov,Department of Health and Human Services,National Instit
 agingresearchbiobank.nia.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,3105.0,4892.0,,,,,TRUE,TRUE,,,,,,TRUE
 alcoholtreatment.niaaa.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,7429.0,13880.0,,,,,TRUE,TRUE,TRUE,cloudflare.net,Drupal,,,TRUE
 amri.ninds.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,,,,,,,,,,,,,,
+animalresearch.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,,,,,,,,TRUE,,cloudflare.net,,,,
 annualreport.nichd.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,1711.0,1938.0,,,,True,,TRUE,TRUE,,,,,TRUE
 api.reporter.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,2775.0,3301.0,,,,,TRUE,TRUE,,amazonaws.com,,,,
 archive-dtd.ncbi.nlm.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,,,,,,,,TRUE,,,,,,
@@ -5507,7 +5504,6 @@ pmc.ncbi.nlm.nih.gov,nih.gov,Department of Health and Human Services,National In
 policymanual.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,18499.0,23432.0,,,,,TRUE,TRUE,,cloudflare.net,,,,
 postdoc.niaid.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,,,,,,,,TRUE,,amazonaws.com,,,,
 powerapps.nhlbi.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,115.0,192.0,,,,,TRUE,TRUE,TRUE,azurefd.net,,,,
-preview.ncbi.nlm.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,516236.0,522266.0,,,,,TRUE,TRUE,TRUE,,,account.ncbi.nlm.nih.gov,,TRUE
 probis.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,,,,,,,,TRUE,,,,,,TRUE
 profiles.awsprod.nlm.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,233.0,6032.0,,,,,TRUE,TRUE,,amazonaws.com,,,,TRUE
 profiles.nlm.nih.gov,nih.gov,Department of Health and Human Services,National Institutes of Health,19789.0,34989.0,,,,,TRUE,TRUE,,amazonaws.com,,,,TRUE
@@ -5874,7 +5870,6 @@ dadds-dcs.data.nesdis.noaa.gov,noaa.gov,Department of Commerce,National Oceanic 
 darrp.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,14411.0,21894.0,,,,,TRUE,TRUE,,amazonaws.com,,,"[""\""password\""""]",TRUE
 data7.erh.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,,,,,,"[""\""password\"""",""type=\""password\""""]",
 data.class.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,True,TRUE,,,,,,,TRUE
-data.ngdc.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,TRUE,TRUE,,,,,,
 data.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,26310.0,38524.0,,,,,TRUE,TRUE,,,,,,TRUE
 data.nssl.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,139953.0,147137.0,,,,,TRUE,TRUE,,,,,,
 deepseacoraldata.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,2455.0,3900.0,,,,,TRUE,TRUE,,,Drupal,,,
@@ -5961,7 +5956,6 @@ irisqa.ncep.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmosp
 itsm.rdhpcs.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,,,,,,"[""\""password\"""",""type=\""password\""""]",
 joinnoaacorps.omao.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,TRUE,,azurewebsites.us,,,"[""\""password\"""",""Create Account"",""Forgot your Password?"",""type=\""password\""""]",
 lamp.mdl.nws.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,True,,TRUE,,,,,,TRUE
-lapdat50-p.gfdl.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,36.0,37.0,,,,,TRUE,TRUE,,,,,,TRUE
 library.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,16246.0,24803.0,,,,,TRUE,TRUE,,amazonaws.com,,,,TRUE
 library.oarcloud.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,TRUE,,cloudfront.net,,,,
 login.diver.orr.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,,,,amazonaws.com,,,"[""\""password\"""",""type=\""password\""""]",
@@ -6002,7 +5996,6 @@ nesdis.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric
 ngs.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,31481.0,38018.0,,,,True,TRUE,TRUE,,,,,,TRUE
 noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,3467223.0,4699518.0,,,,True,TRUE,TRUE,TRUE,,Drupal,,,TRUE
 nohrsc.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,55460.0,121304.0,,,,True,TRUE,TRUE,,,,,,TRUE
-nomads.gfdl.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,163.0,1654.0,,,,,TRUE,TRUE,,,,,,TRUE
 nomads.ncep.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,True,,,,edgekey.net,,,,TRUE
 nowcoast.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,23981.0,77964.0,,,,,TRUE,TRUE,,ocs-gis-aws.net,,,,
 npad.noaa.gov,noaa.gov,Department of Commerce,National Oceanic and Atmospheric Administration,,,,,,,TRUE,TRUE,,azurewebsites.us,,,"[""\""password\"""",""Forgot your Password?"",""type=\""password\""""]",
@@ -6128,6 +6121,7 @@ nps.gov,nps.gov,Department of the Interior,National Park Service,16935235.0,3210
 ntrip.nps.gov,nps.gov,Department of the Interior,National Park Service,,,,,,,,,,,,,,
 parkplanning.nps.gov,nps.gov,Department of the Interior,National Park Service,82137.0,139205.0,,,,,TRUE,TRUE,,,,,,TRUE
 pepc.nps.gov,nps.gov,Department of the Interior,National Park Service,17237.0,159124.0,,,,,,TRUE,,,,,,
+planning.nps.gov,nps.gov,Department of the Interior,National Park Service,4283.0,6635.0,,,,,TRUE,TRUE,,,,,,TRUE
 visitorusemanagement.nps.gov,nps.gov,Department of the Interior,National Park Service,948.0,1704.0,,,,,TRUE,TRUE,,,,,,TRUE
 ebilling.nrc-gateway.gov,nrc-gateway.gov,Nuclear Regulatory Commission,,,,,,,,TRUE,TRUE,,,,,,
 pem.nrc-gateway.gov,nrc-gateway.gov,Nuclear Regulatory Commission,,,,,,,,,TRUE,,,,,,
@@ -6874,7 +6868,6 @@ otp-extranet.samhsa.gov,samhsa.gov,Department of Health and Human Services,Subst
 pepc.samhsa.gov,samhsa.gov,Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,,,,,,,,TRUE,,,,,"[""\""password\"""","">Forgot Password</a>"",""type=\""password\""""]",
 spars.samhsa.gov,samhsa.gov,Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,,,,,,,,TRUE,,,Drupal,,,TRUE
 spars-signin.samhsa.gov,samhsa.gov,Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,,,,,,,,TRUE,,amazonaws.com,,,"[""\""password\"""",""showpassword""]",
-clean-air.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,262.0,600.0,,,,,TRUE,TRUE,,,,,,TRUE
 crf.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,4012.0,7047.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
 cto.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,,,,,
 daas.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,,,,,
@@ -6887,7 +6880,6 @@ far-qu.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,5
 fuelcell.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,,,,"[""\""password\"""",""type=\""password\""""]",
 hpc.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,508.0,1044.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
 ifsaconf.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,,,,,
-jastoolbox.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,2912.0,6263.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
 ktf.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,257.0,424.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
 lb-rp.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,,,,,
 ldes-tool.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,azurewebsites.net,,,,
@@ -6913,6 +6905,7 @@ storms.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,7
 suns.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,121.0,121.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
 tracktable.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,521.0,2328.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
 ttr.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,1523.0,2247.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
+umbra.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,142.0,1163.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
 university.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,,,,,,,,,,,,,,
 vorocrust.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,620.0,1751.0,,,,True,TRUE,TRUE,,,WordPress,,,TRUE
 xraise.sandia.gov,sandia.gov,Department of Energy,Sandia National Laboratories,108.0,244.0,,,,,TRUE,TRUE,,azurecontainerapps.io,,,,
@@ -7002,7 +6995,6 @@ speaker.gov,speaker.gov,United States House of Representatives,Office of the Spe
 spectrum.gov,spectrum.gov,Department of Commerce,National Telecommunications and Information Administration,2233.0,3225.0,,,,True,TRUE,TRUE,TRUE,,Drupal,,,TRUE
 srnl.gov,srnl.gov,Department of Energy,Savannah River National Lab,,,,,,,TRUE,TRUE,,,WordPress,,,TRUE
 cab.srs.gov,srs.gov,Department of Energy,Savannah River Nuclear Solutions (SRNS),,,,,,,,TRUE,,cloudfront.net,,,,TRUE
-proteus.srs.gov,srs.gov,Department of Energy,Savannah River Nuclear Solutions (SRNS),,,,,,,,,,,,,"[""\""password\""""]",
 public.srs.gov,srs.gov,Department of Energy,Savannah River Nuclear Solutions (SRNS),50797.0,72883.0,,,,,TRUE,TRUE,,,WordPress,,,TRUE
 ra.srs.gov,srs.gov,Department of Energy,Savannah River Nuclear Solutions (SRNS),,,,,,,,,,cloudfront.net,,,,
 tela.srs.gov,srs.gov,Department of Energy,Savannah River Nuclear Solutions (SRNS),,,,,,,,,,,,,,
@@ -7070,7 +7062,6 @@ stories.state.gov,state.gov,Department of State,Bureau of Global Public Affairs,
 timekat.state.gov,state.gov,Department of State,Bureau of Global Public Affairs,,,,,,,,,,,,,,
 touchbase.state.gov,state.gov,Department of State,Bureau of Global Public Affairs,,,,,,,,,,,,,,
 tour.diplomaticrooms.state.gov,state.gov,Department of State,Bureau of Global Public Affairs,,,,,,,,TRUE,,cloudfront.net,,,,
-travelmaps.state.gov,state.gov,Department of State,Bureau of Global Public Affairs,,,,,,,,TRUE,,amazonaws.com,,,,
 tsg.phototool.state.gov,state.gov,Department of State,Bureau of Global Public Affairs,,,,,,,,,,amazonaws.com,,,,
 yali.state.gov,state.gov,Department of State,Bureau of Global Public Affairs,37973.0,91646.0,,,,True,TRUE,TRUE,TRUE,cloudfront.net,WordPress,,,TRUE
 ylai.state.gov,state.gov,Department of State,Bureau of Global Public Affairs,60095.0,76641.0,,,,True,TRUE,TRUE,TRUE,cloudfront.net,WordPress,,,TRUE
@@ -7187,7 +7178,7 @@ tsunami.gov,tsunami.gov,Department of Commerce,National Oceanic and Atmospheric 
 kiteworks.ttb.gov,ttb.gov,Department of the Treasury,Alcohol and Tobacco Tax and Trade Bureau,,,,,,,,,,,,,,
 my.ttb.gov,ttb.gov,Department of the Treasury,Alcohol and Tobacco Tax and Trade Bureau,25239.0,67205.0,,,,,TRUE,TRUE,,,,,,
 test-my.ttb.gov,ttb.gov,Department of the Treasury,Alcohol and Tobacco Tax and Trade Bureau,147.0,1369.0,,,,,TRUE,TRUE,,,,,,
-ttb.gov,ttb.gov,Department of the Treasury,Alcohol and Tobacco Tax and Trade Bureau,146058.0,216271.0,,,,True,TRUE,TRUE,TRUE,,Drupal,,,TRUE
+ttb.gov,ttb.gov,Department of the Treasury,Alcohol and Tobacco Tax and Trade Bureau,146058.0,216271.0,,,,True,TRUE,TRUE,TRUE,,WordPress,,,TRUE
 ttlplus.gov,ttlplus.gov,Department of the Treasury,Bureau of the Fiscal Service,995.0,1282.0,,,,True,TRUE,TRUE,,,,id.me,,TRUE
 communityinfohub.tva.gov,tva.gov,Tennessee Valley Authority,,,,,,,,,TRUE,,,,,,
 edtservice.tva.gov,tva.gov,Tennessee Valley Authority,,,,,,,,,,,,,,,
@@ -7247,7 +7238,7 @@ cdcphsofficers.usajobs.gov,usajobs.gov,Office of Personnel Management,,101.0,190
 cdc.usajobs.gov,usajobs.gov,Office of Personnel Management,,2675.0,7136.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 cfpb.usajobs.gov,usajobs.gov,Office of Personnel Management,,75.0,154.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 chemistry.usajobs.gov,usajobs.gov,Office of Personnel Management,,2561.0,6712.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
-civiliancoastguardcareers.usajobs.gov,usajobs.gov,Office of Personnel Management,,5336.0,18355.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
+civiliancoastguardcareers.usajobs.gov,usajobs.gov,Office of Personnel Management,,5336.0,18355.0,,,,,,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 civil.usajobs.gov,usajobs.gov,Office of Personnel Management,,1909.0,3978.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 cmsi.usajobs.gov,usajobs.gov,Office of Personnel Management,,4286.0,9500.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 cms-sesjobs.usajobs.gov,usajobs.gov,Office of Personnel Management,,196.0,286.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
@@ -7709,6 +7700,7 @@ ncsslabdatamart.sc.egov.usda.gov,usda.gov,Department of Agriculture,,,,,,,,,TRUE
 nfat.sc.egov.usda.gov,usda.gov,Department of Agriculture,,,,,,,,,,,amazonaws.com,,,,TRUE
 nfc.usda.gov,usda.gov,Department of Agriculture,,170854.0,284677.0,,,,True,TRUE,TRUE,,,,,,TRUE
 np107.arsnet.usda.gov,usda.gov,Department of Agriculture,,,,,,,,,TRUE,TRUE,,,,,
+nrcspad.sc.egov.usda.gov,usda.gov,Department of Agriculture,,,,,,,,,,,amazonaws.com,,,,
 nrcs.prod.usda.gov,usda.gov,Department of Agriculture,,,,,,,,,,,,,,,
 nrcs.usda.gov,usda.gov,Department of Agriculture,,423468.0,660808.0,,,,True,TRUE,TRUE,TRUE,,Drupal,,,TRUE
 nrs.nifa.usda.gov,usda.gov,Department of Agriculture,,,,,,,,,TRUE,,,,,,
@@ -7787,6 +7779,7 @@ wicworks.fna.usda.gov,usda.gov,Department of Agriculture,,20938.0,39453.0,,,,,TR
 wta.nfc.usda.gov,usda.gov,Department of Agriculture,,,,,,,,,TRUE,,,,,,
 wtausda.nfc.usda.gov,usda.gov,Department of Agriculture,,,,,,,,,TRUE,,,,,,
 usdebitcard.gov,usdebitcard.gov,Department of the Treasury,Bureau of the Fiscal Service,5159.0,45257.0,,,,,TRUE,TRUE,,,,,,
+coop.esp.usdoj.gov,usdoj.gov,Department of Justice,Office of the Chief Information Officer,,,,,,,,TRUE,,edgekey.net,,,,
 cops.usdoj.gov,usdoj.gov,Department of Justice,Office of the Chief Information Officer,43280.0,68805.0,,,,,TRUE,TRUE,,,Drupal,,,TRUE
 crm-relativity.usdoj.gov,usdoj.gov,Department of Justice,Office of the Chief Information Officer,,,,,,,,,,,,,,
 deadiversion.usdoj.gov,usdoj.gov,Department of Justice,Office of the Chief Information Officer,84037.0,99684.0,,,,,TRUE,TRUE,,,,,,TRUE
@@ -8069,7 +8062,7 @@ volcview.wr.usgs.gov,usgs.gov,Department of the Interior,United States Geologica
 vsc-ash.wr.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,1391.0,4172.0,,,,,TRUE,TRUE,,cloudflare.net,,,,
 vscint.wr.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,,,,,,,,,,cloudflare.net,,,,
 vulcan3.wr.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,,,,,,,,,,cloudflare.net,,,,
-warcapps.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,299.0,1440.0,,,,,,,,,,,,
+warcapps.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,299.0,1440.0,,,,,,,,cloudflare.net,,,,
 warcservices.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,92.0,110.0,,,,,TRUE,TRUE,,cloudflare.net,,,,TRUE
 waterdata.resolve.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,,,,,,,,,,,,,,
 waterservices.gen-r53.usgs.gov,usgs.gov,Department of the Interior,United States Geological Survey,46.0,49.0,,,,,TRUE,TRUE,TRUE,,,,,TRUE
@@ -8118,6 +8111,7 @@ cat-verified.usps.com,usps.com,,,,,,,,,,TRUE,,edgekey.net,,,,
 cfo.usps.com,usps.com,,,77440.0,1263904.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 eddm.usps.com,usps.com,,,158034.0,361333.0,,,,,TRUE,TRUE,,edgekey.net,,,"["">Sign In<""]",TRUE
 emailus.usps.com,usps.com,,,266773.0,362784.0,,,,,,TRUE,,akamaitechnologies.com,,,,
+es-store.usps.com,usps.com,,,19014.0,51572.0,,,,,TRUE,TRUE,,edgekey.net,,,,TRUE
 es.usps.com,usps.com,,,163918.0,234124.0,,,,,TRUE,TRUE,,edgekey.net,,,,TRUE
 facts.usps.com,usps.com,,,,,,,,,,TRUE,,,WordPress,,,TRUE
 faq.usps.com,usps.com,,,4383633.0,7204611.0,,,,,TRUE,TRUE,,akamaitechnologies.com,,,,
@@ -8182,7 +8176,6 @@ patentcenter.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademar
 prod-web-alb-tg.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,777.0,776.0,,,,,,,,cloudfront.net,,,,TRUE
 pwdservice.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,,,,,,,,,,,,,"[""\""password\""""]",
 seqdata.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,15412.0,21479.0,,,,,TRUE,TRUE,,cloudfront.net,,,,
-tbmp.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,13438.0,13968.0,,,,,TRUE,TRUE,,,,,,TRUE
 teamportal.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,,,,,,,,,,,,,"[""\""password\""""]",
 tfsr.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,6847.0,6841.0,,,,,TRUE,TRUE,,,,,,TRUE
 tmdesigncodes.uspto.gov,uspto.gov,Department of Commerce,U.S. Patent and Trademark Office,17046.0,37263.0,,,,,TRUE,TRUE,,amazonaws.com,,,,
@@ -8261,7 +8254,7 @@ hcsc.va.gov,va.gov,Department of Veterans Affairs,"Office of Information and Tec
 healthquality.va.gov,va.gov,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",46123.0,65116.0,,,,,TRUE,TRUE,,,,secureauth,,TRUE
 herc.research.va.gov,va.gov,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",4180.0,5260.0,,,,True,,TRUE,,,,,,TRUE
 hiv.va.gov,va.gov,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",12431.0,20793.0,,,,,TRUE,TRUE,,,,secureauth,,TRUE
-houston.hsrd.research.va.gov,va.gov,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",2388.0,4441.0,,,,,TRUE,TRUE,,,,secureauth,,TRUE
+houston.hsrd.research.va.gov,va.gov,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",2388.0,4441.0,,,,,,,,,,,,
 hsrd.research.va.gov,va.gov,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",30045.0,38279.0,,,,True,,TRUE,,,,,,TRUE
 innovation.va.gov,va.gov,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",6580.0,12097.0,,,,,TRUE,TRUE,TRUE,,,,,TRUE
 issues.mobilehealth.va.gov,va.gov,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",,,,,,,,,,,,,,TRUE
